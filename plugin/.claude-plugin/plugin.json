@@ -17,5 +17,9 @@
     "tailwind",
     "accessibility",
     "mcp"
-  ]
+  ],
+  "documentationUrl": "https://tesserai.design/docs",
+  "supportUrl": "https://github.com/tesseraihq/tesserai/issues",
+  "privacyPolicyUrl": "https://tesserai.design/privacy",
+  "termsOfServiceUrl": "https://tesserai.design/terms"
 }
