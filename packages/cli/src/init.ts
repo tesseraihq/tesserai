@@ -5,6 +5,7 @@ import {
   emitOxlintConfig,
   iconSettings,
   includedComponents,
+  NOT_IN_FRAMEWORK,
   systemCss,
   lintComponentSummary,
   loadFontMetrics,
@@ -174,14 +175,16 @@ export async function withTheirBarrel(path: string, file: Placed, placed: readon
   return mergeBarrel(file.source, await readFile(path, "utf8"), generated, existing);
 }
 
-// The system's components a Vue or Svelte beta doesn't cover yet, said plainly, or null.
+// The system's components the project's framework doesn't have, said plainly with why, or null.
 export function comingTo(system: DesignSystem, target: Target): string | null {
   const framework = targetFramework(target);
   if (framework === "react") return null;
   const supported = new Set(supportedComponents(target));
   const later = Object.keys(includedComponents(system)).filter((c) => !supported.has(c)).sort();
   if (later.length === 0) return null;
-  return `${later.length} of the system's components are coming to ${framework === "vue" ? "Vue" : "Svelte"} and aren't written yet: ${later.join(", ")}. The rest are installed; sync adds these once they're ready.`;
+  const name = framework === "vue" ? "Vue" : "Svelte";
+  const why = later.map((c) => NOT_IN_FRAMEWORK[c]?.[framework]).filter(Boolean).join(" ");
+  return `${later.length === 1 ? "One" : later.length} of the system's components ${later.length === 1 ? "isn't" : "aren't"} in ${name}: ${later.join(", ")}.${why === "" ? "" : ` ${why}`} The rest are installed.`;
 }
 
 const AGENTS_MARKER = "<!-- tesserai -->";

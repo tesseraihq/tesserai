@@ -29,8 +29,8 @@ export type Framework = z.infer<typeof Framework>;
 // tesserai writes it yet. "soon" keeps it out of every choice people see; "beta" shows it, marked.
 export const FRAMEWORK_INFO: Record<Framework, { label: string; library: string; status: "ready" | "beta" | "soon" }> = {
   react: { label: "React", library: "your choice of Base UI, Radix or React Aria", status: "ready" },
-  vue: { label: "Vue", library: "Reka UI, the library shadcn-vue uses", status: "beta" },
-  svelte: { label: "Svelte", library: "Bits UI, the library shadcn-svelte uses", status: "beta" },
+  vue: { label: "Vue", library: "Reka UI, the library shadcn-vue uses", status: "ready" },
+  svelte: { label: "Svelte", library: "Bits UI, the library shadcn-svelte uses", status: "ready" },
 };
 export const offeredFrameworks = (): Framework[] => FRAMEWORKS.filter((f) => FRAMEWORK_INFO[f].status !== "soon");
 export const frameworkOf = (system: { framework?: Framework | undefined }): Framework => system.framework ?? "react";

@@ -2,7 +2,7 @@
 
 Install a [tesserai](https://tesserai.design) design system into your project as components you own. Keep it current from your terminal. Give your coding agent the same tokens, components and rules through MCP.
 
-Needs Node.js 22 or newer and Tailwind CSS 4. React works with Base UI, Radix or React Aria. Vue (Reka UI) and Svelte 5 (Bits UI) are in beta.
+Needs Node.js 22 or newer and Tailwind CSS 4. React works with Base UI, Radix or React Aria, Vue with Reka UI, and Svelte 5 with Bits UI.
 
 ## Start
 

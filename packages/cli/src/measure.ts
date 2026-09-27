@@ -145,12 +145,22 @@ export async function measureLook(url: string, options: { browser?: string | und
   const profile = mkdtempSync(join(tmpdir(), "tesserai-measure-"));
   let child: ChildProcess | undefined;
   let cdp: Cdp | undefined;
+  // A process group of its own, to end it whole (not on Windows, which has none).
+  const grouped = process.platform !== "win32";
   // Chrome writes to its profile until it has exited: wait for that (briefly) before removing it.
+  // Its helpers (renderer, GPU, network) are processes of their own that outlive a killed browser
+  // for a moment, or longer: Chrome runs in a process group of its own, and the group goes.
   const cleanup = async () => {
     cdp?.close();
     if (child !== undefined && child.exitCode === null && child.signalCode === null) {
       const exited = new Promise<void>((resolve) => child!.once("exit", () => resolve()));
-      child.kill("SIGKILL");
+      if (grouped && child.pid !== undefined) {
+        try {
+          process.kill(-child.pid, "SIGKILL");
+        } catch {
+          child.kill("SIGKILL");
+        }
+      } else child.kill("SIGKILL");
       await withTimeout(exited, 3_000, "").catch(() => {});
     }
     rmSync(profile, { recursive: true, force: true, maxRetries: 5, retryDelay: 100 });
@@ -161,8 +171,8 @@ export async function measureLook(url: string, options: { browser?: string | und
     if (options.signal?.aborted === true) throw new Error("stopped");
     child = spawn(
       browser,
-      ["--headless=new", "--remote-debugging-port=0", `--user-data-dir=${profile}`, "--no-first-run", "--no-default-browser-check", "--disable-extensions", "--disable-gpu", "--disable-background-networking", "--disable-sync", "--mute-audio", "--hide-scrollbars", "--window-size=1280,900", "about:blank"],
-      { stdio: ["ignore", "ignore", "pipe"] },
+      ["--headless=new", "--remote-debugging-port=0", `--user-data-dir=${profile}`, "--no-first-run", "--no-default-browser-check", "--disable-extensions", "--disable-gpu", "--disable-background-networking", "--disable-sync", "--disable-breakpad", "--disable-crash-reporter", "--mute-audio", "--hide-scrollbars", "--window-size=1280,900", "about:blank"],
+      { stdio: ["ignore", "ignore", "pipe"], detached: grouped },
     );
     const endpoint = await withTimeout(
       new Promise<string>((resolve, reject) => {

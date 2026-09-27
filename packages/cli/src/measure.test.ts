@@ -84,8 +84,12 @@ describe.skipIf(browser === undefined)("measuring a running page", () => {
     const started = Date.now();
     await expect(measureLook("http://127.0.0.1:9/", { browser })).rejects.toThrow(/didn’t answer/);
     expect(Date.now() - started).toBeLessThan(25_000);
-    const running = execFileSync("ps", ["-ax", "-o", "command"], { encoding: "utf8" });
-    expect(running).not.toMatch(/tesserai-measure-/);
+    // Killed processes take a moment to be gone; none may still be there after it. Only Chrome's,
+    // by the profile it was given: a shell or an editor that mentions the name isn't a leak.
+    const left = () => execFileSync("ps", ["-ax", "-o", "command"], { encoding: "utf8" }).split("\n").filter((l) => /--user-data-dir=\S*tesserai-measure-/.test(l));
+    const deadline = Date.now() + 3_000;
+    while (left().length > 0 && Date.now() < deadline) await new Promise((r) => setTimeout(r, 100));
+    expect(left()).toEqual([]);
   }, 40_000);
 });
 

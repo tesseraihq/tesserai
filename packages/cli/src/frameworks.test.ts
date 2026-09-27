@@ -8,7 +8,7 @@ import { mergeBarrel, svelteAliases } from "./layout";
 import { sync } from "./sync";
 
 // Installing into Vue and Svelte projects, with the frameworks turned on the way early testers
-// turn them on (they're "soon" in the builder until their betas ship).
+// turn them on.
 let dir: string;
 let bundle: string;
 const env = process.env["TESSERAI_FRAMEWORKS"];
@@ -131,13 +131,15 @@ describe("the pieces of placing files", () => {
   });
 });
 
-describe("what a beta doesn't cover yet", async () => {
+describe("what a framework doesn't have", async () => {
   const { comingTo } = await import("./init");
-  it("names the system's components a framework's beta doesn't write, and nothing for React", () => {
+  it("names the system's components a framework has no version of, and why, and nothing for React or Vue", () => {
     const system = PRESETS[0]!.build();
     expect(comingTo(system, "radix")).toBeNull();
-    expect(comingTo(system, "bits-ui")).toMatch(/coming to Svelte and aren't written yet: .*\bdirection\b/);
-    expect(comingTo(system, "bits-ui")).not.toMatch(/[:,] button[,.]/);
+    expect(comingTo(system, "reka-ui")).toBeNull();
+    // Direction isn't coming to Svelte: Bits UI has none. Saying "coming" would be a promise.
+    expect(comingTo(system, "bits-ui")).toMatch(/One of the system's components isn't in Svelte: direction\. Bits UI has no direction provider/);
+    expect(comingTo(system, "bits-ui")).not.toMatch(/coming|[:,] button[,.]/);
   });
 });
 

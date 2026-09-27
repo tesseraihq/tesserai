@@ -12,7 +12,7 @@ Your design system, in your repo, followed by your coding agent.
 npx @tesserai/cli init https://tesserai.design/s/<your-share-link>
 ```
 
-React (Base UI, Radix or React Aria), Vue (Reka UI) and Svelte 5 (Bits UI, both in beta) components, a Tailwind CSS 4 theme, and W3C DTCG tokens. Exports for SwiftUI, Jetpack Compose, Flutter, SCSS, MUI, Mantine, Chakra, Panda and StyleX.
+React (Base UI, Radix or React Aria), Vue (Reka UI) and Svelte 5 (Bits UI) components, a Tailwind CSS 4 theme, and W3C DTCG tokens. Exports for SwiftUI, Jetpack Compose, Flutter, SCSS, MUI, Mantine, Chakra, Panda and StyleX.
 
 ## For coding agents
 

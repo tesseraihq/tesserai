@@ -3,7 +3,7 @@
   "name": "design.tesserai/tesserai",
   "title": "tesserai",
   "description": "Your project's design system for coding agents: tokens, components, contrast checks, guidelines.",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "websiteUrl": "https://tesserai.design/docs",
   "repository": {
     "url": "https://github.com/tesseraihq/tesserai",
@@ -15,7 +15,7 @@
       "registryType": "npm",
       "registryBaseUrl": "https://registry.npmjs.org",
       "identifier": "@tesserai/cli",
-      "version": "0.2.1",
+      "version": "0.2.2",
       "runtimeHint": "npx",
       "transport": {
         "type": "stdio"

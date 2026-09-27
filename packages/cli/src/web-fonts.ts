@@ -1,4 +1,4 @@
-import { googleCssUrl, parseGoogleCss, webFontCss, WEB_FONT_SUBSETS as SUBSETS, webFontFamilies, type DesignSystem, type WebFace } from "@tesserai/core";
+import { googleCssUrl, parseGoogleCss, webFontCss, webFontFamilies, type DesignSystem, type WebFace } from "@tesserai/core";
 
 // Shared with the builder's registry, which points at Google's files instead of downloading them.
 export { googleCssUrl, parseGoogleCss, webFontCss, type WebFace };
@@ -9,12 +9,15 @@ import { join } from "node:path";
 // Fonts the system names from Google Fonts (Inter, Geist, Fraunces…), downloaded into the project
 // beside tesserai.css so it hosts them itself: they load in any build, offline, and the app never
 // asks Google for anything. The builder's preview loads the same families from Google Fonts, so
-// what's installed looks like what was designed. Latin and Latin Extended only, in the four
-// weights the builder previews; a family Google doesn't serve is reported and the stack falls back.
+// what's installed looks like what was designed. Every subset Google serves (core's web-fonts.ts
+// says why), in the four weights the builder previews; a family Google doesn't serve is reported
+// and the stack falls back.
 
 // Which faces were downloaded, kept in tesserai/web-fonts.json so a sync writes the same CSS
-// without asking Google again.
+// without asking Google again. "$subsets": "all" marks a record made keeping every subset; one
+// without it (the CLI before 0.2.2 kept Latin only) is fetched again, reusing the files it has.
 type Record_ = Record<string, WebFace[]>;
+const ALL = "$subsets";
 
 export type FetchText = (url: string) => Promise<string | null>;
 export type FetchBytes = (url: string) => Promise<Uint8Array | null>;
@@ -53,8 +56,12 @@ export async function syncWebFonts(options: {
 }): Promise<{ faces: WebFace[]; written: string[]; missing: string[] }> {
   const families = webFontFamilies(options.system);
   let saved: Record_ = {};
+  let stale = false;
   try {
-    saved = JSON.parse(await readFile(options.record, "utf8")) as Record_;
+    const read = JSON.parse(await readFile(options.record, "utf8")) as Record<string, unknown>;
+    stale = read[ALL] !== "all";
+    const { [ALL]: _, ...families } = read;
+    saved = families as Record_;
   } catch {
     // None downloaded yet.
   }
@@ -62,14 +69,14 @@ export async function syncWebFonts(options: {
   const written: string[] = [];
   const missing: string[] = [];
   for (const family of families) {
-    const known = saved[family];
+    const known = stale ? undefined : saved[family];
     if (known !== undefined && (await Promise.all(known.map((f) => exists(join(options.fontsDir, f.file))))).every(Boolean)) {
       next[family] = known;
       continue;
     }
     if (options.dryRun) continue;
     const css = await (options.fetchText ?? fetchText)(googleCssUrl(family)).catch(() => null);
-    const parsed = css === null ? [] : parseGoogleCss(css).filter((f) => SUBSETS.has(f.subset));
+    const parsed = css === null ? [] : parseGoogleCss(css);
     if (parsed.length === 0) {
       missing.push(family);
       continue;
@@ -82,14 +89,17 @@ export async function syncWebFonts(options: {
       let file = byUrl.get(face.url);
       if (file === undefined) {
         // A variable font is one file for every weight: fetched once.
-        file = `${slug(family)}-${face.subset}-${createHash("sha256").update(face.url).digest("hex").slice(0, 8)}.woff2`;
-        const bytes = await (options.fetchBytes ?? fetchBytes)(face.url).catch(() => null);
-        if (bytes === null) {
-          failed = true;
-          break;
+        // Named as before for a named subset, so a project's Latin files are kept, not fetched again.
+        file = `${slug(family)}-${face.subset ?? "part"}-${createHash("sha256").update(face.url).digest("hex").slice(0, 8)}.woff2`;
+        if (!(await exists(join(options.fontsDir, file)))) {
+          const bytes = await (options.fetchBytes ?? fetchBytes)(face.url).catch(() => null);
+          if (bytes === null) {
+            failed = true;
+            break;
+          }
+          await writeFile(join(options.fontsDir, file), bytes);
+          written.push(file);
         }
-        await writeFile(join(options.fontsDir, file), bytes);
-        written.push(file);
         byUrl.set(face.url, file);
       }
       faces.push({ family, style: face.style, weight: face.weight, file, ...(face.unicodeRange === undefined ? {} : { unicodeRange: face.unicodeRange }) });
@@ -97,9 +107,9 @@ export async function syncWebFonts(options: {
     if (failed) missing.push(family);
     else next[family] = faces;
   }
-  if (!options.dryRun && JSON.stringify(next) !== JSON.stringify(saved)) {
+  if (!options.dryRun && (stale || JSON.stringify(next) !== JSON.stringify(saved))) {
     await mkdir(join(options.record, ".."), { recursive: true });
-    await writeFile(options.record, `${JSON.stringify(next, null, 2)}\n`, "utf8");
+    await writeFile(options.record, `${JSON.stringify({ [ALL]: "all", ...next }, null, 2)}\n`, "utf8");
   }
   return { faces: Object.values(next).flat(), written, missing };
 }

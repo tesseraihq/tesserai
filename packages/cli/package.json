@@ -1,6 +1,6 @@
 {
   "name": "@tesserai/cli",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "mcpName": "design.tesserai/tesserai",
   "description": "Install a tesserai design system into your project as components you own, keep it in sync, and give your coding agent an MCP server that reads it.",
   "license": "MIT",

@@ -114,8 +114,39 @@ const LOCAL_FAMILIES = new Set([
 
 export const isLocalFamily = (family: string) => LOCAL_FAMILIES.has(family);
 
-// The families a system asks a web font service for: the first of each font role's stack, unless
-// the platform has it or it's one of the system's own uploaded fonts (those come with the CSS).
+// A font role's stack is [the font, fonts for other languages…, the platform's fallbacks]: Inter
+// for the Latin letters, then Noto Sans KR for Korean, then system-ui and sans-serif. A browser
+// takes each character from the first font that has it, so Korean text gets the Korean font and
+// the rest keeps Inter. The designed families are the ones before the first the platform has.
+//
+// Ways it could go wrong, written before the code (AGENTS.md):
+// - A language font set but never installed or previewed: every designed family is loaded, not
+//   only the first.
+// - A long imported stack ("Söhne, ui-sans-serif, …, Roboto") downloading its tail: only the
+//   families before the first platform one count.
+// - Choosing a new text font dropping the language fonts: the builder keeps them (store.ts), and
+//   type.setLanguageFonts rewrites only what's between the font and its fallbacks.
+// - Removing an uploaded font that a stack still uses for a language: refused, as for the first.
+export function designedFamilies(stack: readonly string[]): string[] {
+  const designed: string[] = [];
+  for (const family of stack) {
+    if (isLocalFamily(family) || /^(serif|sans-serif|monospace|cursive|fantasy|math|emoji|system-ui)$/i.test(family)) break;
+    designed.push(family);
+  }
+  return designed;
+}
+
+// The stack with its fonts for other languages replaced: the first family and the fallbacks stay.
+export function withLanguageFonts(stack: readonly string[], languages: readonly string[]): string[] {
+  const designed = designedFamilies(stack);
+  const first = designed[0];
+  if (first === undefined) return [...languages, ...stack];
+  return [first, ...languages.filter((f) => f !== first), ...stack.slice(designed.length)];
+}
+
+// The families a system asks a web font service for: every designed family of each font role
+// (its font and its fonts for other languages), unless it's one of the system's own uploaded
+// fonts (those come with the CSS).
 export function webFontFamilies(system: { tokens: TokenGroup; fonts?: Record<string, unknown> | undefined }): string[] {
   const own = Object.keys(system.fonts ?? {});
   const families = new Set<string>();
@@ -125,9 +156,8 @@ export function webFontFamilies(system: { tokens: TokenGroup; fonts?: Record<str
   )) {
     for (const token of resolveAll(flat, context).values.values()) {
       if (token.$type !== "fontFamily") continue;
-      const first = token.$value[0];
-        if (first !== undefined && !isLocalFamily(first) && !own.includes(first)) families.add(first);
-      }
+      for (const family of designedFamilies(token.$value)) if (!own.includes(family)) families.add(family);
+    }
   }
   return [...families];
 }

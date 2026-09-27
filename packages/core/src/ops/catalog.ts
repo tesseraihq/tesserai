@@ -26,7 +26,7 @@ import { applySetStyle, describeMode, describeScope, SetStyleInput, StyleMode } 
 import { LITERAL_HINTS, parseLiteral } from "../literal";
 import { prefixProblem } from "../tailwind-prefix";
 import { MAX_PAGES, PageId, SavedPageSpec, type SavedPage } from "../pages";
-import { CustomFont, FontFamilyName, withFallback } from "../fonts";
+import { CustomFont, designedFamilies, FontFamilyName, isLocalFamily, withFallback, withLanguageFonts } from "../fonts";
 import { CustomIcon, DEFAULT_ICONS, ICON_LIBRARIES, ICON_WEIGHTS, IconRef, MAX_CUSTOM_ICONS, type IconSettings } from "../icons";
 
 // ---------- shared input shapes ----------
@@ -572,6 +572,27 @@ const setFont = defineOp({
   input: z.object({ role: z.enum(["sans", "heading", "mono"]), families: z.array(z.string().min(1)).min(1) }).strict(),
   apply: (s, i) => setToken(s.tokens, `font.family.${i.role}`, { $type: "fontFamily", $value: withGeneric(i.role, i.families) }),
   describe: (i) => `${i.role} font: ${i.families[0]}`,
+});
+
+// Fonts for other languages (Noto Sans KR for Korean after Inter): the same for text and
+// headings, between each one's font and its fallbacks. The code font keeps its own stack.
+const setLanguageFonts = defineOp({
+  name: "type.setLanguageFonts",
+  group: "type",
+  summary: "Set the fonts for other languages, used for characters the main font lacks (e.g. Noto Sans KR for Korean after Inter), for text and headings. An empty list removes them.",
+  input: z.object({ families: z.array(z.string().min(1)).max(6) }).strict(),
+  apply: (s, i) => {
+    const families = [...new Set(i.families.map((f) => f.trim()))];
+    const local = families.find((f) => isLocalFamily(f));
+    if (local !== undefined) throw new OpError(`${local} is a platform font; name a font for the language, like Noto Sans KR`);
+    for (const role of ["sans", "heading"] as const) {
+      const token = getToken(s.tokens, `font.family.${role}`);
+      // Headings that follow the text font get its languages through it.
+      if (token?.$type !== "fontFamily" || !Array.isArray(token.$value)) continue;
+      setToken(s.tokens, `font.family.${role}`, { ...token, $value: withLanguageFonts(token.$value as string[], families) });
+    }
+  },
+  describe: (i) => (i.families.length === 0 ? "No fonts for other languages" : `Fonts for other languages: ${i.families.join(", ")}`),
 });
 
 const typeGenerator = (s: DesignSystem) => {
@@ -1146,7 +1167,9 @@ const removeFont = defineOp({
     if (s.fonts?.[i.family] === undefined) throw new OpError(`there is no font "${i.family}" of the system's own`);
     for (const role of ["sans", "heading", "mono"]) {
       const token = getToken(s.tokens, `font.family.${role}`);
-      if (token?.$type === "fontFamily" && Array.isArray(token.$value) && token.$value[0] === i.family) throw new OpError(`the ${role} font uses ${i.family}; choose another first`);
+      if (token?.$type === "fontFamily" && Array.isArray(token.$value) && designedFamilies(token.$value as string[]).includes(i.family)) {
+        throw new OpError(token.$value[0] === i.family ? `the ${role} font uses ${i.family}; choose another first` : `the ${role} font uses ${i.family} for other languages; remove it there first`);
+      }
     }
     delete s.fonts[i.family];
   },
@@ -1287,6 +1310,7 @@ export const OPS: AnyOp[] = [
   erase(setSurface),
   erase(resetSurface),
   erase(setFont),
+  erase(setLanguageFonts),
   erase(setTypeScale),
   erase(setLeading),
   erase(setSpacing),

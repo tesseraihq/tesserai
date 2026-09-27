@@ -1,7 +1,7 @@
 {
   "name": "tesserai",
   "displayName": "tesserai",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Your project's design system for coding agents: tokens, components, contrast checks and guidelines, read and changed over MCP.",
   "author": {
     "name": "tesserai"

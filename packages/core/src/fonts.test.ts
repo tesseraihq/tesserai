@@ -2,6 +2,7 @@ import { describe, expect, it } from "vitest";
 import { fontFaces, fontFileName, fontFormatOf, guessFontFile } from "./fonts";
 import { applyChangeset } from "./ops";
 import { PRESETS } from "./presets";
+import { getToken } from "./tokens";
 import { systemCss } from "./emit-tailwind";
 
 const id = "a".repeat(64);
@@ -51,5 +52,52 @@ describe("font stacks", () => {
     expect(withFallback(["Fraunces"])).toEqual(["Fraunces", "serif"]);
     expect(withFallback(["Geist", "sans-serif"])).toEqual(["Geist", "sans-serif"]);
     expect(withFallback(["ui-monospace"], "sans")).toEqual(["ui-monospace", "sans-serif"]);
+  });
+});
+
+describe("fonts for other languages", () => {
+  const set = (system: ReturnType<(typeof PRESETS)[0]["build"]>, ops: { op: string; input: unknown }[]) => {
+    const result = applyChangeset(system, { ops });
+    if (!result.ok) throw new Error(result.error);
+    return result.system;
+  };
+  const stackOf = (system: ReturnType<(typeof PRESETS)[0]["build"]>, role: string) => getToken(system.tokens, `font.family.${role}`)?.$value;
+
+  it("sit between the font and its fallbacks, for text and for headings with a font of their own", () => {
+    const base = set(PRESETS[0]!.build(), [
+      { op: "type.setFont", input: { role: "sans", families: ["Inter", "ui-sans-serif", "sans-serif"] } },
+      { op: "type.setFont", input: { role: "heading", families: ["Fraunces", "serif"] } },
+    ]);
+    const korean = set(base, [{ op: "type.setLanguageFonts", input: { families: ["Noto Sans KR", "Noto Sans JP"] } }]);
+    expect(stackOf(korean, "sans")).toEqual(["Inter", "Noto Sans KR", "Noto Sans JP", "ui-sans-serif", "sans-serif"]);
+    expect(stackOf(korean, "heading")).toEqual(["Fraunces", "Noto Sans KR", "Noto Sans JP", "serif"]);
+    // Replaced, then removed; the font and its fallbacks stay put.
+    expect(stackOf(set(korean, [{ op: "type.setLanguageFonts", input: { families: ["Noto Sans KR"] } }]), "sans")).toEqual(["Inter", "Noto Sans KR", "ui-sans-serif", "sans-serif"]);
+    expect(stackOf(set(korean, [{ op: "type.setLanguageFonts", input: { families: [] } }]), "sans")).toEqual(["Inter", "ui-sans-serif", "sans-serif"]);
+    // A platform font isn't a language font.
+    expect(applyChangeset(base, { ops: [{ op: "type.setLanguageFonts", input: { families: ["system-ui"] } }] })).toMatchObject({ ok: false });
+  });
+
+  it("are installed and previewed with the font, and nothing past the first platform family is", async () => {
+    const { designedFamilies, webFontFamilies } = await import("./fonts");
+    expect(designedFamilies(["Söhne", "ui-sans-serif", "system-ui", "Roboto", "sans-serif"])).toEqual(["Söhne"]);
+    const korean = set(PRESETS[0]!.build(), [
+      { op: "type.setFont", input: { role: "sans", families: ["Inter", "sans-serif"] } },
+      { op: "type.setLanguageFonts", input: { families: ["Noto Sans KR"] } },
+    ]);
+    expect(webFontFamilies(korean)).toEqual(expect.arrayContaining(["Inter", "Noto Sans KR"]));
+    expect(systemCss(korean)).toMatch(/--font-sans: Inter, "Noto Sans KR", sans-serif/);
+  });
+
+  it("can't lose an uploaded font a stack still uses for a language", () => {
+    const font = { files: [{ id, weight: "400", style: "normal" as const, format: "woff2" as const, name: "Pretendard.woff2" }] };
+    const system = set(PRESETS[0]!.build(), [
+      { op: "fonts.add", input: { family: "Pretendard", font } },
+      { op: "type.setFont", input: { role: "sans", families: ["Inter", "sans-serif"] } },
+      { op: "type.setLanguageFonts", input: { families: ["Pretendard"] } },
+    ]);
+    const removed = applyChangeset(system, { ops: [{ op: "fonts.remove", input: { family: "Pretendard" } }] });
+    expect(removed).toMatchObject({ ok: false });
+    if (!removed.ok) expect(removed.error).toMatch(/for other languages/);
   });
 });

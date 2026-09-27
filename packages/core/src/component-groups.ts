@@ -40,6 +40,11 @@ export const UNAVAILABLE: Readonly<Record<string, Readonly<Partial<Record<Base, 
   "navigation-menu": { "react-aria": "React Aria has no navigation menu, and neither does shadcn's React Aria registry." },
 };
 
+// Components a framework has no version of, and why: not coming, like the React Aria gap above.
+export const NOT_IN_FRAMEWORK: Readonly<Record<string, Readonly<Partial<Record<"vue" | "svelte", string>>>>> = {
+  direction: { svelte: "Bits UI has no direction provider, and neither does shadcn-svelte: set dir on each component instead." },
+};
+
 export function isAvailable(component: string, base: Base): boolean {
   return UNAVAILABLE[component]?.[base] === undefined;
 }
