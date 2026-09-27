@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://tesserai.design/?utm_source=github&utm_medium=readme"><img src="assets/logo.svg" width="48" height="48" alt="tesserai"></a>
+  <a href="https://tesserai.design/?utm_source=github&utm_medium=readme"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/logo-dark.svg"><img src="assets/logo.svg" width="48" height="48" alt="tesserai"></picture></a>
 </p>
 
 # tesserai

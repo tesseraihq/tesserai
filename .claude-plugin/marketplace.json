@@ -8,7 +8,7 @@
   "plugins": [
     {
       "name": "tesserai",
-      "source": "."
+      "source": "./plugin"
     }
   ]
 }
