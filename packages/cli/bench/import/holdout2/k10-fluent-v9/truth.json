@@ -1,0 +1,42 @@
+{
+  "stack": "Fluent UI React v9 with createLightTheme/createDarkTheme(brandRamp) plus token overrides",
+  "route": "agent",
+  "hard": "the primary is a step of a 16-step brand ramp picked by Fluent's rules (colorBrandBackground = brand 80 in light, 70 in dark), text on it is Fluent's white, and neutrals are partial overrides spread over the generated theme",
+  "light": {
+    "primary": "#b1381b",
+    "background": "#f7f4ef",
+    "card": "#fffdfa",
+    "foreground": "#23201c",
+    "mutedText": "#6e675e",
+    "border": "#e6e0d6"
+  },
+  "dark": {
+    "primary": "#993219",
+    "background": "#1c1a17",
+    "card": "#26231f",
+    "foreground": "#f3efe9",
+    "mutedText": "#b3aba0",
+    "border": "#3b3731"
+  },
+  "fonts": {
+    "sans": "IBM Plex Sans",
+    "mono": "IBM Plex Mono"
+  },
+  "radius": 6,
+  "absent": [
+    "light.primaryForeground",
+    "dark.primaryForeground",
+    "light.danger",
+    "dark.danger",
+    "light.success",
+    "dark.success",
+    "baseSize",
+    "spacing"
+  ],
+  "decoys": [
+    "#0f6cbd",
+    "#115ea3",
+    "#5b5fc7",
+    "#c3492a"
+  ]
+}

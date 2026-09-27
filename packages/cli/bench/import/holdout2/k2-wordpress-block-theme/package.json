@@ -1,0 +1,19 @@
+{
+  "name": "fieldnote-theme",
+  "version": "1.3.0",
+  "private": true,
+  "description": "Fieldnote block theme and its custom blocks",
+  "scripts": {
+    "build": "wp-scripts build --webpack-src-dir=src/blocks --output-path=build/blocks",
+    "start": "wp-scripts start --webpack-src-dir=src/blocks --output-path=build/blocks",
+    "lint:css": "wp-scripts lint-style"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^30.19.0"
+  },
+  "dependencies": {
+    "@wordpress/block-editor": "^14.20.0",
+    "@wordpress/blocks": "^14.14.0",
+    "@wordpress/i18n": "^5.26.0"
+  }
+}

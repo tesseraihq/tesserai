@@ -1,0 +1,1452 @@
+{
+  "label": "holdout2-agent-v1-honest",
+  "at": "2026-09-26T19:26:20.123Z",
+  "results": {
+    "agent": [
+      {
+        "fixture": "k10-fluent-v9",
+        "chose": [
+          "your coding agent's reading of the code"
+        ],
+        "seconds": 154.71723783299998,
+        "costUsd": 0.5520200999999999,
+        "ok": true,
+        "accuracy": 0.8985039553697444,
+        "colorAccuracy": 0.8731299442121805,
+        "valueAccuracy": 1,
+        "trust": {
+          "score": 0.9447619047619047,
+          "recall": 0.9333333333333333,
+          "precision": 0.9285714285714286,
+          "evidence": 1,
+          "falseClaims": [
+            "light.primary: #c3492a is a decoy"
+          ],
+          "badEvidence": []
+        },
+        "decoyHits": [
+          "primary is #c3492a"
+        ],
+        "usable": 0.75,
+        "score": 0.6975309446504181,
+        "items": [
+          {
+            "key": "light.primary",
+            "want": "#b1381b",
+            "got": "#c3492a",
+            "score": 0.4775593305461654,
+            "note": "ΔE 5.7"
+          },
+          {
+            "key": "light.background",
+            "want": "#f7f4ef",
+            "got": "#f7f4ef",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.card",
+            "want": "#fffdfa",
+            "got": "#fffdfa",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.foreground",
+            "want": "#23201c",
+            "got": "#23201c",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.mutedText",
+            "want": "#6e675e",
+            "got": "#6e675e",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.border",
+            "want": "#e6e0d6",
+            "got": "#e6e0d6",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.primary",
+            "want": "#993219",
+            "got": "#c3492a",
+            "score": 0,
+            "note": "ΔE 10.5"
+          },
+          {
+            "key": "dark.background",
+            "want": "#1c1a17",
+            "got": "#1c1a17",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.card",
+            "want": "#26231f",
+            "got": "#26231f",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.foreground",
+            "want": "#f3efe9",
+            "got": "#f3efe9",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.mutedText",
+            "want": "#b3aba0",
+            "got": "#b3aba0",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.border",
+            "want": "#3b3731",
+            "got": "#3b3731",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "font.sans",
+            "want": "IBM Plex Sans",
+            "got": "IBM Plex Sans",
+            "score": 1
+          },
+          {
+            "key": "font.mono",
+            "want": "IBM Plex Mono",
+            "got": "IBM Plex Mono",
+            "score": 1
+          },
+          {
+            "key": "radius",
+            "want": "6",
+            "got": "6",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "fixture": "k10-fluent-v9",
+        "chose": [
+          "your coding agent's reading of the code"
+        ],
+        "seconds": 103.02874062500001,
+        "costUsd": 0.4083828,
+        "ok": true,
+        "accuracy": 0.8535587599778033,
+        "colorAccuracy": 0.8169484499722541,
+        "valueAccuracy": 1,
+        "trust": {
+          "score": 0.9466666666666668,
+          "recall": 1,
+          "precision": 0.8666666666666667,
+          "evidence": 1,
+          "falseClaims": [
+            "light.primary: #c3492a is a decoy",
+            "dark.primary: #c3492a is a decoy"
+          ],
+          "badEvidence": []
+        },
+        "decoyHits": [
+          "primary is #c3492a"
+        ],
+        "usable": 0.75,
+        "score": 0.6711352559866821,
+        "items": [
+          {
+            "key": "light.primary",
+            "want": "#b1381b",
+            "got": "#c3492a",
+            "score": 0.4775593305461654,
+            "note": "ΔE 5.7"
+          },
+          {
+            "key": "light.background",
+            "want": "#f7f4ef",
+            "got": "#fffdfa",
+            "score": 0.8823327091053856,
+            "note": "ΔE 2.1"
+          },
+          {
+            "key": "light.card",
+            "want": "#fffdfa",
+            "got": "#f7f4ef",
+            "score": 0.8823327091053856,
+            "note": "ΔE 2.1"
+          },
+          {
+            "key": "light.foreground",
+            "want": "#23201c",
+            "got": "#23201c",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.mutedText",
+            "want": "#6e675e",
+            "got": "#6e675e",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.border",
+            "want": "#e6e0d6",
+            "got": "#e6e0d6",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.primary",
+            "want": "#993219",
+            "got": "#c3492a",
+            "score": 0,
+            "note": "ΔE 10.5"
+          },
+          {
+            "key": "dark.background",
+            "want": "#1c1a17",
+            "got": "#26231f",
+            "score": 0.7805783254550563,
+            "note": "ΔE 3.0"
+          },
+          {
+            "key": "dark.card",
+            "want": "#26231f",
+            "got": "#1c1a17",
+            "score": 0.7805783254550563,
+            "note": "ΔE 3.0"
+          },
+          {
+            "key": "dark.foreground",
+            "want": "#f3efe9",
+            "got": "#f3efe9",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.mutedText",
+            "want": "#b3aba0",
+            "got": "#b3aba0",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.border",
+            "want": "#3b3731",
+            "got": "#3b3731",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "font.sans",
+            "want": "IBM Plex Sans",
+            "got": "IBM Plex Sans",
+            "score": 1
+          },
+          {
+            "key": "font.mono",
+            "want": "IBM Plex Mono",
+            "got": "IBM Plex Mono",
+            "score": 1
+          },
+          {
+            "key": "radius",
+            "want": "6",
+            "got": "6",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "fixture": "k6-radix-themes",
+        "chose": [
+          "app/tidepool-palette.css",
+          "your coding agent's reading of the code"
+        ],
+        "seconds": 74.348810125,
+        "costUsd": 0.3075291,
+        "ok": true,
+        "accuracy": 0.9166666666666666,
+        "colorAccuracy": 1,
+        "valueAccuracy": 0.5,
+        "trust": {
+          "score": 0.9166666666666667,
+          "recall": 0.9166666666666666,
+          "precision": 0.875,
+          "evidence": 1,
+          "falseClaims": [
+            "light.card: the project doesn't define it",
+            "dark.card: the project doesn't define it"
+          ],
+          "badEvidence": []
+        },
+        "decoyHits": [],
+        "usable": 1,
+        "score": 0.9249999999999999,
+        "items": [
+          {
+            "key": "light.primary",
+            "want": "#0d7d74",
+            "got": "#0d7d74",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.primaryForeground",
+            "want": "#fff",
+            "got": "#ffffff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.background",
+            "want": "#fdfdfc",
+            "got": "#fdfdfc",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.foreground",
+            "want": "#1f1e1b",
+            "got": "#1f1e1b",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.mutedText",
+            "want": "#0a0900a8",
+            "got": "#5d5c56",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.primary",
+            "want": "#1f9d90",
+            "got": "#1f9d90",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.primaryForeground",
+            "want": "#fff",
+            "got": "#ffffff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.background",
+            "want": "#111110",
+            "got": "#111110",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.foreground",
+            "want": "#eeeeec",
+            "got": "#eeeeec",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.mutedText",
+            "want": "#fffdf5b0",
+            "got": "#b5b4ae",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "font.sans",
+            "want": "Geist",
+            "got": "Geist",
+            "score": 1
+          },
+          {
+            "key": "font.mono",
+            "want": "Geist Mono",
+            "got": "ui-monospace",
+            "score": 0
+          }
+        ]
+      },
+      {
+        "fixture": "k6-radix-themes",
+        "chose": [
+          "app/tidepool-palette.css",
+          "your coding agent's reading of the code"
+        ],
+        "seconds": 166.49326741599998,
+        "costUsd": 0.5783871,
+        "ok": true,
+        "accuracy": 0.8333333333333334,
+        "colorAccuracy": 1,
+        "valueAccuracy": 0,
+        "trust": {
+          "score": 0.9529411764705882,
+          "recall": 1,
+          "precision": 0.8823529411764706,
+          "evidence": 1,
+          "falseClaims": [
+            "light.card: the project doesn't define it",
+            "dark.card: the project doesn't define it"
+          ],
+          "badEvidence": []
+        },
+        "decoyHits": [],
+        "usable": 1,
+        "score": 0.8858823529411765,
+        "items": [
+          {
+            "key": "light.primary",
+            "want": "#0d7d74",
+            "got": "#0d7d74",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.primaryForeground",
+            "want": "#fff",
+            "got": "#ffffff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.background",
+            "want": "#fdfdfc",
+            "got": "#fdfdfc",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.foreground",
+            "want": "#1f1e1b",
+            "got": "#1f1e1b",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.mutedText",
+            "want": "#0a0900a8",
+            "got": "#5d5c56",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.primary",
+            "want": "#1f9d90",
+            "got": "#1f9d90",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.primaryForeground",
+            "want": "#fff",
+            "got": "#ffffff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.background",
+            "want": "#111110",
+            "got": "#111110",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.foreground",
+            "want": "#eeeeec",
+            "got": "#eeeeec",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.mutedText",
+            "want": "#fffdf5b0",
+            "got": "#b5b4ae",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "font.sans",
+            "want": "Geist",
+            "got": "-apple-system",
+            "score": 0
+          },
+          {
+            "key": "font.mono",
+            "want": "Geist Mono",
+            "got": "ui-monospace",
+            "score": 0
+          }
+        ]
+      },
+      {
+        "fixture": "k7-primevue-preset",
+        "chose": [
+          "src/assets/main.css",
+          "your coding agent's reading of the code"
+        ],
+        "seconds": 100.389064875,
+        "costUsd": 0.4190568,
+        "ok": true,
+        "accuracy": 1,
+        "colorAccuracy": 1,
+        "valueAccuracy": 1,
+        "trust": {
+          "score": 1,
+          "recall": 1,
+          "precision": 1,
+          "evidence": 1,
+          "falseClaims": [],
+          "badEvidence": []
+        },
+        "decoyHits": [],
+        "usable": 1,
+        "score": 0.9999999999999999,
+        "items": [
+          {
+            "key": "light.primary",
+            "want": "#1f7e98",
+            "got": "#1f7e98",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.primaryForeground",
+            "want": "#ffffff",
+            "got": "#ffffff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.background",
+            "want": "#f1f4f6",
+            "got": "#f1f4f6",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.card",
+            "want": "#ffffff",
+            "got": "#ffffff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.foreground",
+            "want": "#27303a",
+            "got": "#27303a",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.mutedText",
+            "want": "#6b7a88",
+            "got": "#6b7a88",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.border",
+            "want": "#e3e8ec",
+            "got": "#e3e8ec",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.primary",
+            "want": "#7dd5e3",
+            "got": "#7dd5e3",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.primaryForeground",
+            "want": "#10151b",
+            "got": "#10151b",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.background",
+            "want": "#10151b",
+            "got": "#10151b",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.card",
+            "want": "#1a2129",
+            "got": "#1a2129",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.foreground",
+            "want": "#f8fafb",
+            "got": "#f8fafb",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.mutedText",
+            "want": "#9aa8b4",
+            "got": "#9aa8b4",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.border",
+            "want": "#3a4551",
+            "got": "#3a4551",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "font.sans",
+            "want": "Outfit",
+            "got": "Outfit",
+            "score": 1
+          },
+          {
+            "key": "baseSize",
+            "want": "15",
+            "got": "15",
+            "score": 1
+          },
+          {
+            "key": "radius",
+            "want": "10",
+            "got": "10",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "fixture": "k7-primevue-preset",
+        "chose": [
+          "src/assets/main.css",
+          "your coding agent's reading of the code"
+        ],
+        "seconds": 166.7018885,
+        "costUsd": 0.39242489999999997,
+        "ok": true,
+        "accuracy": 1,
+        "colorAccuracy": 1,
+        "valueAccuracy": 1,
+        "trust": {
+          "score": 1,
+          "recall": 1,
+          "precision": 1,
+          "evidence": 1,
+          "falseClaims": [],
+          "badEvidence": []
+        },
+        "decoyHits": [],
+        "usable": 1,
+        "score": 0.9999999999999999,
+        "items": [
+          {
+            "key": "light.primary",
+            "want": "#1f7e98",
+            "got": "#1f7e98",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.primaryForeground",
+            "want": "#ffffff",
+            "got": "#ffffff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.background",
+            "want": "#f1f4f6",
+            "got": "#f1f4f6",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.card",
+            "want": "#ffffff",
+            "got": "#ffffff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.foreground",
+            "want": "#27303a",
+            "got": "#27303a",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.mutedText",
+            "want": "#6b7a88",
+            "got": "#6b7a88",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.border",
+            "want": "#e3e8ec",
+            "got": "#e3e8ec",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.primary",
+            "want": "#7dd5e3",
+            "got": "#7dd5e3",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.primaryForeground",
+            "want": "#10151b",
+            "got": "#10151b",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.background",
+            "want": "#10151b",
+            "got": "#10151b",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.card",
+            "want": "#1a2129",
+            "got": "#1a2129",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.foreground",
+            "want": "#f8fafb",
+            "got": "#f8fafb",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.mutedText",
+            "want": "#9aa8b4",
+            "got": "#9aa8b4",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.border",
+            "want": "#3a4551",
+            "got": "#3a4551",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "font.sans",
+            "want": "Outfit",
+            "got": "Outfit",
+            "score": 1
+          },
+          {
+            "key": "baseSize",
+            "want": "15",
+            "got": "15",
+            "score": 1
+          },
+          {
+            "key": "radius",
+            "want": "10",
+            "got": "10",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "fixture": "k8-angular-material-m3",
+        "chose": [
+          "your coding agent's reading of the code"
+        ],
+        "seconds": 115.332229083,
+        "costUsd": 0.3491751,
+        "ok": true,
+        "accuracy": 0.875,
+        "colorAccuracy": 0.8571428571428571,
+        "valueAccuracy": 1,
+        "trust": {
+          "score": 1,
+          "recall": 1,
+          "precision": 1,
+          "evidence": 1,
+          "falseClaims": [],
+          "badEvidence": []
+        },
+        "decoyHits": [],
+        "usable": 1,
+        "score": 0.9249999999999999,
+        "items": [
+          {
+            "key": "light.primary",
+            "want": "#006c47",
+            "got": "#006c47",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.primaryForeground",
+            "want": "#ffffff",
+            "got": "#ffffff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.background",
+            "want": "#f6fbf4",
+            "got": "#f6fbf4",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.foreground",
+            "want": "#171d19",
+            "got": "#171d19",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.mutedText",
+            "want": "#3f4942",
+            "got": "#3f4942",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.border",
+            "want": "#bfc9c0",
+            "got": "#6f7971",
+            "score": 0,
+            "note": "ΔE 24.9"
+          },
+          {
+            "key": "light.danger",
+            "want": "#ba1a1a",
+            "got": "#ba1a1a",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.primary",
+            "want": "#7ad8a8",
+            "got": "#7ad8a8",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.primaryForeground",
+            "want": "#003823",
+            "got": "#003823",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.background",
+            "want": "#0f1511",
+            "got": "#0f1511",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.foreground",
+            "want": "#dfe4de",
+            "got": "#dfe4de",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.mutedText",
+            "want": "#bfc9c0",
+            "got": "#bfc9c0",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.border",
+            "want": "#3f4942",
+            "got": "#89938b",
+            "score": 0,
+            "note": "ΔE 28.4"
+          },
+          {
+            "key": "dark.danger",
+            "want": "#ffb4ab",
+            "got": "#ffb4ab",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "font.sans",
+            "want": "Inter",
+            "got": "Inter",
+            "score": 1
+          },
+          {
+            "key": "font.heading",
+            "want": "Fraunces",
+            "got": "Fraunces",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "fixture": "k8-angular-material-m3",
+        "chose": [
+          "your coding agent's reading of the code"
+        ],
+        "seconds": 223.217540334,
+        "costUsd": 0.6849126,
+        "ok": true,
+        "accuracy": 1,
+        "colorAccuracy": 1,
+        "valueAccuracy": 1,
+        "trust": {
+          "score": 1,
+          "recall": 1,
+          "precision": 1,
+          "evidence": 1,
+          "falseClaims": [],
+          "badEvidence": []
+        },
+        "decoyHits": [],
+        "usable": 1,
+        "score": 0.9999999999999999,
+        "items": [
+          {
+            "key": "light.primary",
+            "want": "#006c47",
+            "got": "#006c47",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.primaryForeground",
+            "want": "#ffffff",
+            "got": "#ffffff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.background",
+            "want": "#f6fbf4",
+            "got": "#f6fbf4",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.foreground",
+            "want": "#171d19",
+            "got": "#171d19",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.mutedText",
+            "want": "#3f4942",
+            "got": "#3f4942",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.border",
+            "want": "#bfc9c0",
+            "got": "#bfc9c0",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.danger",
+            "want": "#ba1a1a",
+            "got": "#ba1a1a",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.primary",
+            "want": "#7ad8a8",
+            "got": "#7ad8a8",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.primaryForeground",
+            "want": "#003823",
+            "got": "#003823",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.background",
+            "want": "#0f1511",
+            "got": "#0f1511",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.foreground",
+            "want": "#dfe4de",
+            "got": "#dfe4de",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.mutedText",
+            "want": "#bfc9c0",
+            "got": "#bfc9c0",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.border",
+            "want": "#3f4942",
+            "got": "#3f4942",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.danger",
+            "want": "#ffb4ab",
+            "got": "#ffb4ab",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "font.sans",
+            "want": "Inter",
+            "got": "Inter",
+            "score": 1
+          },
+          {
+            "key": "font.heading",
+            "want": "Fraunces",
+            "got": "Fraunces",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "fixture": "k9-vanilla-extract",
+        "chose": [
+          "your coding agent's reading of the code"
+        ],
+        "seconds": 84.88728574999998,
+        "costUsd": 0.3317082,
+        "ok": true,
+        "accuracy": 0.5189385608728508,
+        "colorAccuracy": 0.3746201291347061,
+        "valueAccuracy": 1,
+        "trust": {
+          "score": 0.6730769230769231,
+          "recall": 0.3076923076923077,
+          "precision": 1,
+          "evidence": 0.75,
+          "falseClaims": [],
+          "badEvidence": [
+            "light.primaryForeground: line 57 of src/styles/theme.css.ts has no color like #ffffff",
+            "light.card: line 51 of src/styles/theme.css.ts has no color like #ffffff"
+          ]
+        },
+        "decoyHits": [],
+        "usable": 1,
+        "score": 0.6132862134467875,
+        "items": [
+          {
+            "key": "light.primary",
+            "want": "#51306a",
+            "got": "#18181b",
+            "score": 0,
+            "note": "ΔE 23.8"
+          },
+          {
+            "key": "light.primaryForeground",
+            "want": "#ffffff",
+            "got": "#ffffff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.background",
+            "want": "#fbf9f6",
+            "got": "#fdfdfd",
+            "score": 0.9123638216782722,
+            "note": "ΔE 1.8"
+          },
+          {
+            "key": "light.card",
+            "want": "#ffffff",
+            "got": "#ffffff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.foreground",
+            "want": "#27231d",
+            "got": "#262628",
+            "score": 0.48459684039600215,
+            "note": "ΔE 5.6"
+          },
+          {
+            "key": "light.mutedText",
+            "want": "#6f6557",
+            "got": "#626369",
+            "score": 0,
+            "note": "ΔE 11.2"
+          },
+          {
+            "key": "light.border",
+            "want": "#e4ddd1",
+            "got": "#bdbdc0",
+            "score": 0,
+            "note": "ΔE 10.5"
+          },
+          {
+            "key": "light.danger",
+            "want": "#c2352b",
+            "got": "#c9302d",
+            "score": 0.9415567323962222,
+            "note": "ΔE 1.5"
+          },
+          {
+            "key": "light.success",
+            "want": "#2f7d4f",
+            "got": "#007f38",
+            "score": 0.5028853437931999,
+            "note": "ΔE 5.5"
+          },
+          {
+            "key": "light.warning",
+            "want": "#b7790b",
+            "got": "#f2a618",
+            "score": 0,
+            "note": "ΔE 15.2"
+          },
+          {
+            "key": "dark.primary",
+            "want": "#c3a6de",
+            "got": "#e7e7ec",
+            "score": 0,
+            "note": "ΔE 22.8"
+          },
+          {
+            "key": "dark.primaryForeground",
+            "want": "#2a1633",
+            "got": "#262627",
+            "score": 0,
+            "note": "ΔE 17.1"
+          },
+          {
+            "key": "dark.background",
+            "want": "#141218",
+            "got": "#0e0e0e",
+            "score": 0.6187951473541315,
+            "note": "ΔE 4.4"
+          },
+          {
+            "key": "dark.card",
+            "want": "#1d1a22",
+            "got": "#141414",
+            "score": 0.39045747512950024,
+            "note": "ΔE 6.5"
+          },
+          {
+            "key": "dark.foreground",
+            "want": "#ece9f1",
+            "got": "#ebebed",
+            "score": 0.7051128833350027,
+            "note": "ΔE 3.7"
+          },
+          {
+            "key": "dark.mutedText",
+            "want": "#a7a1b2",
+            "got": "#b6b7bd",
+            "score": 0.18482892216384073,
+            "note": "ΔE 8.3"
+          },
+          {
+            "key": "dark.border",
+            "want": "#2d2934",
+            "got": "#515153",
+            "score": 0,
+            "note": "ΔE 14.1"
+          },
+          {
+            "key": "dark.danger",
+            "want": "#f08a80",
+            "got": "#ff7266",
+            "score": 0.44291835383791933,
+            "note": "ΔE 6.0"
+          },
+          {
+            "key": "dark.success",
+            "want": "#7fcf9c",
+            "got": "#53be70",
+            "score": 0.20854777387640988,
+            "note": "ΔE 8.1"
+          },
+          {
+            "key": "dark.warning",
+            "want": "#f2c265",
+            "got": "#f2a618",
+            "score": 0.10033928873362008,
+            "note": "ΔE 9.1"
+          },
+          {
+            "key": "font.sans",
+            "want": "Work Sans Variable",
+            "got": "Work Sans Variable",
+            "score": 1
+          },
+          {
+            "key": "font.heading",
+            "want": "Young Serif",
+            "got": "Young Serif",
+            "score": 1
+          },
+          {
+            "key": "font.mono",
+            "want": "Martian Mono",
+            "got": "Martian Mono",
+            "score": 1
+          },
+          {
+            "key": "baseSize",
+            "want": "15",
+            "got": "15",
+            "score": 1
+          },
+          {
+            "key": "radius",
+            "want": "8",
+            "got": "8",
+            "score": 1
+          },
+          {
+            "key": "spacing",
+            "want": "4",
+            "got": "4",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "fixture": "k9-vanilla-extract",
+        "chose": [
+          "your coding agent's reading of the code"
+        ],
+        "seconds": 91.64595262500004,
+        "costUsd": 0.3693924,
+        "ok": true,
+        "accuracy": 1,
+        "colorAccuracy": 1,
+        "valueAccuracy": 1,
+        "trust": {
+          "score": 1,
+          "recall": 1,
+          "precision": 1,
+          "evidence": 1,
+          "falseClaims": [],
+          "badEvidence": []
+        },
+        "decoyHits": [],
+        "usable": 1,
+        "score": 0.9999999999999999,
+        "items": [
+          {
+            "key": "light.primary",
+            "want": "#51306a",
+            "got": "#51306a",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.primaryForeground",
+            "want": "#ffffff",
+            "got": "#ffffff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.background",
+            "want": "#fbf9f6",
+            "got": "#fbf9f6",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.card",
+            "want": "#ffffff",
+            "got": "#ffffff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.foreground",
+            "want": "#27231d",
+            "got": "#27231d",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.mutedText",
+            "want": "#6f6557",
+            "got": "#6f6557",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.border",
+            "want": "#e4ddd1",
+            "got": "#e4ddd1",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.danger",
+            "want": "#c2352b",
+            "got": "#c2352b",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.success",
+            "want": "#2f7d4f",
+            "got": "#2f7d4f",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.warning",
+            "want": "#b7790b",
+            "got": "#b7790b",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.primary",
+            "want": "#c3a6de",
+            "got": "#c3a6de",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.primaryForeground",
+            "want": "#2a1633",
+            "got": "#2a1633",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.background",
+            "want": "#141218",
+            "got": "#141218",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.card",
+            "want": "#1d1a22",
+            "got": "#1d1a22",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.foreground",
+            "want": "#ece9f1",
+            "got": "#ece9f1",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.mutedText",
+            "want": "#a7a1b2",
+            "got": "#a7a1b2",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.border",
+            "want": "#2d2934",
+            "got": "#2d2934",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.danger",
+            "want": "#f08a80",
+            "got": "#f08a80",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.success",
+            "want": "#7fcf9c",
+            "got": "#7fcf9c",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.warning",
+            "want": "#f2c265",
+            "got": "#f2c265",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "font.sans",
+            "want": "Work Sans Variable",
+            "got": "Work Sans Variable",
+            "score": 1
+          },
+          {
+            "key": "font.heading",
+            "want": "Young Serif",
+            "got": "Young Serif",
+            "score": 1
+          },
+          {
+            "key": "font.mono",
+            "want": "Martian Mono",
+            "got": "Martian Mono",
+            "score": 1
+          },
+          {
+            "key": "baseSize",
+            "want": "15",
+            "got": "15",
+            "score": 1
+          },
+          {
+            "key": "radius",
+            "want": "8",
+            "got": "8",
+            "score": 1
+          },
+          {
+            "key": "spacing",
+            "want": "4",
+            "got": "4",
+            "score": 1
+          }
+        ]
+      }
+    ]
+  }
+}

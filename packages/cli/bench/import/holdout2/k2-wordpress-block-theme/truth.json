@@ -1,0 +1,37 @@
+{
+  "stack": "WordPress block theme (theme.json v3) with a @wordpress/scripts custom block",
+  "route": "direct",
+  "hard": "roles only come from where presets are applied in styles/blocks (button uses accent on base-2, muted text is contrast-2 on post-date); styles/midnight.json is an optional style variation, not a dark mode",
+  "light": {
+    "primary": "#2f6f4f",
+    "primaryForeground": "#ffffff",
+    "background": "#f7f5f0",
+    "card": "#ffffff",
+    "foreground": "#1f2421",
+    "mutedText": "#5b625e",
+    "border": "#d6d3cb"
+  },
+  "dark": null,
+  "fonts": {
+    "sans": "Instrument Sans",
+    "heading": "Fraunces",
+    "mono": "JetBrains Mono"
+  },
+  "baseSize": 18,
+  "radius": 6,
+  "spacing": 8,
+  "absent": [
+    "dark",
+    "light.danger",
+    "light.success",
+    "light.warning"
+  ],
+  "decoys": [
+    "#15171c",
+    "#e0a458",
+    "#1f222a",
+    "#3858e9",
+    "#1e1e1e",
+    "#cc1818"
+  ]
+}

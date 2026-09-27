@@ -1,0 +1,785 @@
+{
+  "label": "baseline",
+  "at": "2026-09-26T17:21:10.863Z",
+  "results": {
+    "baseline": [
+      {
+        "fixture": "a1-antd-v5",
+        "seconds": 0.00019924999999997795,
+        "ok": false,
+        "error": "no file the Import dialog can read",
+        "accuracy": 0,
+        "colorAccuracy": 0,
+        "valueAccuracy": 0,
+        "trust": null,
+        "decoyHits": [],
+        "usable": 0,
+        "score": 0,
+        "items": []
+      },
+      {
+        "fixture": "a2-mui-v5",
+        "seconds": 0.000058750000000003413,
+        "ok": false,
+        "error": "no file the Import dialog can read",
+        "accuracy": 0,
+        "colorAccuracy": 0,
+        "valueAccuracy": 0,
+        "trust": null,
+        "decoyHits": [],
+        "usable": 0,
+        "score": 0,
+        "items": []
+      },
+      {
+        "fixture": "a3-chakra-v2",
+        "seconds": 0.00005699999999998795,
+        "ok": false,
+        "error": "no file the Import dialog can read",
+        "accuracy": 0,
+        "colorAccuracy": 0,
+        "valueAccuracy": 0,
+        "trust": null,
+        "decoyHits": [],
+        "usable": 0,
+        "score": 0,
+        "items": []
+      },
+      {
+        "fixture": "a4-tailwind-v3-config",
+        "seconds": 0.0006737919999999917,
+        "ok": false,
+        "error": "no file the Import dialog can read",
+        "accuracy": 0,
+        "colorAccuracy": 0,
+        "valueAccuracy": 0,
+        "trust": null,
+        "decoyHits": [],
+        "usable": 0,
+        "score": 0,
+        "items": []
+      },
+      {
+        "fixture": "a5-sass-bootstrap",
+        "seconds": 0.00005408399999998892,
+        "ok": false,
+        "error": "no file the Import dialog can read",
+        "accuracy": 0,
+        "colorAccuracy": 0,
+        "valueAccuracy": 0,
+        "trust": null,
+        "decoyHits": [],
+        "usable": 0,
+        "score": 0,
+        "items": []
+      },
+      {
+        "fixture": "a6-styled-components",
+        "seconds": 0.00007433399999999323,
+        "ok": false,
+        "error": "no file the Import dialog can read",
+        "accuracy": 0,
+        "colorAccuracy": 0,
+        "valueAccuracy": 0,
+        "trust": null,
+        "decoyHits": [],
+        "usable": 0,
+        "score": 0,
+        "items": []
+      },
+      {
+        "fixture": "a7-homegrown",
+        "seconds": 0.0003585000000000207,
+        "ok": false,
+        "error": "no file the Import dialog can read",
+        "accuracy": 0,
+        "colorAccuracy": 0,
+        "valueAccuracy": 0,
+        "trust": null,
+        "decoyHits": [],
+        "usable": 0,
+        "score": 0,
+        "items": []
+      },
+      {
+        "fixture": "a8-vanilla-css-vars",
+        "seconds": 0.0001310839999999871,
+        "ok": false,
+        "error": "no file the Import dialog can read",
+        "accuracy": 0,
+        "colorAccuracy": 0,
+        "valueAccuracy": 0,
+        "trust": null,
+        "decoyHits": [],
+        "usable": 0,
+        "score": 0,
+        "items": []
+      },
+      {
+        "fixture": "d1-shadcn-v4",
+        "chose": [
+          "app/globals.css"
+        ],
+        "seconds": 0.06075462500000001,
+        "ok": true,
+        "accuracy": 0.9473684210526315,
+        "colorAccuracy": 1,
+        "valueAccuracy": 0.6666666666666666,
+        "trust": null,
+        "decoyHits": [],
+        "usable": 1,
+        "score": 0.6684210526315789,
+        "items": [
+          {
+            "key": "light.primary",
+            "want": "oklch(0.541 0.281 293.009)",
+            "got": "#7f22fe",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.primaryForeground",
+            "want": "oklch(0.969 0.016 293.756)",
+            "got": "#f5f3ff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.background",
+            "want": "oklch(1 0 0)",
+            "got": "#ffffff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.card",
+            "want": "oklch(1 0 0)",
+            "got": "#ffffff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.foreground",
+            "want": "oklch(0.141 0.005 285.823)",
+            "got": "#09090b",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.mutedText",
+            "want": "oklch(0.552 0.016 285.938)",
+            "got": "#71717b",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.border",
+            "want": "oklch(0.92 0.004 286.32)",
+            "got": "#e4e4e7",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.danger",
+            "want": "oklch(0.577 0.245 27.325)",
+            "got": "#e30217",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.primary",
+            "want": "oklch(0.606 0.25 292.717)",
+            "got": "#8d56ff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.primaryForeground",
+            "want": "oklch(0.969 0.016 293.756)",
+            "got": "#f5f3ff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.background",
+            "want": "oklch(0.141 0.005 285.823)",
+            "got": "#09090b",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.card",
+            "want": "oklch(0.21 0.006 285.885)",
+            "got": "#18181b",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.foreground",
+            "want": "oklch(0.985 0 0)",
+            "got": "#fafafa",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.mutedText",
+            "want": "oklch(0.705 0.015 286.067)",
+            "got": "#9f9fa9",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.border",
+            "want": "oklch(1 0 0 / 10%)",
+            "got": "#ffffff / 0.1",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.danger",
+            "want": "oklch(0.704 0.191 22.216)",
+            "got": "#ff6568",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "font.sans",
+            "want": "Geist",
+            "got": "Geist",
+            "score": 1
+          },
+          {
+            "key": "font.mono",
+            "want": "Geist Mono",
+            "got": "ui-monospace",
+            "score": 0
+          },
+          {
+            "key": "radius",
+            "want": "12",
+            "got": "12",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "fixture": "d2-shadcn-v3-hsl",
+        "chose": [
+          "src/index.css"
+        ],
+        "seconds": 0.04491904099999999,
+        "ok": true,
+        "accuracy": 0.9444444444444444,
+        "colorAccuracy": 1,
+        "valueAccuracy": 0.5,
+        "trust": null,
+        "decoyHits": [],
+        "usable": 1,
+        "score": 0.6666666666666666,
+        "items": [
+          {
+            "key": "light.primary",
+            "want": "hsl(221.2 83.2% 53.3%)",
+            "got": "#2563eb",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.primaryForeground",
+            "want": "hsl(210 40% 98%)",
+            "got": "#f8fafc",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.background",
+            "want": "hsl(0 0% 100%)",
+            "got": "#ffffff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.card",
+            "want": "hsl(0 0% 100%)",
+            "got": "#ffffff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.foreground",
+            "want": "hsl(222.2 84% 4.9%)",
+            "got": "#020817",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.mutedText",
+            "want": "hsl(215.4 16.3% 46.9%)",
+            "got": "#64748b",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.border",
+            "want": "hsl(214.3 31.8% 91.4%)",
+            "got": "#e2e8f0",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.danger",
+            "want": "hsl(0 84.2% 60.2%)",
+            "got": "#ef4444",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.primary",
+            "want": "hsl(217.2 91.2% 59.8%)",
+            "got": "#3b82f6",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.primaryForeground",
+            "want": "hsl(222.2 47.4% 11.2%)",
+            "got": "#0f172a",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.background",
+            "want": "hsl(222.2 84% 4.9%)",
+            "got": "#020817",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.card",
+            "want": "hsl(222.2 84% 4.9%)",
+            "got": "#020817",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.foreground",
+            "want": "hsl(210 40% 98%)",
+            "got": "#f8fafc",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.mutedText",
+            "want": "hsl(215 20.2% 65.1%)",
+            "got": "#94a3b8",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.border",
+            "want": "hsl(217.2 32.6% 17.5%)",
+            "got": "#1e293b",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.danger",
+            "want": "hsl(0 62.8% 30.6%)",
+            "got": "#7f1d1d",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "font.sans",
+            "want": "Inter",
+            "got": "Geist",
+            "score": 0
+          },
+          {
+            "key": "radius",
+            "want": "8",
+            "got": "8",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "fixture": "d3-dtcg-figma",
+        "chose": [
+          "tokens/harbor.tokens.json"
+        ],
+        "seconds": 0.06408745800000003,
+        "ok": true,
+        "accuracy": 1,
+        "colorAccuracy": 1,
+        "valueAccuracy": 1,
+        "trust": null,
+        "decoyHits": [],
+        "usable": 1,
+        "score": 0.7,
+        "items": [
+          {
+            "key": "light.primary",
+            "want": "#0d9488",
+            "got": "#0d9488",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.primaryForeground",
+            "want": "#ffffff",
+            "got": "#ffffff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.background",
+            "want": "#f9fafb",
+            "got": "#f9fafb",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.foreground",
+            "want": "#111827",
+            "got": "#111827",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.border",
+            "want": "#e5e7eb",
+            "got": "#e5e7eb",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.danger",
+            "want": "#dc2626",
+            "got": "#dc2626",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "font.sans",
+            "want": "Manrope",
+            "got": "Manrope",
+            "score": 1
+          },
+          {
+            "key": "baseSize",
+            "want": "16",
+            "got": "16",
+            "score": 1
+          },
+          {
+            "key": "radius",
+            "want": "6",
+            "got": "6",
+            "score": 1
+          },
+          {
+            "key": "spacing",
+            "want": "4",
+            "got": "4",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "fixture": "d4-tokens-studio",
+        "chose": [
+          "tokens/core.json"
+        ],
+        "seconds": 0.042034583,
+        "ok": true,
+        "accuracy": 0.6142021272001443,
+        "colorAccuracy": 0.5272695029335257,
+        "valueAccuracy": 0.875,
+        "trust": null,
+        "decoyHits": [],
+        "usable": 0.75,
+        "score": 0.4435212763200866,
+        "items": [
+          {
+            "key": "light.primary",
+            "want": "#ea580c",
+            "got": "#ea580c",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.primaryForeground",
+            "want": "#ffffff",
+            "got": "#ffffff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.background",
+            "want": "#fafaf9",
+            "got": "#fafaf9",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.foreground",
+            "want": "#1c1917",
+            "got": "#0c0a09",
+            "score": 0.6643186544856392,
+            "note": "ΔE 4.0"
+          },
+          {
+            "key": "light.border",
+            "want": "#e7e5e4",
+            "got": "#e7e5e4",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.danger",
+            "want": "#dc2626",
+            "got": "#c9302d",
+            "score": 0.6932318223906268,
+            "note": "ΔE 3.8"
+          },
+          {
+            "key": "dark.primary",
+            "want": "#f97316",
+            "got": "#ea580c",
+            "score": 0.2741212350564032,
+            "note": "ΔE 7.5"
+          },
+          {
+            "key": "dark.primaryForeground",
+            "want": "#1c1917",
+            "got": "#ffffff",
+            "score": 0,
+            "note": "ΔE 86.8"
+          },
+          {
+            "key": "dark.background",
+            "want": "#0c0a09",
+            "got": "#fafaf9",
+            "score": 0,
+            "note": "ΔE 95.3"
+          },
+          {
+            "key": "dark.foreground",
+            "want": "#fafaf9",
+            "got": "#0c0a09",
+            "score": 0,
+            "note": "ΔE 95.3"
+          },
+          {
+            "key": "dark.border",
+            "want": "#292524",
+            "got": "#e7e5e4",
+            "score": 0,
+            "note": "ΔE 74.1"
+          },
+          {
+            "key": "dark.danger",
+            "want": "#f87171",
+            "got": "#ff7266",
+            "score": 0.6955623232696402,
+            "note": "ΔE 3.7"
+          },
+          {
+            "key": "font.sans",
+            "want": "Figtree",
+            "got": "Figtree",
+            "score": 1
+          },
+          {
+            "key": "baseSize",
+            "want": "15",
+            "got": "14",
+            "score": 0.5
+          },
+          {
+            "key": "radius",
+            "want": "8",
+            "got": "8",
+            "score": 1
+          },
+          {
+            "key": "spacing",
+            "want": "4",
+            "got": "4",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "fixture": "d5-tailwind-v4-theme",
+        "seconds": 0.00011445800000001328,
+        "ok": false,
+        "error": "no file the Import dialog can read",
+        "accuracy": 0,
+        "colorAccuracy": 0,
+        "valueAccuracy": 0,
+        "trust": null,
+        "decoyHits": [],
+        "usable": 0,
+        "score": 0,
+        "items": []
+      },
+      {
+        "fixture": "d6-decoy-monorepo",
+        "chose": [
+          "apps/web/src/app/globals.css"
+        ],
+        "seconds": 0.03390433300000001,
+        "ok": true,
+        "accuracy": 1,
+        "colorAccuracy": 1,
+        "valueAccuracy": 1,
+        "trust": null,
+        "decoyHits": [],
+        "usable": 1,
+        "score": 0.7,
+        "items": [
+          {
+            "key": "light.primary",
+            "want": "oklch(0.596 0.145 163.225)",
+            "got": "#029669",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.primaryForeground",
+            "want": "oklch(0.979 0.021 166.113)",
+            "got": "#ecfdf5",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.background",
+            "want": "oklch(1 0 0)",
+            "got": "#ffffff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.foreground",
+            "want": "oklch(0.145 0 0)",
+            "got": "#0a0a0a",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.mutedText",
+            "want": "oklch(0.556 0 0)",
+            "got": "#737373",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.border",
+            "want": "oklch(0.922 0 0)",
+            "got": "#e5e5e5",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.danger",
+            "want": "oklch(0.577 0.245 27.325)",
+            "got": "#e30217",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.primary",
+            "want": "oklch(0.696 0.17 162.48)",
+            "got": "#00b981",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.primaryForeground",
+            "want": "oklch(0.262 0.051 172.552)",
+            "got": "#002c22",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.background",
+            "want": "oklch(0.145 0 0)",
+            "got": "#0a0a0a",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.foreground",
+            "want": "oklch(0.985 0 0)",
+            "got": "#fafafa",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.mutedText",
+            "want": "oklch(0.708 0 0)",
+            "got": "#a1a1a1",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.border",
+            "want": "oklch(1 0 0 / 10%)",
+            "got": "#ffffff / 0.1",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.danger",
+            "want": "oklch(0.704 0.191 22.216)",
+            "got": "#ff6568",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "font.sans",
+            "want": "Outfit",
+            "got": "Outfit",
+            "score": 1
+          },
+          {
+            "key": "radius",
+            "want": "8",
+            "got": "8",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "fixture": "m1-runtime-computed",
+        "seconds": 0.00006475000000000363,
+        "ok": false,
+        "error": "no file the Import dialog can read",
+        "accuracy": 0,
+        "colorAccuracy": 0,
+        "valueAccuracy": 0,
+        "trust": null,
+        "decoyHits": [],
+        "usable": 0,
+        "score": 0,
+        "items": []
+      },
+      {
+        "fixture": "m2-legacy-static",
+        "seconds": 0.000054250000000024554,
+        "ok": false,
+        "error": "no file the Import dialog can read",
+        "accuracy": 0,
+        "colorAccuracy": 0,
+        "valueAccuracy": 0,
+        "trust": null,
+        "decoyHits": [],
+        "usable": 0,
+        "score": 0,
+        "items": []
+      }
+    ]
+  }
+}

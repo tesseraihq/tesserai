@@ -1,0 +1,6 @@
+/*******************************
+         Site Overrides
+*******************************/
+
+@boxShadow : 0 0 0 1px @borderColor;
+@borderRadius : @defaultBorderRadius;

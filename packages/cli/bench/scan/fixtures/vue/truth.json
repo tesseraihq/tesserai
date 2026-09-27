@@ -1,0 +1,59 @@
+{
+  "framework": "vue",
+  "usage": {
+    "button": {
+      "uses": 3,
+      "files": 1
+    },
+    "badge": {
+      "uses": 1,
+      "files": 1
+    }
+  },
+  "options": {
+    "button": {
+      "variant": {
+        "outline": 1,
+        "solid": 1,
+        "~dynamic": 1
+      },
+      "intent": {
+        "primary": 3
+      },
+      "size": {
+        "lg": 1,
+        "md": 2
+      }
+    },
+    "badge": {
+      "variant": {
+        "soft": 1
+      },
+      "intent": {
+        "neutral": 1
+      },
+      "size": {
+        "md": 1
+      }
+    }
+  },
+  "overrides": [
+    {
+      "file": "src/components/Hero.vue",
+      "line": 9,
+      "component": "button",
+      "kinds": [
+        "radius"
+      ]
+    }
+  ],
+  "placementOnly": [
+    {
+      "file": "src/components/Hero.vue",
+      "line": 11,
+      "component": "badge"
+    }
+  ],
+  "suggestions": [],
+  "edited": []
+}

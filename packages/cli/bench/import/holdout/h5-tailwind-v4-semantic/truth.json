@@ -1,0 +1,40 @@
+{
+  "stack": "Tailwind v4 @theme with semantic color names and a .dark override, Vite React",
+  "route": "direct",
+  "hard": "the roles have their own names (canvas, surface, ink, ink-muted, line, accent, accent-ink) rather than primary/background, dark is a .dark block in @layer base, and a Tabler stylesheet copied into src/vendor (imported nowhere) carries a complete light and dark theme",
+  "light": {
+    "primary": "#e0531f",
+    "primaryForeground": "#ffffff",
+    "background": "#fbfaf8",
+    "card": "#ffffff",
+    "foreground": "#1c1917",
+    "mutedText": "#6b6560",
+    "border": "#e7e3de",
+    "danger": "#c0262d",
+    "success": "#1f7a4d",
+    "warning": "#b7791f"
+  },
+  "dark": {
+    "primary": "#ff7a45",
+    "primaryForeground": "#1c0d05",
+    "background": "#141210",
+    "card": "#1d1a17",
+    "foreground": "#f2efeb",
+    "mutedText": "#a39d96",
+    "border": "#34302b",
+    "danger": "#f0646a",
+    "success": "#4cc38a",
+    "warning": "#e8b04b"
+  },
+  "fonts": {
+    "sans": "Geist",
+    "mono": "Geist Mono"
+  },
+  "radius": 8,
+  "absent": [
+    "baseSize",
+    "spacing",
+    "font.heading"
+  ],
+  "decoys": ["#066fd1", "#f6f8fb", "#182433", "#dce1e7", "#151f2c"]
+}

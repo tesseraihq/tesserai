@@ -1,0 +1,22 @@
+{
+  "name": "orchard-intranet",
+  "version": "4.2.0",
+  "private": true,
+  "description": "Orchard Logistics staff intranet",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "build:ui": "cd semantic && npx gulp build",
+    "watch:ui": "cd semantic && npx gulp watch"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "pug": "^3.0.3",
+    "jquery": "^3.7.1"
+  },
+  "devDependencies": {
+    "fomantic-ui": "^2.9.3",
+    "gulp": "^4.0.2"
+  }
+}

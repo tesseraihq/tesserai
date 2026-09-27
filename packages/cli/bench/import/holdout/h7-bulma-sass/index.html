@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Greenhouse Co-op · Membership</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Manrope:wght@400;600;700&family=Space+Mono&display=swap" rel="stylesheet" />
+    <script type="module" src="/src/main.js"></script>
+  </head>
+  <body>
+    <nav class="navbar is-spaced" aria-label="main navigation">
+      <div class="container">
+        <div class="navbar-brand">
+          <a class="navbar-item has-text-weight-bold" href="/">Greenhouse Co-op</a>
+        </div>
+        <div class="navbar-end">
+          <a class="navbar-item" href="/plots">Plots</a>
+          <a class="navbar-item" href="/tools">Tool library</a>
+          <div class="navbar-item">
+            <a class="button is-primary" href="/join">Join</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="section">
+      <div class="container">
+        <h1 class="title is-2">Membership</h1>
+        <p class="subtitle">Pick a plot size. Every plan includes the tool library and seed swap.</p>
+
+        <div class="columns">
+          <div class="column">
+            <div class="card plan">
+              <div class="card-content">
+                <p class="plan__name">Window box</p>
+                <p class="plan__price">$40<span class="has-text-grey">/season</span></p>
+                <p class="has-text-grey">One raised bed, shared watering.</p>
+              </div>
+              <footer class="card-footer">
+                <a class="card-footer-item" href="/join?plan=box">Choose</a>
+              </footer>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card plan plan--featured">
+              <div class="card-content">
+                <span class="tag is-success is-light">Most popular</span>
+                <p class="plan__name">Half plot</p>
+                <p class="plan__price">$95<span class="has-text-grey">/season</span></p>
+                <p class="has-text-grey">Four beds and a locker.</p>
+              </div>
+              <footer class="card-footer">
+                <a class="card-footer-item" href="/join?plan=half">Choose</a>
+              </footer>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card plan">
+              <div class="card-content">
+                <span class="tag is-warning">Waitlist</span>
+                <p class="plan__name">Full plot</p>
+                <p class="plan__price">$170<span class="has-text-grey">/season</span></p>
+                <p class="has-text-grey">Eight beds, cold frame, locker.</p>
+              </div>
+              <footer class="card-footer">
+                <a class="card-footer-item" href="/waitlist">Join waitlist</a>
+              </footer>
+            </div>
+          </div>
+        </div>
+
+        <div class="notification is-danger is-light">
+          Plot renewals close <strong>March 1</strong>. Unrenewed plots go to the waitlist.
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

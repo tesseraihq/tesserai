@@ -1,0 +1,521 @@
+{
+  "framework": "react",
+  "usage": {
+    "button": {
+      "uses": 15,
+      "files": 7
+    },
+    "card": {
+      "uses": 7,
+      "files": 3
+    },
+    "badge": {
+      "uses": 4,
+      "files": 4
+    },
+    "tabs": {
+      "uses": 2,
+      "files": 2
+    },
+    "alert": {
+      "uses": 3,
+      "files": 2
+    },
+    "dialog": {
+      "uses": 1,
+      "files": 1
+    },
+    "input": {
+      "uses": 4,
+      "files": 2
+    },
+    "avatar": {
+      "uses": 1,
+      "files": 1
+    }
+  },
+  "options": {
+    "button": {
+      "variant": {
+        "ghost": 5,
+        "solid": 3,
+        "outline": 4,
+        "soft": 1,
+        "link": 1,
+        "~dynamic": 1
+      },
+      "intent": {
+        "primary": 10,
+        "neutral": 1,
+        "danger": 4
+      },
+      "size": {
+        "md": 8,
+        "lg": 2,
+        "xs": 1,
+        "sm": 4
+      }
+    },
+    "card": {
+      "size": {
+        "sm": 2,
+        "md": 5
+      }
+    },
+    "badge": {
+      "variant": {
+        "~dynamic": 1,
+        "soft": 2,
+        "outline": 1
+      },
+      "intent": {
+        "~dynamic": 2,
+        "neutral": 1,
+        "info": 1
+      },
+      "size": {
+        "md": 4
+      }
+    },
+    "tabs": {
+      "variant": {
+        "segmented": 1,
+        "line": 1
+      }
+    },
+    "alert": {
+      "variant": {
+        "soft": 1,
+        "outline": 2
+      },
+      "intent": {
+        "warning": 1,
+        "danger": 1,
+        "success": 1
+      }
+    },
+    "input": {
+      "size": {
+        "sm": 1,
+        "md": 2,
+        "lg": 1
+      }
+    },
+    "avatar": {
+      "size": {
+        "~dynamic": 1
+      }
+    }
+  },
+  "overrides": [
+    {
+      "file": "src/App.tsx",
+      "line": 13,
+      "component": "button",
+      "kinds": [
+        "effects"
+      ]
+    },
+    {
+      "file": "src/components/PrimaryAction.tsx",
+      "line": 11,
+      "component": "button",
+      "kinds": [
+        "radius"
+      ]
+    },
+    {
+      "file": "src/pages/Dashboard.tsx",
+      "line": 31,
+      "component": "card",
+      "kinds": [
+        "spacing",
+        "border"
+      ]
+    },
+    {
+      "file": "src/pages/Dashboard.tsx",
+      "line": 36,
+      "component": "card",
+      "kinds": [
+        "spacing"
+      ]
+    },
+    {
+      "file": "src/pages/Dashboard.tsx",
+      "line": 38,
+      "component": "card",
+      "kinds": [
+        "typography"
+      ]
+    },
+    {
+      "file": "src/pages/Dashboard.tsx",
+      "line": 45,
+      "component": "button",
+      "kinds": [
+        "radius"
+      ]
+    },
+    {
+      "file": "src/pages/Dashboard.tsx",
+      "line": 59,
+      "component": "tabs",
+      "kinds": [
+        "color",
+        "shadow"
+      ]
+    },
+    {
+      "file": "src/pages/Dashboard.tsx",
+      "line": 69,
+      "component": "card",
+      "kinds": [
+        "border"
+      ]
+    },
+    {
+      "file": "src/pages/Dashboard.tsx",
+      "line": 70,
+      "component": "card",
+      "kinds": [
+        "spacing",
+        "typography"
+      ]
+    },
+    {
+      "file": "src/pages/Dashboard.tsx",
+      "line": 78,
+      "component": "button",
+      "kinds": [
+        "size",
+        "spacing",
+        "color"
+      ]
+    },
+    {
+      "file": "src/pages/Billing.tsx",
+      "line": 35,
+      "component": "alert",
+      "kinds": [
+        "radius",
+        "border",
+        "color"
+      ]
+    },
+    {
+      "file": "src/pages/Billing.tsx",
+      "line": 37,
+      "component": "alert",
+      "kinds": [
+        "typography"
+      ]
+    },
+    {
+      "file": "src/pages/Billing.tsx",
+      "line": 48,
+      "component": "badge",
+      "kinds": [
+        "unknown"
+      ]
+    },
+    {
+      "file": "src/pages/Billing.tsx",
+      "line": 53,
+      "component": "button",
+      "kinds": [
+        "size",
+        "spacing",
+        "color"
+      ]
+    },
+    {
+      "file": "src/pages/Billing.tsx",
+      "line": 63,
+      "component": "button",
+      "kinds": [
+        "border"
+      ]
+    },
+    {
+      "file": "src/pages/Billing.tsx",
+      "line": 76,
+      "component": "dialog",
+      "kinds": [
+        "spacing"
+      ]
+    },
+    {
+      "file": "src/pages/Billing.tsx",
+      "line": 77,
+      "component": "dialog",
+      "kinds": [
+        "spacing"
+      ]
+    },
+    {
+      "file": "src/pages/Billing.tsx",
+      "line": 80,
+      "component": "dialog",
+      "kinds": [
+        "color",
+        "spacing"
+      ]
+    },
+    {
+      "file": "src/pages/Team.tsx",
+      "line": 26,
+      "component": "card",
+      "kinds": [
+        "spacing"
+      ]
+    },
+    {
+      "file": "src/pages/Team.tsx",
+      "line": 27,
+      "component": "card",
+      "kinds": [
+        "typography"
+      ]
+    },
+    {
+      "file": "src/pages/Team.tsx",
+      "line": 36,
+      "component": "card",
+      "kinds": [
+        "border",
+        "spacing"
+      ]
+    },
+    {
+      "file": "src/pages/Team.tsx",
+      "line": 39,
+      "component": "avatar",
+      "kinds": [
+        "radius"
+      ]
+    },
+    {
+      "file": "src/pages/Team.tsx",
+      "line": 41,
+      "component": "avatar",
+      "kinds": [
+        "color"
+      ]
+    },
+    {
+      "file": "src/pages/Team.tsx",
+      "line": 48,
+      "component": "badge",
+      "kinds": [
+        "typography"
+      ]
+    },
+    {
+      "file": "src/pages/Team.tsx",
+      "line": 51,
+      "component": "button",
+      "kinds": [
+        "color",
+        "effects"
+      ]
+    },
+    {
+      "file": "src/pages/Team.tsx",
+      "line": 61,
+      "component": "button",
+      "kinds": [
+        "color"
+      ]
+    },
+    {
+      "file": "src/pages/Team.tsx",
+      "line": 76,
+      "component": "input",
+      "kinds": [
+        "size",
+        "color"
+      ]
+    },
+    {
+      "file": "src/pages/Team.tsx",
+      "line": 77,
+      "component": "button",
+      "kinds": [
+        "size",
+        "radius"
+      ]
+    },
+    {
+      "file": "src/pages/Settings.tsx",
+      "line": 24,
+      "component": "tabs",
+      "kinds": [
+        "spacing"
+      ]
+    },
+    {
+      "file": "src/pages/Settings.tsx",
+      "line": 25,
+      "component": "tabs",
+      "kinds": [
+        "size",
+        "radius",
+        "border",
+        "color",
+        "spacing"
+      ]
+    },
+    {
+      "file": "src/pages/Settings.tsx",
+      "line": 27,
+      "component": "tabs",
+      "kinds": [
+        "radius",
+        "border",
+        "color"
+      ]
+    },
+    {
+      "file": "src/pages/Settings.tsx",
+      "line": 34,
+      "component": "card",
+      "kinds": [
+        "spacing"
+      ]
+    },
+    {
+      "file": "src/pages/Settings.tsx",
+      "line": 36,
+      "component": "alert",
+      "kinds": [
+        "spacing"
+      ]
+    },
+    {
+      "file": "src/pages/Settings.tsx",
+      "line": 45,
+      "component": "input",
+      "kinds": [
+        "color",
+        "size"
+      ]
+    },
+    {
+      "file": "src/pages/Settings.tsx",
+      "line": 50,
+      "component": "card",
+      "kinds": [
+        "border",
+        "spacing"
+      ]
+    },
+    {
+      "file": "src/pages/Settings.tsx",
+      "line": 56,
+      "component": "card",
+      "kinds": [
+        "shadow"
+      ]
+    },
+    {
+      "file": "src/pages/Settings.tsx",
+      "line": 57,
+      "component": "card",
+      "kinds": [
+        "spacing"
+      ]
+    },
+    {
+      "file": "src/pages/Settings.tsx",
+      "line": 66,
+      "component": "card",
+      "kinds": [
+        "unknown"
+      ]
+    },
+    {
+      "file": "src/pages/Settings.tsx",
+      "line": 67,
+      "component": "card",
+      "kinds": [
+        "spacing"
+      ]
+    },
+    {
+      "file": "src/pages/Landing.tsx",
+      "line": 18,
+      "component": "badge",
+      "kinds": [
+        "radius",
+        "spacing"
+      ]
+    },
+    {
+      "file": "src/pages/Landing.tsx",
+      "line": 23,
+      "component": "button",
+      "kinds": [
+        "radius"
+      ]
+    }
+  ],
+  "placementOnly": [
+    {
+      "file": "src/pages/Dashboard.tsx",
+      "line": 51,
+      "component": "card"
+    },
+    {
+      "file": "src/pages/Dashboard.tsx",
+      "line": 57,
+      "component": "tabs"
+    },
+    {
+      "file": "src/pages/Dashboard.tsx",
+      "line": 72,
+      "component": "button"
+    },
+    {
+      "file": "src/pages/Team.tsx",
+      "line": 25,
+      "component": "card"
+    },
+    {
+      "file": "src/pages/Team.tsx",
+      "line": 28,
+      "component": "input"
+    },
+    {
+      "file": "src/pages/Settings.tsx",
+      "line": 32,
+      "component": "tabs"
+    },
+    {
+      "file": "src/pages/Settings.tsx",
+      "line": 40,
+      "component": "alert"
+    },
+    {
+      "file": "src/pages/Settings.tsx",
+      "line": 59,
+      "component": "button"
+    },
+    {
+      "file": "src/pages/Settings.tsx",
+      "line": 69,
+      "component": "button"
+    }
+  ],
+  "suggestions": [
+    {
+      "component": "button",
+      "class": "rounded-full",
+      "count": 3
+    }
+  ],
+  "edited": [
+    "src/components/ui/badge.tsx",
+    "src/components/ui/card.tsx"
+  ]
+}

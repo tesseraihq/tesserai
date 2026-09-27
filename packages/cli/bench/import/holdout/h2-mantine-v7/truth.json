@@ -1,0 +1,36 @@
+{
+  "stack": "Mantine v7 createTheme + cssVariablesResolver in a Vite React app",
+  "route": "agent",
+  "hard": "the primary is the custom ocean tuple at primaryShade (index 7 in light, 5 in dark), and the surfaces/text come from a cssVariablesResolver that indexes theme.colors.ink; a leftover Mantine 6 theme with its own palette is never imported",
+  "light": {
+    "primary": "#0060c3",
+    "background": "#f5f7fa",
+    "card": "#ffffff",
+    "foreground": "#161b24",
+    "mutedText": "#525e6f",
+    "border": "#d3dae3"
+  },
+  "dark": {
+    "primary": "#1f7adc",
+    "background": "#0e1117",
+    "card": "#161b22",
+    "foreground": "#e9edf2",
+    "mutedText": "#8d9aab",
+    "border": "#262c36"
+  },
+  "fonts": {
+    "sans": "Inter",
+    "heading": "Outfit",
+    "mono": "IBM Plex Mono"
+  },
+  "baseSize": 15,
+  "radius": 6,
+  "absent": [
+    "spacing",
+    "light.primaryForeground",
+    "dark.primaryForeground",
+    "light.danger",
+    "dark.danger"
+  ],
+  "decoys": ["#7048e8", "#fffcf5", "#1a1b1e"]
+}

@@ -1,0 +1,28 @@
+// Palette ---------------------------------------------------------------
+$ink-900: #1b1f3b;
+$ink-600: #4a4f6e;
+$ink-200: #d7d9e4;
+$paper: #fdfcf9;
+$white: #ffffff;
+
+$tomato: #e5533d;
+$tomato-dark: #c43e2a;
+$crimson: #b3261e;
+$marigold: #f2a93b;
+$fern: #3f8f5a;
+$cobalt: #2d5bd7; // old brand, still used by the admin link color
+
+// Roles -----------------------------------------------------------------
+$color-text: $ink-900;
+$color-text-muted: $ink-600;
+$color-bg: $paper;
+$color-surface: $white;
+$color-border: $ink-200;
+
+$color-primary: $tomato;
+$color-primary-hover: $tomato-dark;
+$color-on-primary: $white;
+
+$color-danger: $crimson;
+$color-warning: $marigold;
+$color-success: $fern;

@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "tesserai": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@tesserai/cli@0.2.1",
+        "mcp"
+      ]
+    }
+  }
+}

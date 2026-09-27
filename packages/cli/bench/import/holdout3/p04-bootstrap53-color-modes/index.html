@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ledgerline · Client portal</title>
+    <script src="/src/js/color-modes.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg border-bottom">
+      <div class="container">
+        <a class="navbar-brand fw-semibold" href="/">Ledgerline</a>
+        <div class="dropdown ms-auto">
+          <button class="btn btn-link nav-link dropdown-toggle" id="bd-theme" data-bs-toggle="dropdown" aria-expanded="false">Theme</button>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><button type="button" class="dropdown-item" data-bs-theme-value="light">Light</button></li>
+            <li><button type="button" class="dropdown-item" data-bs-theme-value="dark">Dark</button></li>
+            <li><button type="button" class="dropdown-item" data-bs-theme-value="auto">Auto</button></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container py-4">
+      <div class="d-flex align-items-center justify-content-between mb-3">
+        <div>
+          <h1 class="h4 mb-0">Invoices</h1>
+          <p class="text-body-secondary mb-0">Q3 · 42 open</p>
+        </div>
+        <button class="btn btn-primary">New invoice</button>
+      </div>
+
+      <div class="row g-3">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h2 class="h6 text-body-secondary">Outstanding</h2>
+              <p class="fs-4 mb-1">$48,210.00</p>
+              <span class="badge text-bg-warning">12 due this week</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h2 class="h6 text-body-secondary">Overdue</h2>
+              <p class="fs-4 mb-1 text-danger">$6,940.00</p>
+              <span class="badge text-bg-danger">3 clients</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h2 class="h6 text-body-secondary">Paid (30d)</h2>
+              <p class="fs-4 mb-1 text-success">$112,400.00</p>
+              <code>INV-2024-0913</code>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

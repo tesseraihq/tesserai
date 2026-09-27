@@ -1,0 +1,8 @@
+{
+  "name": "quill",
+  "private": true,
+  "dependencies": {
+    "styled-components": "^6.1.0",
+    "react": "18.3.1"
+  }
+}

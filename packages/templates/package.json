@@ -1,0 +1,24 @@
+{
+  "name": "@tesserai/templates",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./pages": "./src/pages/index.ts",
+    "./preview": "./src/preview.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@tesserai/core": "workspace:*",
+    "prettier": "^3.9.8",
+    "zod": "^4.6.5"
+  },
+  "sideEffects": false,
+  "devDependencies": {
+    "prettier-plugin-svelte": "^4.1.1",
+    "svelte": "^5.57.1"
+  }
+}

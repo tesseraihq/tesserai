@@ -1,0 +1,24 @@
+{
+  "stack": "colors computed from a seed in JavaScript at load",
+  "route": "measure",
+  "hard": "no color appears literally anywhere in the code",
+  "light": {
+    "primary": "hsl(200 85% 42%)",
+    "primaryForeground": "#ffffff",
+    "background": "hsl(200 20% 98%)",
+    "foreground": "hsl(200 30% 12%)",
+    "border": "hsl(200 15% 88%)",
+    "danger": "hsl(0 70% 45%)"
+  },
+  "dark": null,
+  "fonts": {
+    "sans": "Lexend"
+  },
+  "baseSize": 16,
+  "radius": 10,
+  "absent": [
+    "dark",
+    "spacing"
+  ],
+  "decoys": []
+}

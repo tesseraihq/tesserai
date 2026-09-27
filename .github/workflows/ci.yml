@@ -1,0 +1,30 @@
+# Every push and pull request: unit tests and types, then the CLI packed and installed as npm
+# would serve it. Nothing here needs a key or reaches a paid service.
+name: CI
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - name: Build the CLI used by subprocess and MCP transport tests
+        run: pnpm build
+      - name: The CLI as npm would serve it (packs, installs offline, runs init, doctor and MCP)
+        run: pnpm cli:check
+      - name: Chromium for the Svelte fixture's browser checks
+        run: pnpm --filter @tesserai/svelte-fixture exec playwright install --with-deps chromium
+      - run: pnpm verify
+        env:
+          # Vue consumer checks compile hundreds of files in one process.
+          NODE_OPTIONS: --max-old-space-size=4096

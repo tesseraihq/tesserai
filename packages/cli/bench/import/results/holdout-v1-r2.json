@@ -1,0 +1,908 @@
+{
+  "label": "holdout-v1-r2",
+  "at": "2026-09-26T18:08:25.834Z",
+  "results": {
+    "direct": [
+      {
+        "fixture": "h1-style-dictionary",
+        "chose": [
+          "tokens/core/color.json, tokens/core/font.json, tokens/core/size.json, tokens/semantic/dark.json, tokens/semantic/light.json",
+          "src/styles/generated/tokens.css",
+          "src/styles/generated/tokens.dark.css"
+        ],
+        "seconds": 0.017452292,
+        "ok": true,
+        "accuracy": 1,
+        "colorAccuracy": 1,
+        "valueAccuracy": 1,
+        "trust": {
+          "score": 0.976923076923077,
+          "recall": 1,
+          "precision": 1,
+          "evidence": 0.8846153846153846,
+          "falseClaims": [],
+          "badEvidence": [
+            "baseSize: line 6 of tokens/core/size.json doesn't have “16”",
+            "radius: line 22 of tokens/core/size.json doesn't have “8”",
+            "spacing: line 12 of tokens/core/size.json doesn't have “4”"
+          ]
+        },
+        "decoyHits": [],
+        "usable": 1,
+        "score": 0.9930769230769231,
+        "items": [
+          {
+            "key": "light.primary",
+            "want": "#1b7064",
+            "got": "#1b7064",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.primaryForeground",
+            "want": "#ffffff",
+            "got": "#ffffff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.background",
+            "want": "#f7f8f9",
+            "got": "#f7f8f9",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.card",
+            "want": "#ffffff",
+            "got": "#ffffff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.foreground",
+            "want": "#1a1e24",
+            "got": "#1a1e24",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.mutedText",
+            "want": "#525b66",
+            "got": "#525b66",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.border",
+            "want": "#dde1e5",
+            "got": "#dde1e5",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.danger",
+            "want": "#d93f3f",
+            "got": "#d93f3f",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.success",
+            "want": "#2f8a4c",
+            "got": "#2f8a4c",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.warning",
+            "want": "#d9921a",
+            "got": "#d9921a",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.primary",
+            "want": "#43a797",
+            "got": "#43a797",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.primaryForeground",
+            "want": "#072421",
+            "got": "#072421",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.background",
+            "want": "#0f1216",
+            "got": "#0f1216",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.card",
+            "want": "#1a1e24",
+            "got": "#1a1e24",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.foreground",
+            "want": "#f7f8f9",
+            "got": "#f7f8f9",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.mutedText",
+            "want": "#9aa3ad",
+            "got": "#9aa3ad",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.border",
+            "want": "#3e4550",
+            "got": "#3e4550",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.danger",
+            "want": "#ef6461",
+            "got": "#ef6461",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.success",
+            "want": "#52b56f",
+            "got": "#52b56f",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.warning",
+            "want": "#ecae45",
+            "got": "#ecae45",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "font.sans",
+            "want": "Source Sans 3",
+            "got": "Source Sans 3",
+            "score": 1
+          },
+          {
+            "key": "font.heading",
+            "want": "Fraunces",
+            "got": "Fraunces",
+            "score": 1
+          },
+          {
+            "key": "font.mono",
+            "want": "JetBrains Mono",
+            "got": "JetBrains Mono",
+            "score": 1
+          },
+          {
+            "key": "baseSize",
+            "want": "16",
+            "got": "16",
+            "score": 1
+          },
+          {
+            "key": "radius",
+            "want": "8",
+            "got": "8",
+            "score": 1
+          },
+          {
+            "key": "spacing",
+            "want": "4",
+            "got": "4",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "fixture": "h2-mantine-v7",
+        "chose": [],
+        "seconds": 0.0019163750000000164,
+        "ok": false,
+        "error": "no colors, fonts, sizes, corners or spacing found",
+        "accuracy": 0,
+        "colorAccuracy": 0,
+        "valueAccuracy": 0,
+        "trust": null,
+        "decoyHits": [],
+        "usable": 0,
+        "score": 0,
+        "items": []
+      },
+      {
+        "fixture": "h3-vuetify-3",
+        "chose": [],
+        "seconds": 0.001636082999999985,
+        "ok": false,
+        "error": "no colors, fonts, sizes, corners or spacing found",
+        "accuracy": 0,
+        "colorAccuracy": 0,
+        "valueAccuracy": 0,
+        "trust": null,
+        "decoyHits": [],
+        "usable": 0,
+        "score": 0,
+        "items": []
+      },
+      {
+        "fixture": "h4-open-props",
+        "chose": [
+          "src/styles/theme.css"
+        ],
+        "seconds": 0.0027204580000000076,
+        "ok": true,
+        "accuracy": 0.8809523809523809,
+        "colorAccuracy": 1,
+        "valueAccuracy": 0.16666666666666666,
+        "trust": {
+          "score": 0.8095238095238095,
+          "recall": 0.8571428571428571,
+          "precision": 1,
+          "evidence": 0.33333333333333337,
+          "falseClaims": [],
+          "badEvidence": [
+            "light.primary: line 13 of src/styles/theme.css has no color like hsl(258 62% 52%)",
+            "light.foreground: line 15 of src/styles/theme.css has no color like hsl(258 24% 12%)",
+            "light.mutedText: line 16 of src/styles/theme.css has no color like hsl(258 10% 38%)",
+            "light.background: line 17 of src/styles/theme.css has no color like hsl(258 20% 98%)",
+            "light.border: line 20 of src/styles/theme.css has no color like hsl(258 16% 88%)",
+            "dark.primary: line 25 of src/styles/theme.css has no color like hsl(258 31% 67.6%)",
+            "dark.primaryForeground: line 26 of src/styles/theme.css has no color like hsl(258 30% 10%)",
+            "dark.foreground: line 27 of src/styles/theme.css has no color like hsl(258 15% 88%)",
+            "dark.mutedText: line 28 of src/styles/theme.css has no color like hsl(258 8% 64%)",
+            "dark.background: line 29 of src/styles/theme.css has no color like hsl(258 14% 9%)",
+            "dark.card: line 30 of src/styles/theme.css has no color like hsl(258 12% 13%)",
+            "dark.border: line 32 of src/styles/theme.css has no color like hsl(258 10% 24%)"
+          ]
+        },
+        "decoyHits": [],
+        "usable": 1,
+        "score": 0.8714285714285714,
+        "items": [
+          {
+            "key": "light.primary",
+            "want": "hsl(258 62% 52%)",
+            "got": "#6639d0",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.primaryForeground",
+            "want": "hsl(0 0% 100%)",
+            "got": "#ffffff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.background",
+            "want": "hsl(258 20% 98%)",
+            "got": "#f9f9fb",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.card",
+            "want": "hsl(0 0% 100%)",
+            "got": "#ffffff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.foreground",
+            "want": "hsl(258 24% 12%)",
+            "got": "#1c1726",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.mutedText",
+            "want": "hsl(258 10% 38%)",
+            "got": "#5d576b",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.border",
+            "want": "hsl(258 16% 88%)",
+            "got": "#dedbe5",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.danger",
+            "want": "hsl(4 72% 48%)",
+            "got": "#d32e22",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.success",
+            "want": "hsl(145 55% 34%)",
+            "got": "#27864f",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.primary",
+            "want": "hsl(258 31% 67.6%)",
+            "got": "#a293c6",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.primaryForeground",
+            "want": "hsl(258 30% 10%)",
+            "got": "#161221",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.background",
+            "want": "hsl(258 14% 9%)",
+            "got": "#16141a",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.card",
+            "want": "hsl(258 12% 13%)",
+            "got": "#201d25",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.foreground",
+            "want": "hsl(258 15% 88%)",
+            "got": "#dfdce5",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.mutedText",
+            "want": "hsl(258 8% 64%)",
+            "got": "#a09cab",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.border",
+            "want": "hsl(258 10% 24%)",
+            "got": "#3b3743",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.danger",
+            "want": "hsl(4 80% 64%)",
+            "got": "#ed645a",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.success",
+            "want": "hsl(145 45% 58%)",
+            "got": "#64c48c",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "font.sans",
+            "want": "Figtree Variable",
+            "got": "Geist",
+            "score": 0
+          },
+          {
+            "key": "font.heading",
+            "want": "Young Serif",
+            "got": "Geist",
+            "score": 0
+          },
+          {
+            "key": "radius",
+            "want": "6",
+            "got": "5",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "fixture": "h5-tailwind-v4-semantic",
+        "chose": [
+          "src/index.css"
+        ],
+        "seconds": 0.0015236250000000382,
+        "ok": true,
+        "accuracy": 0.8756441701830109,
+        "colorAccuracy": 0.8569907957104625,
+        "valueAccuracy": 1,
+        "trust": {
+          "score": 0.9304347826086956,
+          "recall": 0.8260869565217391,
+          "precision": 1,
+          "evidence": 1,
+          "falseClaims": [],
+          "badEvidence": []
+        },
+        "decoyHits": [],
+        "usable": 1,
+        "score": 0.9045169368924152,
+        "items": [
+          {
+            "key": "light.primary",
+            "want": "#e0531f",
+            "got": "#e0531f",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.primaryForeground",
+            "want": "#ffffff",
+            "got": "#3d1c11",
+            "score": 0,
+            "note": "ΔE 79.8"
+          },
+          {
+            "key": "light.background",
+            "want": "#fbfaf8",
+            "got": "#fbfaf8",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.card",
+            "want": "#ffffff",
+            "got": "#ffffff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.foreground",
+            "want": "#1c1917",
+            "got": "#1c1917",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.mutedText",
+            "want": "#6b6560",
+            "got": "#65635f",
+            "score": 0.8776273487014203,
+            "note": "ΔE 2.1"
+          },
+          {
+            "key": "light.border",
+            "want": "#e7e3de",
+            "got": "#e7e3de",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.danger",
+            "want": "#c0262d",
+            "got": "#c0262d",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.success",
+            "want": "#1f7a4d",
+            "got": "#1f7a4d",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.warning",
+            "want": "#b7791f",
+            "got": "#b7791f",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.primary",
+            "want": "#ff7a45",
+            "got": "#ff7a45",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.primaryForeground",
+            "want": "#1c0d05",
+            "got": "#3d1c11",
+            "score": 0,
+            "note": "ΔE 11.1"
+          },
+          {
+            "key": "dark.background",
+            "want": "#141210",
+            "got": "#141210",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.card",
+            "want": "#1d1a17",
+            "got": "#1d1a17",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.foreground",
+            "want": "#f2efeb",
+            "got": "#f2efeb",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.mutedText",
+            "want": "#a39d96",
+            "got": "#b9b7b3",
+            "score": 0.2621885655078312,
+            "note": "ΔE 7.6"
+          },
+          {
+            "key": "dark.border",
+            "want": "#34302b",
+            "got": "#34302b",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.danger",
+            "want": "#f0646a",
+            "got": "#f0646a",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.success",
+            "want": "#4cc38a",
+            "got": "#4cc38a",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.warning",
+            "want": "#e8b04b",
+            "got": "#e8b04b",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "font.sans",
+            "want": "Geist",
+            "got": "Geist",
+            "score": 1
+          },
+          {
+            "key": "font.mono",
+            "want": "Geist Mono",
+            "got": "Geist Mono",
+            "score": 1
+          },
+          {
+            "key": "radius",
+            "want": "8",
+            "got": "8",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "fixture": "h6-theme-ui-gatsby",
+        "chose": [],
+        "seconds": 0.0008864590000000021,
+        "ok": false,
+        "error": "no colors, fonts, sizes, corners or spacing found",
+        "accuracy": 0,
+        "colorAccuracy": 0,
+        "valueAccuracy": 0,
+        "trust": null,
+        "decoyHits": [],
+        "usable": 0,
+        "score": 0,
+        "items": []
+      },
+      {
+        "fixture": "h7-bulma-sass",
+        "chose": [
+          "src/styles/_settings.scss"
+        ],
+        "seconds": 0.002660082999999986,
+        "ok": true,
+        "accuracy": 0.8229436987681823,
+        "colorAccuracy": 0.7122835104982962,
+        "valueAccuracy": 1,
+        "trust": {
+          "score": 0.8713286713286714,
+          "recall": 0.7692307692307693,
+          "precision": 0.9090909090909091,
+          "evidence": 1,
+          "falseClaims": [
+            "light.card: the project doesn't define it"
+          ],
+          "badEvidence": []
+        },
+        "decoyHits": [],
+        "usable": 1,
+        "score": 0.8551648206595107,
+        "items": [
+          {
+            "key": "light.primary",
+            "want": "#1f7a55",
+            "got": "#1f7a55",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.background",
+            "want": "#f7f6f2",
+            "got": "#f7f6f2",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.foreground",
+            "want": "#2b2f36",
+            "got": "#252726",
+            "score": 0.45331506830266577,
+            "note": "ΔE 5.9"
+          },
+          {
+            "key": "light.mutedText",
+            "want": "#6b7280",
+            "got": "#5f6561",
+            "score": 0,
+            "note": "ΔE 11.1"
+          },
+          {
+            "key": "light.border",
+            "want": "#dcd8cf",
+            "got": "#bcbebd",
+            "score": 0.24495301568370387,
+            "note": "ΔE 7.8"
+          },
+          {
+            "key": "light.danger",
+            "want": "#c2352b",
+            "got": "#c2352b",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.success",
+            "want": "#2e8540",
+            "got": "#2e8540",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.warning",
+            "want": "#e0a526",
+            "got": "#e0a526",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "font.sans",
+            "want": "Manrope",
+            "got": "Manrope",
+            "score": 1
+          },
+          {
+            "key": "font.heading",
+            "want": "DM Serif Display",
+            "got": "DM Serif Display",
+            "score": 1
+          },
+          {
+            "key": "font.mono",
+            "want": "Space Mono",
+            "got": "Space Mono",
+            "score": 1
+          },
+          {
+            "key": "baseSize",
+            "want": "15",
+            "got": "15",
+            "score": 1
+          },
+          {
+            "key": "radius",
+            "want": "6",
+            "got": "6",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "fixture": "h8-static-marketing",
+        "chose": [
+          "css/styles.css"
+        ],
+        "seconds": 0.002028292000000022,
+        "ok": true,
+        "accuracy": 0.9576819080732356,
+        "colorAccuracy": 0.9482778876450657,
+        "valueAccuracy": 1,
+        "trust": {
+          "score": 0.9636363636363636,
+          "recall": 0.9090909090909091,
+          "precision": 1,
+          "evidence": 1,
+          "falseClaims": [],
+          "badEvidence": []
+        },
+        "decoyHits": [],
+        "usable": 1,
+        "score": 0.9637000539348504,
+        "items": [
+          {
+            "key": "light.primary",
+            "want": "#2f5d50",
+            "got": "#2f5d50",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.primaryForeground",
+            "want": "#f4efe6",
+            "got": "#f4efe6",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.background",
+            "want": "#faf7f2",
+            "got": "#faf7f2",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.card",
+            "want": "#ffffff",
+            "got": "#ffffff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.foreground",
+            "want": "#2d2a26",
+            "got": "#2d2a26",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.mutedText",
+            "want": "#6e675d",
+            "got": "#67635a",
+            "score": 0.8691906068814945,
+            "note": "ΔE 2.2"
+          },
+          {
+            "key": "light.border",
+            "want": "#e6dfd3",
+            "got": "#e6dfd3",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.danger",
+            "want": "#b3261e",
+            "got": "#b3261e",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.success",
+            "want": "#2c6e49",
+            "got": "#2c6e49",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.primary",
+            "want": "#7fbfa9",
+            "got": "#7fbfa9",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.primaryForeground",
+            "want": "#10231d",
+            "got": "#10231d",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.background",
+            "want": "#161513",
+            "got": "#161513",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.card",
+            "want": "#1f1d1a",
+            "got": "#1f1d1a",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.foreground",
+            "want": "#e8e2d8",
+            "got": "#e8e2d8",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.mutedText",
+            "want": "#a39b8f",
+            "got": "#bbb7af",
+            "score": 0.1998113707296889,
+            "note": "ΔE 8.2"
+          },
+          {
+            "key": "dark.border",
+            "want": "#2e2b27",
+            "got": "#2e2b27",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.danger",
+            "want": "#f2857b",
+            "got": "#f2857b",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.success",
+            "want": "#7ccf9c",
+            "got": "#7ccf9c",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "font.sans",
+            "want": "Instrument Sans",
+            "got": "Instrument Sans",
+            "score": 1
+          },
+          {
+            "key": "font.heading",
+            "want": "Instrument Serif",
+            "got": "Instrument Serif",
+            "score": 1
+          },
+          {
+            "key": "baseSize",
+            "want": "17",
+            "got": "17",
+            "score": 1
+          },
+          {
+            "key": "radius",
+            "want": "10",
+            "got": "10",
+            "score": 1
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% load widget_tweaks %}
+
+{% block title %}Your boxes · Greenbox CSA{% endblock %}
+
+{% block content %}
+<hgroup>
+  <h1>Your boxes</h1>
+  <p>Pickup every Thursday at the Alberta St. market.</p>
+</hgroup>
+
+<div class="grid">
+  {% for order in orders %}
+  <article>
+    <header><small class="muted">Week {{ order.week }}</small></header>
+    <h3>{{ order.box.name }}</h3>
+    <p>{{ order.box.description }}</p>
+    <footer>
+      <a href="{% url 'orders:detail' order.pk %}" role="button">Customize</a>
+      <a href="{% url 'orders:skip' order.pk %}" role="button" class="outline secondary">Skip week</a>
+    </footer>
+  </article>
+  {% empty %}
+  <p class="muted">No boxes yet.</p>
+  {% endfor %}
+</div>
+
+<form method="post" action="{% url 'orders:note' %}">
+  {% csrf_token %}
+  <label for="{{ form.note.id_for_label }}">Note for the farm</label>
+  {% render_field form.note rows="3" %}
+  {{ form.note.errors }}
+  <button type="submit">Save note</button>
+</form>
+{% endblock %}

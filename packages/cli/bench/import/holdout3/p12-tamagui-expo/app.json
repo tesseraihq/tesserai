@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "Embercast",
+    "slug": "embercast",
+    "version": "1.4.2",
+    "orientation": "portrait",
+    "scheme": "embercast",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": { "bundleIdentifier": "app.embercast" },
+    "android": { "package": "app.embercast" },
+    "plugins": ["expo-router", "expo-font"]
+  }
+}

@@ -1,0 +1,12 @@
+// Only loaded by /admin (ActiveAdmin layout). Not part of the customer app.
+$skinActiveColor: #2d5bd7;
+$skinHeaderBck: #232c3b;
+$panelHeaderBck: #5e6469;
+$skinTextColor: #323537;
+
+@import "active_admin/mixins";
+@import "active_admin/base";
+
+#header {
+  background: $skinHeaderBck;
+}

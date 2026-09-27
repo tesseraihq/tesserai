@@ -1,0 +1,29 @@
+{
+  "stack": "Mantine v6 (MantineProvider theme object, ColorSchemeProvider) in Vite + React",
+  "route": "agent",
+  "hard": "needs Mantine v6's own rules: primary is colors.pine[primaryShade] (index 7 light, 4 dark); dark surfaces and text come from the overridden colors.dark ramp (body dark[7], Card dark[6], text dark[0], dimmed dark[2], borders dark[4]); light surfaces are theme.white and text theme.black; filled buttons use theme.white for text; light dimmed/border come from Mantine's gray",
+  "light": {
+    "primary": "#166651",
+    "primaryForeground": "#fdfdfc",
+    "background": "#fdfdfc",
+    "card": "#fdfdfc",
+    "foreground": "#17191c"
+  },
+  "dark": {
+    "primary": "#40b48d",
+    "primaryForeground": "#fdfdfc",
+    "background": "#1b1e24",
+    "card": "#23272e",
+    "foreground": "#dfe2e6",
+    "mutedText": "#8c93a0",
+    "border": "#3f4652"
+  },
+  "fonts": {
+    "sans": "Lexend",
+    "heading": "Lexend",
+    "mono": "Roboto Mono"
+  },
+  "radius": 6,
+  "absent": ["baseSize", "spacing", "light.mutedText", "light.border", "light.danger", "dark.danger", "light.success", "dark.success", "light.warning", "dark.warning"],
+  "decoys": ["#228be6", "#C1C2C5", "#f76707"]
+}

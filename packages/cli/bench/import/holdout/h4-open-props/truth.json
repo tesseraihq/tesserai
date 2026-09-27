@@ -1,0 +1,38 @@
+{
+  "stack": "Astro + Open Props with a hand-written adaptive theme under [data-theme] selectors",
+  "route": "direct",
+  "hard": "every color is assembled from --brand-hue/-saturation/-lightness through two var() hops (and calc() for dark brand), mapped to --surface-1/--text-1/--brand under [data-theme] selectors, while Open Props' normalize ships its own --surface-1/--text-1 under the same names",
+  "light": {
+    "primary": "hsl(258 62% 52%)",
+    "primaryForeground": "hsl(0 0% 100%)",
+    "background": "hsl(258 20% 98%)",
+    "card": "hsl(0 0% 100%)",
+    "foreground": "hsl(258 24% 12%)",
+    "mutedText": "hsl(258 10% 38%)",
+    "border": "hsl(258 16% 88%)",
+    "danger": "hsl(4 72% 48%)",
+    "success": "hsl(145 55% 34%)"
+  },
+  "dark": {
+    "primary": "hsl(258 31% 67.6%)",
+    "primaryForeground": "hsl(258 30% 10%)",
+    "background": "hsl(258 14% 9%)",
+    "card": "hsl(258 12% 13%)",
+    "foreground": "hsl(258 15% 88%)",
+    "mutedText": "hsl(258 8% 64%)",
+    "border": "hsl(258 10% 24%)",
+    "danger": "hsl(4 80% 64%)",
+    "success": "hsl(145 45% 58%)"
+  },
+  "fonts": {
+    "sans": "Figtree Variable",
+    "heading": "Young Serif"
+  },
+  "radius": 6,
+  "absent": [
+    "baseSize",
+    "spacing",
+    "font.mono"
+  ],
+  "decoys": []
+}

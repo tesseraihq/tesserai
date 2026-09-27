@@ -1,0 +1,394 @@
+{
+  "framework": "vue",
+  "usage": {
+    "button": {
+      "uses": 16,
+      "files": 6
+    },
+    "avatar": {
+      "uses": 2,
+      "files": 1
+    },
+    "badge": {
+      "uses": 4,
+      "files": 3
+    },
+    "input": {
+      "uses": 4,
+      "files": 2
+    },
+    "card": {
+      "uses": 2,
+      "files": 2
+    },
+    "tabs": {
+      "uses": 1,
+      "files": 1
+    },
+    "alert": {
+      "uses": 3,
+      "files": 2
+    },
+    "dialog": {
+      "uses": 1,
+      "files": 1
+    }
+  },
+  "options": {
+    "button": {
+      "variant": {
+        "ghost": 6,
+        "solid": 4,
+        "~dynamic": 2,
+        "outline": 2,
+        "link": 1,
+        "soft": 1
+      },
+      "intent": {
+        "primary": 11,
+        "~dynamic": 1,
+        "warning": 1,
+        "danger": 3
+      },
+      "size": {
+        "md": 8,
+        "sm": 6,
+        "lg": 1,
+        "xs": 1
+      }
+    },
+    "avatar": {
+      "size": {
+        "sm": 2
+      }
+    },
+    "badge": {
+      "variant": {
+        "solid": 1,
+        "~dynamic": 1,
+        "outline": 1,
+        "soft": 1
+      },
+      "intent": {
+        "primary": 1,
+        "~dynamic": 2,
+        "neutral": 1
+      },
+      "size": {
+        "md": 3,
+        "sm": 1
+      }
+    },
+    "input": {
+      "size": {
+        "md": 2,
+        "lg": 1,
+        "sm": 1
+      }
+    },
+    "card": {
+      "size": {
+        "~dynamic": 1,
+        "md": 1
+      }
+    },
+    "tabs": {
+      "variant": {
+        "~dynamic": 1
+      }
+    },
+    "alert": {
+      "variant": {
+        "soft": 2,
+        "outline": 1
+      },
+      "intent": {
+        "~dynamic": 1,
+        "danger": 2
+      }
+    }
+  },
+  "overrides": [
+    {
+      "file": "src/App.vue",
+      "line": 21,
+      "component": "button",
+      "kinds": [
+        "size",
+        "spacing",
+        "typography"
+      ]
+    },
+    {
+      "file": "src/App.vue",
+      "line": 38,
+      "component": "avatar",
+      "kinds": [
+        "border"
+      ]
+    },
+    {
+      "file": "src/App.vue",
+      "line": 40,
+      "component": "avatar",
+      "kinds": [
+        "typography"
+      ]
+    },
+    {
+      "file": "src/components/AppButton.vue",
+      "line": 11,
+      "component": "button",
+      "kinds": [
+        "radius"
+      ]
+    },
+    {
+      "file": "src/views/Projects.vue",
+      "line": 38,
+      "component": "button",
+      "kinds": [
+        "color"
+      ]
+    },
+    {
+      "file": "src/views/Projects.vue",
+      "line": 44,
+      "component": "card",
+      "kinds": [
+        "effects",
+        "shadow"
+      ]
+    },
+    {
+      "file": "src/views/Projects.vue",
+      "line": 53,
+      "component": "card",
+      "kinds": [
+        "spacing"
+      ]
+    },
+    {
+      "file": "src/views/Projects.vue",
+      "line": 54,
+      "component": "card",
+      "kinds": [
+        "typography"
+      ]
+    },
+    {
+      "file": "src/views/Projects.vue",
+      "line": 59,
+      "component": "card",
+      "kinds": [
+        "spacing"
+      ]
+    },
+    {
+      "file": "src/views/Projects.vue",
+      "line": 61,
+      "component": "badge",
+      "kinds": [
+        "typography"
+      ]
+    },
+    {
+      "file": "src/views/Projects.vue",
+      "line": 65,
+      "component": "button",
+      "kinds": [
+        "unknown"
+      ]
+    },
+    {
+      "file": "src/views/Projects.vue",
+      "line": 66,
+      "component": "button",
+      "kinds": [
+        "radius"
+      ]
+    },
+    {
+      "file": "src/views/Settings.vue",
+      "line": 35,
+      "component": "tabs",
+      "kinds": [
+        "color"
+      ]
+    },
+    {
+      "file": "src/views/Settings.vue",
+      "line": 37,
+      "component": "tabs",
+      "kinds": [
+        "color"
+      ]
+    },
+    {
+      "file": "src/views/Settings.vue",
+      "line": 39,
+      "component": "tabs",
+      "kinds": [
+        "spacing"
+      ]
+    },
+    {
+      "file": "src/views/Settings.vue",
+      "line": 45,
+      "component": "input",
+      "kinds": [
+        "unknown"
+      ]
+    },
+    {
+      "file": "src/views/Settings.vue",
+      "line": 46,
+      "component": "input",
+      "kinds": [
+        "color"
+      ]
+    },
+    {
+      "file": "src/views/Settings.vue",
+      "line": 51,
+      "component": "button",
+      "kinds": [
+        "size"
+      ]
+    },
+    {
+      "file": "src/views/Settings.vue",
+      "line": 57,
+      "component": "alert",
+      "kinds": [
+        "radius",
+        "border",
+        "spacing"
+      ]
+    },
+    {
+      "file": "src/views/Settings.vue",
+      "line": 58,
+      "component": "alert",
+      "kinds": [
+        "typography"
+      ]
+    },
+    {
+      "file": "src/views/Settings.vue",
+      "line": 65,
+      "component": "dialog",
+      "kinds": [
+        "spacing"
+      ]
+    },
+    {
+      "file": "src/views/Settings.vue",
+      "line": 67,
+      "component": "dialog",
+      "kinds": [
+        "color"
+      ]
+    },
+    {
+      "file": "src/views/Settings.vue",
+      "line": 69,
+      "component": "dialog",
+      "kinds": [
+        "spacing"
+      ]
+    },
+    {
+      "file": "src/views/Settings.vue",
+      "line": 71,
+      "component": "button",
+      "kinds": [
+        "color"
+      ]
+    },
+    {
+      "file": "src/views/Billing.vue",
+      "line": 20,
+      "component": "button",
+      "kinds": [
+        "typography",
+        "color"
+      ]
+    },
+    {
+      "file": "src/views/Billing.vue",
+      "line": 26,
+      "component": "card",
+      "kinds": [
+        "spacing"
+      ]
+    },
+    {
+      "file": "src/views/Billing.vue",
+      "line": 34,
+      "component": "button",
+      "kinds": [
+        "typography",
+        "color"
+      ]
+    },
+    {
+      "file": "src/views/Billing.vue",
+      "line": 41,
+      "component": "card",
+      "kinds": [
+        "border",
+        "spacing"
+      ]
+    },
+    {
+      "file": "src/views/Billing.vue",
+      "line": 42,
+      "component": "button",
+      "kinds": [
+        "typography",
+        "color"
+      ]
+    }
+  ],
+  "placementOnly": [
+    {
+      "file": "src/components/ProjectPicker.vue",
+      "line": 13,
+      "component": "button"
+    },
+    {
+      "file": "src/components/ProjectPicker.vue",
+      "line": 21,
+      "component": "badge"
+    },
+    {
+      "file": "src/views/Projects.vue",
+      "line": 29,
+      "component": "input"
+    },
+    {
+      "file": "src/views/Projects.vue",
+      "line": 64,
+      "component": "button"
+    },
+    {
+      "file": "src/views/Settings.vue",
+      "line": 34,
+      "component": "tabs"
+    },
+    {
+      "file": "src/views/Settings.vue",
+      "line": 63,
+      "component": "button"
+    }
+  ],
+  "suggestions": [
+    {
+      "component": "button",
+      "class": "tracking-wide",
+      "count": 3
+    }
+  ],
+  "edited": []
+}

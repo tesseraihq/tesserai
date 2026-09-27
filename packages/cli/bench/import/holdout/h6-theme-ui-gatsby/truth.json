@@ -1,0 +1,37 @@
+{
+  "stack": "Theme UI 0.16 via gatsby-plugin-theme-ui (Gatsby 5)",
+  "route": "agent",
+  "hard": "the theme is found by Gatsby shadowing (src/gatsby-plugin-theme-ui), sizes are array indexes (fontSize 2, borderRadius 2), button text is colors.background, colors.muted is a background tint while muted text is colors.gray, and an older unused src/theme.js holds the Theme UI docs palette",
+  "light": {
+    "primary": "#b3402a",
+    "primaryForeground": "#fffdf8",
+    "background": "#fffdf8",
+    "card": "#ffffff",
+    "foreground": "#221e1a",
+    "mutedText": "#6f675e",
+    "border": "#e5ddd1",
+    "danger": "#b42318",
+    "success": "#2f7d4a"
+  },
+  "dark": {
+    "primary": "#f08a6c",
+    "primaryForeground": "#171412",
+    "background": "#171412",
+    "card": "#1f1b18",
+    "foreground": "#ede6dc",
+    "mutedText": "#a2988c",
+    "border": "#3a332c",
+    "danger": "#f4776b",
+    "success": "#6cc58f"
+  },
+  "fonts": {
+    "sans": "Work Sans",
+    "heading": "Playfair Display",
+    "mono": "Fira Code"
+  },
+  "baseSize": 17,
+  "radius": 6,
+  "spacing": 4,
+  "absent": [],
+  "decoys": ["#07c", "#30c"]
+}

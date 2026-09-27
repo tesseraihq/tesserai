@@ -1,0 +1,25 @@
+{
+  "color": {
+    "brand": {
+      "primary": { "value": "{color.base.pine.400.value}", "comment": "Buttons, links, focus rings" },
+      "primary-hover": { "value": "{color.base.pine.300.value}" },
+      "on-primary": { "value": "{color.base.pine.950.value}" }
+    },
+    "bg": {
+      "canvas": { "value": "{color.base.slate.950.value}" },
+      "surface": { "value": "{color.base.slate.900.value}" }
+    },
+    "text": {
+      "default": { "value": "{color.base.slate.50.value}" },
+      "subtle": { "value": "{color.base.slate.400.value}" }
+    },
+    "border": {
+      "default": { "value": "{color.base.slate.700.value}" }
+    },
+    "feedback": {
+      "danger": { "value": "{color.base.red.400.value}" },
+      "success": { "value": "{color.base.green.400.value}" },
+      "warning": { "value": "{color.base.amber.400.value}" }
+    }
+  }
+}

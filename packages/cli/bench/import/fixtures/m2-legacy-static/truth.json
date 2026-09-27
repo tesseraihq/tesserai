@@ -1,0 +1,24 @@
+{
+  "stack": "hand-written CSS from 2012, no variables",
+  "route": "measure",
+  "hard": "every value is repeated literally; meaning comes from where it's used; body text is a serif",
+  "light": {
+    "primary": "#c2410c",
+    "primaryForeground": "#ffffff",
+    "background": "#fffbeb",
+    "foreground": "#292524",
+    "border": "#e7e5e4",
+    "danger": "#b91c1c"
+  },
+  "dark": null,
+  "fonts": {
+    "sans": "Georgia"
+  },
+  "baseSize": 17,
+  "radius": 3,
+  "absent": [
+    "dark",
+    "spacing"
+  ],
+  "decoys": []
+}

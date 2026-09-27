@@ -1,0 +1,46 @@
+{
+  "stack": "Django 5 templates with vendored Pico CSS v2 and a static/css/site.css override sheet",
+  "route": "direct",
+  "hard": "Pico's full default theme is vendored in static/ (and Django admin's CSS in staticfiles/), and Pico buttons use --pico-primary-background, not --pico-primary (the darker link color)",
+  "light": {
+    "primary": "#c2410c",
+    "primaryForeground": "#ffffff",
+    "background": "#fbfaf8",
+    "card": "#ffffff",
+    "foreground": "#262422",
+    "mutedText": "#6b6660",
+    "border": "#e6e2dc",
+    "danger": "#b42318",
+    "success": "#027a48"
+  },
+  "dark": {
+    "primary": "#fb8a3c",
+    "primaryForeground": "#1a0f08",
+    "background": "#161412",
+    "card": "#1f1c19",
+    "foreground": "#ece8e3",
+    "mutedText": "#a29c94",
+    "border": "#2e2a26",
+    "danger": "#f97066",
+    "success": "#32d583"
+  },
+  "fonts": {
+    "sans": "Atkinson Hyperlegible",
+    "mono": "Fira Code"
+  },
+  "baseSize": 16,
+  "radius": 6,
+  "spacing": 16,
+  "absent": [
+    "light.warning",
+    "dark.warning"
+  ],
+  "decoys": [
+    "#0172ad",
+    "#01aaff",
+    "rgb(19, 22.5, 30.5)",
+    "#79aec8",
+    "#417690",
+    "#f5dd5d"
+  ]
+}

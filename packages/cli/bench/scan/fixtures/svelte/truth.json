@@ -1,0 +1,48 @@
+{
+  "framework": "svelte",
+  "usage": {
+    "button": {
+      "uses": 2,
+      "files": 1
+    },
+    "dialog": {
+      "uses": 1,
+      "files": 1
+    }
+  },
+  "options": {
+    "button": {
+      "variant": {
+        "ghost": 1,
+        "solid": 1
+      },
+      "intent": {
+        "primary": 2
+      },
+      "size": {
+        "md": 2
+      }
+    }
+  },
+  "overrides": [
+    {
+      "file": "src/routes/Promo.svelte",
+      "line": 8,
+      "component": "dialog",
+      "kinds": [
+        "radius"
+      ]
+    },
+    {
+      "file": "src/routes/Promo.svelte",
+      "line": 12,
+      "component": "button",
+      "kinds": [
+        "typography"
+      ]
+    }
+  ],
+  "placementOnly": [],
+  "suggestions": [],
+  "edited": []
+}

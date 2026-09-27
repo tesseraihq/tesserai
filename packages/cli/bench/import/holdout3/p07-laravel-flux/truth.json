@@ -1,0 +1,29 @@
+{
+  "stack": "Laravel 12 Livewire starter kit (Blade + Flux UI) on Tailwind v4 via Vite",
+  "route": "direct",
+  "hard": "Flux takes its primary from --color-accent (brand-600, brand-400 in .dark); background, card, text, muted and border come from zinc steps chosen by Blade classes, and zinc is redefined in @theme; a stale public/build CSS (old indigo accent) and Telescope's published CSS sit in the tree",
+  "light": {
+    "primary": "#148563",
+    "primaryForeground": "#fff",
+    "background": "#fafaf9",
+    "card": "#fff",
+    "foreground": "#2b2825",
+    "mutedText": "#78736b",
+    "border": "#e6e4e0"
+  },
+  "dark": {
+    "primary": "#48c096",
+    "primaryForeground": "#062720",
+    "background": "#1c1a18",
+    "card": "#2b2825",
+    "foreground": "#f4f3f1",
+    "mutedText": "#a8a39b",
+    "border": "#45413b"
+  },
+  "fonts": {
+    "sans": "Figtree"
+  },
+  "radius": 10,
+  "absent": ["baseSize", "spacing"],
+  "decoys": ["#4f46e5", "#6366f1", "#4040c8"]
+}

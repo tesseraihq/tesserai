@@ -1,0 +1,30 @@
+{
+  "stack": "styled-components theme objects",
+  "route": "agent",
+  "hard": "two hops: themes.ts names palette.ts entries",
+  "light": {
+    "primary": "#2563eb",
+    "primaryForeground": "#ffffff",
+    "background": "#ffffff",
+    "foreground": "#111827",
+    "border": "#e5e7eb",
+    "danger": "#dc2626"
+  },
+  "dark": {
+    "primary": "#93c5fd",
+    "primaryForeground": "#030712",
+    "background": "#030712",
+    "foreground": "#f9fafb",
+    "border": "#374151",
+    "danger": "#f87171"
+  },
+  "fonts": {
+    "sans": "Work Sans",
+    "mono": "Fira Code"
+  },
+  "baseSize": 15,
+  "radius": 8,
+  "spacing": 4,
+  "absent": [],
+  "decoys": []
+}

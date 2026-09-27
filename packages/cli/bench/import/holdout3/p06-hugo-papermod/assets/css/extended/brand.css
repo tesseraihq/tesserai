@@ -1,0 +1,62 @@
+/*
+ * Site palette + type. PaperMod concatenates assets/css/extended/*.css after
+ * its own core CSS, so these declarations win over themes/PaperMod.
+ *
+ * Heads-up: in PaperMod "--primary" is the heading/body text colour, not a
+ * brand colour. Our brand colour is --accent.
+ */
+:root {
+    --radius: 4px;
+    --theme: #fbf8f3;
+    --entry: #ffffff;
+    --primary: #22201c;
+    --secondary: #6f675c;
+    --tertiary: #e4ddd1;
+    --content: #2e2b26;
+    --border: #ebe4d8;
+    --accent: #b4532a;
+    --accent-ink: #fffaf2;
+}
+
+.dark {
+    --theme: #1a1816;
+    --entry: #24211e;
+    --primary: #eee8de;
+    --secondary: #a39a8c;
+    --tertiary: #3b3631;
+    --content: #d9d2c6;
+    --border: #36312c;
+    --accent: #e08a5f;
+    --accent-ink: #1a1816;
+}
+
+body {
+    font-family: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+h1, h2, h3, h4,
+.entry-header h2,
+.post-title,
+.logo a {
+    font-family: "Source Serif 4", Georgia, serif;
+    font-weight: 600;
+}
+
+code, pre, kbd {
+    font-family: "JetBrains Mono", ui-monospace, monospace;
+}
+
+.post-content a,
+.entry-content a {
+    color: var(--accent);
+    box-shadow: 0 1px 0 var(--accent);
+}
+
+.subscribe-btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background: var(--accent);
+    color: var(--accent-ink);
+    border-radius: var(--radius);
+    font-weight: 600;
+}

@@ -1,0 +1,32 @@
+{
+  "stack": "Quasar 2 (Vue 3, @quasar/app-vite) with quasar.variables.sass",
+  "route": "direct",
+  "hard": "Sass variables with Quasar's names: $negative/$positive are danger/success, dark mode is Quasar's $dark-page (page) and $dark (cards); page text and muted text are house variables applied in app.scss via body--light/body--dark; Quasar's defaults sit in node_modules",
+  "light": {
+    "primary": "#3d5a80",
+    "background": "#f6f4f0",
+    "foreground": "#1f2933",
+    "mutedText": "#616e7c",
+    "border": "#e3dfd7",
+    "danger": "#c0392b",
+    "success": "#2e8b57",
+    "warning": "#e9a23b"
+  },
+  "dark": {
+    "primary": "#3d5a80",
+    "background": "#141920",
+    "card": "#1e2530",
+    "foreground": "#e4e7eb",
+    "mutedText": "#9aa5b1",
+    "border": "#2c3440",
+    "danger": "#c0392b",
+    "success": "#2e8b57",
+    "warning": "#e9a23b"
+  },
+  "fonts": {
+    "sans": "Rubik"
+  },
+  "radius": 6,
+  "absent": ["baseSize", "spacing", "light.card", "light.primaryForeground", "dark.primaryForeground"],
+  "decoys": ["#1976D2", "#1D1D1D", "#121212", "#26A69A", "#9C27B0"]
+}

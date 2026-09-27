@@ -1,0 +1,17 @@
+{
+  "name": "tidewater-theme",
+  "version": "2.3.1",
+  "private": true,
+  "description": "Tidewater Co-op block theme",
+  "scripts": {
+    "zip": "wp-scripts plugin-zip",
+    "lint:css": "wp-scripts lint-style",
+    "lint:js": "wp-scripts lint-js",
+    "env": "wp-env start"
+  },
+  "files": ["assets", "parts", "patterns", "styles", "templates", "functions.php", "style.css", "theme.json", "screenshot.png"],
+  "devDependencies": {
+    "@wordpress/env": "^10.10.0",
+    "@wordpress/scripts": "^30.4.0"
+  }
+}

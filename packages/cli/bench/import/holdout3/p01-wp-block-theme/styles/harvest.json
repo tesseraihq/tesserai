@@ -1,0 +1,15 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.6/theme.json",
+	"version": 3,
+	"title": "Harvest",
+	"settings": {
+		"color": {
+			"palette": [
+				{ "color": "#FFF8EE", "name": "Base", "slug": "base" },
+				{ "color": "#F7EAD6", "name": "Base / Two", "slug": "base-2" },
+				{ "color": "#2A1E12", "name": "Contrast", "slug": "contrast" },
+				{ "color": "#C2621D", "name": "Accent", "slug": "accent" }
+			]
+		}
+	}
+}

@@ -1,0 +1,14 @@
+{
+  "name": "tesserai",
+  "owner": {
+    "name": "tesserai",
+    "url": "https://tesserai.design"
+  },
+  "description": "tesserai for Claude Code",
+  "plugins": [
+    {
+      "name": "tesserai",
+      "source": "."
+    }
+  ]
+}

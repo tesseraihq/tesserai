@@ -1,0 +1,12 @@
+/*******************************
+     Material Global Variables
+*******************************/
+
+@fontName          : 'Roboto';
+@pageBackground    : #FAFAFA;
+@textColor         : rgba(0, 0, 0, 0.87);
+
+@primaryColor      : #2196F3;
+@secondaryColor    : #FF4081;
+
+@defaultBorderRadius : 0.125em;

@@ -1,0 +1,14 @@
+{
+  "name": "loamwork-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Marketing site for Loamwork landscape studio",
+  "scripts": {
+    "start": "npx serve .",
+    "deploy": "netlify deploy --prod --dir ."
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.37.1",
+    "serve": "^14.2.4"
+  }
+}

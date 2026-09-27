@@ -1,0 +1,40 @@
+{
+  "stack": "Vue 3 + Vuetify 3 (createVuetify themes, vite-plugin-vuetify Sass settings)",
+  "route": "agent",
+  "hard": "Vuetify turns the theme's variables into the look: muted text and borders are on-background/border-color at the theme's emphasis and border opacities, on-primary is Vuetify's contrast pick, and fonts and radius live in a Sass settings file; the scaffold's #1867C0 lingers in the manifest",
+  "light": {
+    "primary": "#3949AB",
+    "background": "#F6F7F9",
+    "card": "#FFFFFF",
+    "foreground": "#1B1F24",
+    "mutedText": "rgba(27, 31, 36, 0.62)",
+    "border": "rgba(27, 31, 36, 0.12)",
+    "danger": "#C62828",
+    "success": "#2E7D32",
+    "warning": "#B26A00"
+  },
+  "dark": {
+    "primary": "#8C9EFF",
+    "background": "#121418",
+    "card": "#1C1F26",
+    "foreground": "#E6E8EC",
+    "mutedText": "rgba(230, 232, 236, 0.66)",
+    "border": "rgba(230, 232, 236, 0.14)",
+    "danger": "#EF5350",
+    "success": "#66BB6A",
+    "warning": "#FFB74D"
+  },
+  "fonts": {
+    "sans": "Nunito Sans",
+    "heading": "Lexend"
+  },
+  "radius": 6,
+  "absent": [
+    "baseSize",
+    "spacing",
+    "font.mono",
+    "light.primaryForeground",
+    "dark.primaryForeground"
+  ],
+  "decoys": ["#1867C0"]
+}

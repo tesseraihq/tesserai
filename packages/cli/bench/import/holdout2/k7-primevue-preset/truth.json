@@ -1,0 +1,42 @@
+{
+  "stack": "PrimeVue 4 styled mode with a definePreset(Aura, ...) preset in Vue 3 + Vite",
+  "route": "agent",
+  "hard": "two hops of {token} references (primary.color -> {primary.600} -> the lagoon ramp in palette.ts), the page background is set in main.css from --p-surface-100 / --p-surface-950, and Aura's emerald defaults sit in node_modules",
+  "light": {
+    "primary": "#1f7e98",
+    "primaryForeground": "#ffffff",
+    "background": "#f1f4f6",
+    "card": "#ffffff",
+    "foreground": "#27303a",
+    "mutedText": "#6b7a88",
+    "border": "#e3e8ec"
+  },
+  "dark": {
+    "primary": "#7dd5e3",
+    "primaryForeground": "#10151b",
+    "background": "#10151b",
+    "card": "#1a2129",
+    "foreground": "#f8fafb",
+    "mutedText": "#9aa8b4",
+    "border": "#3a4551"
+  },
+  "fonts": {
+    "sans": "Outfit"
+  },
+  "baseSize": 15,
+  "radius": 10,
+  "absent": [
+    "light.danger",
+    "dark.danger",
+    "light.success",
+    "dark.success",
+    "spacing"
+  ],
+  "decoys": [
+    "#10b981",
+    "#34d399",
+    "#4f46e5",
+    "#6366f1",
+    "#09090b"
+  ]
+}

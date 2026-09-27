@@ -1,0 +1,31 @@
+.plan {
+  height: 100%;
+  border: 1px solid $border;
+
+  &__name {
+    font-family: $title-family;
+    font-size: $size-4;
+    color: $text-strong;
+  }
+
+  &__price {
+    font-size: $size-3;
+    font-weight: $weight-bold;
+    margin: 0.5rem 0;
+
+    span {
+      font-size: $size-6;
+      font-weight: $weight-normal;
+    }
+  }
+
+  &--featured {
+    border-color: $primary;
+    box-shadow: 0 0 0 1px $primary;
+  }
+
+  .card-footer-item {
+    color: $link;
+    font-weight: $weight-semibold;
+  }
+}

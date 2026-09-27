@@ -1,0 +1,38 @@
+// ---------------------------------------------------------------------------
+// Brand settings. Loaded before Bulma: Bulma's variables are all !default,
+// so anything set here wins.
+// ---------------------------------------------------------------------------
+
+// Palette
+$forest: #1f7a55;
+$slate: #2b2f36;
+$stone: #6b7280;
+$sand: #dcd8cf;
+$paper: #f7f6f2;
+
+// Typography
+$family-sans-serif: "Manrope", BlinkMacSystemFont, -apple-system, "Segoe UI", sans-serif;
+$family-monospace: "Space Mono", monospace;
+$title-family: "DM Serif Display", Georgia, serif;
+$body-size: 15px;
+
+// Bulma initial variables we re-point at the palette
+$grey-dark: $slate;
+$grey: $stone;
+$grey-lighter: $sand;
+
+// Bulma derived variables
+$primary: $forest;
+$link: $forest;
+$success: #2e8540;
+$warning: #e0a526;
+$danger: #c2352b;
+
+$radius: 6px;
+
+// Component variables
+$body-background-color: $paper;
+$navbar-background-color: transparent;
+$card-shadow: none;
+$card-radius: 10px;
+$footer-background-color: $paper;

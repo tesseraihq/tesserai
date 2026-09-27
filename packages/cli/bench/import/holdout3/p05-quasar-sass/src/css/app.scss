@@ -1,0 +1,25 @@
+// app global css in SCSS form
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap');
+
+body.body--light {
+  background: $paper;
+  color: $ink;
+}
+
+body.body--dark {
+  // background comes from $dark-page
+  color: $ink-dark;
+}
+
+.text-muted {
+  color: $ink-soft;
+
+  .body--dark & {
+    color: $ink-soft-dark;
+  }
+}
+
+.page-title {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}

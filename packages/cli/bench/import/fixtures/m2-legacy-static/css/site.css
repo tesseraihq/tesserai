@@ -1,0 +1,8 @@
+body { margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: 17px; color: #292524; background: #fffbeb; }
+a { color: #c2410c; }
+.nav { padding: 14px 28px; border-bottom: 1px solid #e7e5e4; }
+.wrap { padding: 28px; max-width: 760px; }
+.btn { display: inline-block; padding: 10px 20px; border-radius: 3px; border: 1px solid #e7e5e4; text-decoration: none; color: #292524; background: #ffffff; font-family: "Helvetica Neue", Arial, sans-serif; }
+.btn-primary { background: #c2410c; border-color: #c2410c; color: #ffffff; }
+.btn-danger { background: #b91c1c; border-color: #b91c1c; color: #ffffff; }
+.card { background: #ffffff; border: 1px solid #e7e5e4; border-radius: 3px; padding: 24px; }

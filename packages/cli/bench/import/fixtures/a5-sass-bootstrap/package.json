@@ -1,0 +1,11 @@
+{
+  "name": "parish-site",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "sass": "^1.77.0"
+  },
+  "scripts": {
+    "build:css": "sass scss/main.scss dist/main.css --load-path=node_modules"
+  }
+}

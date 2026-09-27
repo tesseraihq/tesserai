@@ -1,0 +1,66 @@
+/*!
+ * Tabler v1.0.0 (https://tabler.io)
+ * Copyright 2018-2024 The Tabler Authors
+ * Copyright 2018-2024 codecalm.net Paweł Kuna
+ * Licensed under MIT (https://github.com/tabler/tabler/blob/master/LICENSE)
+ */
+:root,
+[data-bs-theme=light] {
+  --tblr-blue: #066fd1;
+  --tblr-azure: #4299e1;
+  --tblr-indigo: #4263eb;
+  --tblr-purple: #ae3ec9;
+  --tblr-pink: #d6336c;
+  --tblr-red: #d63939;
+  --tblr-orange: #f76707;
+  --tblr-yellow: #f59f00;
+  --tblr-lime: #74b816;
+  --tblr-green: #2fb344;
+  --tblr-teal: #0ca678;
+  --tblr-cyan: #17a2b8;
+  --tblr-primary: #066fd1;
+  --tblr-secondary: #6c7a91;
+  --tblr-success: #2fb344;
+  --tblr-info: #4299e1;
+  --tblr-warning: #f76707;
+  --tblr-danger: #d63939;
+  --tblr-light: #f9fafb;
+  --tblr-dark: #1f2937;
+  --tblr-primary-rgb: 6, 111, 209;
+  --tblr-body-font-family: var(--tblr-font-sans-serif);
+  --tblr-body-font-size: 0.875rem;
+  --tblr-body-color: #182433;
+  --tblr-body-bg: #f6f8fb;
+  --tblr-secondary-color: #6c7a91;
+  --tblr-border-color: #dce1e7;
+  --tblr-border-radius: 4px;
+  --tblr-font-sans-serif: "Inter Var", Inter, -apple-system, BlinkMacSystemFont, San Francisco, Segoe UI, Roboto, Helvetica Neue, sans-serif;
+  --tblr-bg-surface: #ffffff;
+}
+
+[data-bs-theme=dark],
+body[data-bs-theme=dark] [data-bs-theme=light] {
+  color-scheme: dark;
+  --tblr-body-color: #dce1e7;
+  --tblr-body-bg: #151f2c;
+  --tblr-secondary-color: #6c7a91;
+  --tblr-border-color: #1f2e41;
+  --tblr-bg-surface: #182433;
+  --tblr-primary: #066fd1;
+}
+
+.btn-primary {
+  --tblr-btn-color: #ffffff;
+  --tblr-btn-bg: var(--tblr-primary);
+  --tblr-btn-border-color: var(--tblr-primary);
+  --tblr-btn-hover-bg: #0663bc;
+}
+
+.card {
+  --tblr-card-bg: var(--tblr-bg-surface);
+  --tblr-card-border-color: var(--tblr-border-color);
+  --tblr-card-border-radius: 4px;
+  background-color: var(--tblr-card-bg);
+  border: 1px solid var(--tblr-card-border-color);
+  border-radius: var(--tblr-card-border-radius);
+}

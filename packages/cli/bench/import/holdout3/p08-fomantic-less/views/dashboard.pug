@@ -1,0 +1,21 @@
+extends layout
+
+block content
+  h1.ui.header
+    | Today's routes
+    .sub.header Dispatch board · refreshed every 5 minutes
+  .ui.three.stackable.cards
+    each r in routesToday
+      .ui.card
+        .content
+          .header= r.code
+          .meta= r.driver
+          .description #{r.stops} stops
+        .extra.content
+          if r.state === 'late'
+            .ui.negative.mini.message Running late
+          else
+            .ui.positive.mini.message On schedule
+  .ui.divider
+  button.ui.primary.button New route
+  button.ui.basic.button Export CSV

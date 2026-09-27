@@ -1,0 +1,125 @@
+/* Greenbox — overrides on top of Pico v2 (static/vendor/pico) */
+
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  src: url("../fonts/AtkinsonHyperlegible-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  src: url("../fonts/AtkinsonHyperlegible-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+}
+
+:root {
+  --pico-font-family-sans-serif: "Atkinson Hyperlegible", system-ui, "Segoe UI", Roboto, sans-serif;
+  --pico-font-family-monospace: "Fira Code", ui-monospace, SFMono-Regular, Menlo, monospace;
+  /* Pico grows the root size on wide screens; we keep it fixed */
+  --pico-font-size: 100%;
+  --pico-border-radius: 0.375rem;
+  --pico-spacing: 1rem;
+  --pico-typography-spacing-vertical: 1.25rem;
+}
+
+/* Light */
+[data-theme="light"],
+:root:not([data-theme="dark"]) {
+  --pico-background-color: #fbfaf8;
+  --pico-color: #262422;
+  --pico-h1-color: #1a1816;
+  --pico-muted-color: #6b6660;
+  --pico-muted-border-color: #e6e2dc;
+  --pico-primary: #9a3412;
+  --pico-primary-background: #c2410c;
+  --pico-primary-border: var(--pico-primary-background);
+  --pico-primary-underline: rgba(154, 52, 18, 0.5);
+  --pico-primary-hover: #7c2d12;
+  --pico-primary-hover-background: #9a3412;
+  --pico-primary-hover-border: var(--pico-primary-hover-background);
+  --pico-primary-focus: rgba(194, 65, 12, 0.25);
+  --pico-primary-inverse: #ffffff;
+  --pico-card-background-color: #ffffff;
+  --pico-card-sectioning-background-color: #f6f4f1;
+  --pico-form-element-border-color: #d5d0c8;
+
+  --site-danger: #b42318;
+  --site-success: #027a48;
+}
+
+/* Dark (system) */
+@media only screen and (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    --pico-background-color: #161412;
+    --pico-color: #ece8e3;
+    --pico-h1-color: #f7f4f0;
+    --pico-muted-color: #a29c94;
+    --pico-muted-border-color: #2e2a26;
+    --pico-primary: #fdba74;
+    --pico-primary-background: #fb8a3c;
+    --pico-primary-border: var(--pico-primary-background);
+    --pico-primary-underline: rgba(253, 186, 116, 0.5);
+    --pico-primary-hover: #fed7aa;
+    --pico-primary-hover-background: #fdba74;
+    --pico-primary-hover-border: var(--pico-primary-hover-background);
+    --pico-primary-focus: rgba(251, 138, 60, 0.3);
+    --pico-primary-inverse: #1a0f08;
+    --pico-card-background-color: #1f1c19;
+    --pico-card-sectioning-background-color: #252220;
+    --pico-form-element-border-color: #3a3530;
+
+    --site-danger: #f97066;
+    --site-success: #32d583;
+  }
+}
+
+/* Dark (forced) */
+[data-theme="dark"] {
+  --pico-background-color: #161412;
+  --pico-color: #ece8e3;
+  --pico-h1-color: #f7f4f0;
+  --pico-muted-color: #a29c94;
+  --pico-muted-border-color: #2e2a26;
+  --pico-primary: #fdba74;
+  --pico-primary-background: #fb8a3c;
+  --pico-primary-border: var(--pico-primary-background);
+  --pico-primary-underline: rgba(253, 186, 116, 0.5);
+  --pico-primary-hover: #fed7aa;
+  --pico-primary-hover-background: #fdba74;
+  --pico-primary-hover-border: var(--pico-primary-hover-background);
+  --pico-primary-focus: rgba(251, 138, 60, 0.3);
+  --pico-primary-inverse: #1a0f08;
+  --pico-card-background-color: #1f1c19;
+  --pico-card-sectioning-background-color: #252220;
+  --pico-form-element-border-color: #3a3530;
+
+  --site-danger: #f97066;
+  --site-success: #32d583;
+}
+
+.brand {
+  font-weight: 700;
+  color: var(--pico-primary);
+}
+
+.muted {
+  color: var(--pico-muted-color);
+}
+
+/* Django form errors */
+.errorlist {
+  list-style: none;
+  padding: 0;
+  margin-top: calc(var(--pico-spacing) * -0.5);
+  color: var(--site-danger);
+  font-size: 0.875em;
+}
+
+.flash {
+  padding: calc(var(--pico-spacing) * 0.75) var(--pico-spacing);
+  border-radius: var(--pico-border-radius);
+  border: 1px solid currentColor;
+}
+.flash--success { color: var(--site-success); }
+.flash--error { color: var(--site-danger); }

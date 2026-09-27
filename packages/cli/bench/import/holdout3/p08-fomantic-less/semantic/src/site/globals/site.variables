@@ -1,0 +1,51 @@
+/*******************************
+     User Global Variables
+*******************************/
+
+/*-------------------
+       Fonts
+--------------------*/
+
+@fontName          : 'Source Sans 3';
+@googleFontName    : @fontName;
+@importGoogleFonts : true;
+@googleFontSizes   : '400,600,700';
+
+/*-------------------
+      Base Sizes
+--------------------*/
+
+/* This is the single variable that controls them all */
+@emSize   : 15px;
+
+/* The size of page text  */
+@fontSize : 15px;
+
+/*-------------------
+    Brand Colors
+--------------------*/
+
+@primaryColor   : #0b6e4f;
+@secondaryColor : #2d3142;
+
+/*-------------------
+   Status Colors
+--------------------*/
+
+@positiveColor : #2e7d32;
+@negativeColor : #c62828;
+
+/*-------------------
+        Page
+--------------------*/
+
+@pageBackground : #f7f6f2;
+@textColor      : #22252a;
+@mutedTextColor : #5f6670;
+
+/*-------------------
+       Borders
+--------------------*/
+
+@borderColor         : #dcd9d0;
+@defaultBorderRadius : 0.26666667rem;

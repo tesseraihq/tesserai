@@ -1,0 +1,4 @@
+/.svelte-kit
+/build
+# Written by the harness (harness/index.ts) on every run.
+/src/lib/generated

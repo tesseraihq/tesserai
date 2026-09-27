@@ -1,0 +1,29 @@
+{
+  "stack": "Chakra UI v2 extendTheme",
+  "route": "agent",
+  "hard": "needs Chakra's rules: a colorScheme's solid button is 500 with white text in light, 200 with gray.800 text in dark; gray.800/gray.900/whiteAlpha.900 are Chakra's own values",
+  "light": {
+    "primary": "#f43f5e",
+    "primaryForeground": "#ffffff",
+    "background": "#ffffff",
+    "foreground": "#1a202c"
+  },
+  "dark": {
+    "primary": "#fecdd3",
+    "primaryForeground": "#1a202c",
+    "background": "#171923",
+    "foreground": "rgb(255 255 255 / 0.92)"
+  },
+  "fonts": {
+    "sans": "Inter",
+    "heading": "Poppins"
+  },
+  "radius": 10,
+  "absent": [
+    "baseSize",
+    "spacing",
+    "light.border",
+    "light.danger"
+  ],
+  "decoys": []
+}

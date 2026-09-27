@@ -1,0 +1,23 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+html {
+    -webkit-tap-highlight-color: transparent;
+    overflow-y: scroll;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Oxygen, Ubuntu, Cantarell, open sans, helvetica neue, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    word-break: break-word;
+    background: var(--theme);
+    color: var(--primary);
+}
+
+a { color: inherit; text-decoration: none; }
+code, pre { font-family: Menlo, Monaco, "Courier New", Courier, monospace; }

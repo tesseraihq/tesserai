@@ -1,0 +1,406 @@
+{
+  "framework": "svelte",
+  "usage": {
+    "button": {
+      "uses": 14,
+      "files": 5
+    },
+    "avatar": {
+      "uses": 2,
+      "files": 2
+    },
+    "badge": {
+      "uses": 4,
+      "files": 4
+    },
+    "card": {
+      "uses": 3,
+      "files": 3
+    },
+    "tabs": {
+      "uses": 1,
+      "files": 1
+    },
+    "alert": {
+      "uses": 3,
+      "files": 2
+    },
+    "input": {
+      "uses": 3,
+      "files": 2
+    },
+    "dialog": {
+      "uses": 1,
+      "files": 1
+    }
+  },
+  "options": {
+    "button": {
+      "variant": {
+        "solid": 4,
+        "ghost": 5,
+        "~dynamic": 2,
+        "outline": 2,
+        "link": 1
+      },
+      "intent": {
+        "primary": 10,
+        "neutral": 2,
+        "danger": 2
+      },
+      "size": {
+        "md": 10,
+        "sm": 2,
+        "xs": 2
+      }
+    },
+    "avatar": {
+      "size": {
+        "sm": 2
+      }
+    },
+    "badge": {
+      "variant": {
+        "outline": 1,
+        "solid": 1,
+        "soft": 2
+      },
+      "intent": {
+        "~dynamic": 2,
+        "danger": 1,
+        "primary": 1
+      },
+      "size": {
+        "md": 3,
+        "sm": 1
+      }
+    },
+    "card": {
+      "size": {
+        "~dynamic": 1,
+        "md": 2
+      }
+    },
+    "tabs": {
+      "variant": {
+        "segmented": 1
+      }
+    },
+    "alert": {
+      "variant": {
+        "outline": 2,
+        "soft": 1
+      },
+      "intent": {
+        "success": 1,
+        "danger": 1,
+        "warning": 1
+      }
+    },
+    "input": {
+      "size": {
+        "~dynamic": 1,
+        "md": 1,
+        "sm": 1
+      }
+    }
+  },
+  "overrides": [
+    {
+      "file": "src/lib/components/SubmitButton.svelte",
+      "line": 8,
+      "component": "button",
+      "kinds": [
+        "typography"
+      ]
+    },
+    {
+      "file": "src/lib/components/MemberList.svelte",
+      "line": 13,
+      "component": "avatar",
+      "kinds": [
+        "size"
+      ]
+    },
+    {
+      "file": "src/lib/components/MemberList.svelte",
+      "line": 17,
+      "component": "badge",
+      "kinds": [
+        "typography"
+      ]
+    },
+    {
+      "file": "src/routes/+layout.svelte",
+      "line": 32,
+      "component": "badge",
+      "kinds": [
+        "size",
+        "spacing"
+      ]
+    },
+    {
+      "file": "src/routes/+layout.svelte",
+      "line": 37,
+      "component": "avatar",
+      "kinds": [
+        "typography"
+      ]
+    },
+    {
+      "file": "src/routes/+page.svelte",
+      "line": 22,
+      "component": "button",
+      "kinds": [
+        "color",
+        "typography"
+      ]
+    },
+    {
+      "file": "src/routes/+page.svelte",
+      "line": 30,
+      "component": "card",
+      "kinds": [
+        "effects",
+        "color",
+        "border"
+      ]
+    },
+    {
+      "file": "src/routes/+page.svelte",
+      "line": 35,
+      "component": "card",
+      "kinds": [
+        "spacing"
+      ]
+    },
+    {
+      "file": "src/routes/+page.svelte",
+      "line": 36,
+      "component": "card",
+      "kinds": [
+        "typography"
+      ]
+    },
+    {
+      "file": "src/routes/+page.svelte",
+      "line": 53,
+      "component": "button",
+      "kinds": [
+        "border",
+        "typography"
+      ]
+    },
+    {
+      "file": "src/routes/+page.svelte",
+      "line": 55,
+      "component": "button",
+      "kinds": [
+        "radius"
+      ]
+    },
+    {
+      "file": "src/routes/settings/+page.svelte",
+      "line": 21,
+      "component": "tabs",
+      "kinds": [
+        "spacing"
+      ]
+    },
+    {
+      "file": "src/routes/settings/+page.svelte",
+      "line": 24,
+      "component": "tabs",
+      "kinds": [
+        "color",
+        "shadow"
+      ]
+    },
+    {
+      "file": "src/routes/settings/+page.svelte",
+      "line": 34,
+      "component": "alert",
+      "kinds": [
+        "color"
+      ]
+    },
+    {
+      "file": "src/routes/settings/+page.svelte",
+      "line": 35,
+      "component": "alert",
+      "kinds": [
+        "typography"
+      ]
+    },
+    {
+      "file": "src/routes/settings/+page.svelte",
+      "line": 39,
+      "component": "card",
+      "kinds": [
+        "unknown"
+      ]
+    },
+    {
+      "file": "src/routes/settings/+page.svelte",
+      "line": 40,
+      "component": "card",
+      "kinds": [
+        "spacing"
+      ]
+    },
+    {
+      "file": "src/routes/settings/+page.svelte",
+      "line": 43,
+      "component": "input",
+      "kinds": [
+        "size"
+      ]
+    },
+    {
+      "file": "src/routes/settings/+page.svelte",
+      "line": 47,
+      "component": "input",
+      "kinds": [
+        "color"
+      ]
+    },
+    {
+      "file": "src/routes/settings/+page.svelte",
+      "line": 57,
+      "component": "button",
+      "kinds": [
+        "size",
+        "spacing"
+      ]
+    },
+    {
+      "file": "src/routes/settings/+page.svelte",
+      "line": 69,
+      "component": "dialog",
+      "kinds": [
+        "radius"
+      ]
+    },
+    {
+      "file": "src/routes/settings/+page.svelte",
+      "line": 73,
+      "component": "dialog",
+      "kinds": [
+        "spacing"
+      ]
+    },
+    {
+      "file": "src/routes/settings/+page.svelte",
+      "line": 75,
+      "component": "button",
+      "kinds": [
+        "size",
+        "spacing"
+      ]
+    },
+    {
+      "file": "src/routes/billing/+page.svelte",
+      "line": 25,
+      "component": "alert",
+      "kinds": [
+        "color"
+      ]
+    },
+    {
+      "file": "src/routes/billing/+page.svelte",
+      "line": 31,
+      "component": "card",
+      "kinds": [
+        "border",
+        "color"
+      ]
+    },
+    {
+      "file": "src/routes/billing/+page.svelte",
+      "line": 34,
+      "component": "card",
+      "kinds": [
+        "spacing"
+      ]
+    },
+    {
+      "file": "src/routes/billing/+page.svelte",
+      "line": 41,
+      "component": "badge",
+      "kinds": [
+        "typography"
+      ]
+    },
+    {
+      "file": "src/routes/billing/+page.svelte",
+      "line": 45,
+      "component": "button",
+      "kinds": [
+        "size",
+        "spacing"
+      ]
+    },
+    {
+      "file": "src/routes/billing/+page.svelte",
+      "line": 52,
+      "component": "card",
+      "kinds": [
+        "spacing",
+        "border"
+      ]
+    },
+    {
+      "file": "src/routes/billing/+page.svelte",
+      "line": 53,
+      "component": "input",
+      "kinds": [
+        "typography"
+      ]
+    },
+    {
+      "file": "src/routes/billing/+page.svelte",
+      "line": 54,
+      "component": "button",
+      "kinds": [
+        "size",
+        "spacing",
+        "typography"
+      ]
+    }
+  ],
+  "placementOnly": [
+    {
+      "file": "src/routes/+layout.svelte",
+      "line": 29,
+      "component": "button"
+    },
+    {
+      "file": "src/routes/+page.svelte",
+      "line": 51,
+      "component": "button"
+    },
+    {
+      "file": "src/routes/settings/+page.svelte",
+      "line": 22,
+      "component": "tabs"
+    },
+    {
+      "file": "src/routes/billing/+page.svelte",
+      "line": 30,
+      "component": "card"
+    },
+    {
+      "file": "src/routes/billing/+page.svelte",
+      "line": 59,
+      "component": "button"
+    }
+  ],
+  "suggestions": [
+    {
+      "component": "button",
+      "class": "font-semibold",
+      "count": 3
+    }
+  ],
+  "edited": []
+}

@@ -1,0 +1,128 @@
+/*
+ * Ledgerline brand layer for Bootstrap 5.3.
+ * We ship Bootstrap's compiled CSS and override its CSS variables per color
+ * mode instead of recompiling Sass. Note: .btn-* and .card read their own
+ * component variables, so those are set explicitly below.
+ */
+
+:root,
+[data-bs-theme="light"] {
+  --bs-body-font-family: "Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --bs-body-font-size: 0.9375rem;
+  --bs-font-monospace: "IBM Plex Mono", SFMono-Regular, Menlo, monospace;
+
+  --bs-body-color: #1d1b26;
+  --bs-body-color-rgb: 29, 27, 38;
+  --bs-body-bg: #fbfafc;
+  --bs-body-bg-rgb: 251, 250, 252;
+  --bs-emphasis-color: #0e0d13;
+  --bs-secondary-color: rgba(29, 27, 38, 0.64);
+  --bs-secondary-bg: #efedf3;
+  --bs-tertiary-bg: #f5f4f8;
+  --bs-border-color: #e4e1eb;
+  --bs-border-color-translucent: rgba(29, 27, 38, 0.12);
+
+  --bs-border-radius: 0.5rem;
+  --bs-border-radius-sm: 0.375rem;
+  --bs-border-radius-lg: 0.75rem;
+  --bs-border-radius-xl: 1rem;
+
+  --bs-primary: #5b3cc4;
+  --bs-primary-rgb: 91, 60, 196;
+  --bs-primary-text-emphasis: #24184e;
+  --bs-primary-bg-subtle: #dfd8f3;
+  --bs-primary-border-subtle: #bdb1e7;
+  --bs-link-color: #5b3cc4;
+  --bs-link-color-rgb: 91, 60, 196;
+  --bs-link-hover-color: #49309d;
+  --bs-link-hover-color-rgb: 73, 48, 157;
+
+  --bs-danger: #c9362b;
+  --bs-danger-rgb: 201, 54, 43;
+  --bs-success: #1e8a5a;
+  --bs-success-rgb: 30, 138, 90;
+  --bs-warning: #e0a100;
+  --bs-warning-rgb: 224, 161, 0;
+
+  --bs-focus-ring-color: rgba(91, 60, 196, 0.25);
+}
+
+[data-bs-theme="dark"] {
+  color-scheme: dark;
+
+  --bs-body-color: #e7e4ee;
+  --bs-body-color-rgb: 231, 228, 238;
+  --bs-body-bg: #16141c;
+  --bs-body-bg-rgb: 22, 20, 28;
+  --bs-emphasis-color: #ffffff;
+  --bs-secondary-color: rgba(231, 228, 238, 0.66);
+  --bs-secondary-bg: #221f2b;
+  --bs-tertiary-bg: #1c1a23;
+  --bs-border-color: #34303f;
+  --bs-border-color-translucent: rgba(231, 228, 238, 0.14);
+
+  --bs-primary: #a18cff;
+  --bs-primary-rgb: 161, 140, 255;
+  --bs-primary-text-emphasis: #c7baff;
+  --bs-primary-bg-subtle: #20183f;
+  --bs-primary-border-subtle: #3e2f86;
+  --bs-link-color: #b7a6ff;
+  --bs-link-color-rgb: 183, 166, 255;
+  --bs-link-hover-color: #d0c4ff;
+  --bs-link-hover-color-rgb: 208, 196, 255;
+
+  --bs-danger: #f0706a;
+  --bs-danger-rgb: 240, 112, 106;
+  --bs-success: #4cc38a;
+  --bs-success-rgb: 76, 195, 138;
+  --bs-warning: #f5c451;
+  --bs-warning-rgb: 245, 196, 81;
+
+  --bs-focus-ring-color: rgba(161, 140, 255, 0.3);
+}
+
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #5b3cc4;
+  --bs-btn-border-color: #5b3cc4;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #4d33a7;
+  --bs-btn-hover-border-color: #49309d;
+  --bs-btn-focus-shadow-rgb: 116, 89, 205;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #49309d;
+  --bs-btn-active-border-color: #442d93;
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #5b3cc4;
+  --bs-btn-disabled-border-color: #5b3cc4;
+}
+
+[data-bs-theme="dark"] .btn-primary {
+  --bs-btn-color: #16141c;
+  --bs-btn-bg: #a18cff;
+  --bs-btn-border-color: #a18cff;
+  --bs-btn-hover-color: #16141c;
+  --bs-btn-hover-bg: #b4a3ff;
+  --bs-btn-hover-border-color: #b4a3ff;
+  --bs-btn-focus-shadow-rgb: 140, 122, 222;
+  --bs-btn-active-color: #16141c;
+  --bs-btn-active-bg: #c7baff;
+  --bs-btn-active-border-color: #c7baff;
+  --bs-btn-disabled-color: #16141c;
+  --bs-btn-disabled-bg: #a18cff;
+  --bs-btn-disabled-border-color: #a18cff;
+}
+
+.card {
+  --bs-card-bg: #ffffff;
+  --bs-card-border-color: var(--bs-border-color);
+  --bs-card-cap-bg: var(--bs-tertiary-bg);
+}
+
+[data-bs-theme="dark"] .card {
+  --bs-card-bg: #1d1a25;
+}
+
+.navbar-brand {
+  letter-spacing: -0.01em;
+}

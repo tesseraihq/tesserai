@@ -1,0 +1,175 @@
+// For information on how to create your own theme, please see:
+// http://ionicframework.com/docs/theming/
+
+/** Fieldkit brand palette **/
+:root {
+  --ion-font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Roboto, sans-serif;
+
+  /** primary **/
+  --ion-color-primary: #2459d6;
+  --ion-color-primary-rgb: 36, 89, 214;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-shade: #204ebc;
+  --ion-color-primary-tint: #3a6ada;
+
+  /** secondary **/
+  --ion-color-secondary: #0f8fa3;
+  --ion-color-secondary-rgb: 15, 143, 163;
+  --ion-color-secondary-contrast: #ffffff;
+  --ion-color-secondary-contrast-rgb: 255, 255, 255;
+  --ion-color-secondary-shade: #0d7e8f;
+  --ion-color-secondary-tint: #279aac;
+
+  /** tertiary **/
+  --ion-color-tertiary: #6a4fd8;
+  --ion-color-tertiary-rgb: 106, 79, 216;
+  --ion-color-tertiary-contrast: #ffffff;
+  --ion-color-tertiary-contrast-rgb: 255, 255, 255;
+  --ion-color-tertiary-shade: #5d46be;
+  --ion-color-tertiary-tint: #7961dc;
+
+  /** success **/
+  --ion-color-success: #1f9d55;
+  --ion-color-success-rgb: 31, 157, 85;
+  --ion-color-success-contrast: #ffffff;
+  --ion-color-success-contrast-rgb: 255, 255, 255;
+  --ion-color-success-shade: #1b8a4b;
+  --ion-color-success-tint: #35a766;
+
+  /** warning **/
+  --ion-color-warning: #f2a900;
+  --ion-color-warning-rgb: 242, 169, 0;
+  --ion-color-warning-contrast: #000000;
+  --ion-color-warning-contrast-rgb: 0, 0, 0;
+  --ion-color-warning-shade: #d59500;
+  --ion-color-warning-tint: #f3b21a;
+
+  /** danger **/
+  --ion-color-danger: #d93a3a;
+  --ion-color-danger-rgb: 217, 58, 58;
+  --ion-color-danger-contrast: #ffffff;
+  --ion-color-danger-contrast-rgb: 255, 255, 255;
+  --ion-color-danger-shade: #bf3333;
+  --ion-color-danger-tint: #dd4e4e;
+
+  /** dark **/
+  --ion-color-dark: #1d2129;
+  --ion-color-dark-rgb: 29, 33, 41;
+  --ion-color-dark-contrast: #ffffff;
+  --ion-color-dark-contrast-rgb: 255, 255, 255;
+  --ion-color-dark-shade: #1a1d24;
+  --ion-color-dark-tint: #34373e;
+
+  /** medium **/
+  --ion-color-medium: #6b7280;
+  --ion-color-medium-rgb: 107, 114, 128;
+  --ion-color-medium-contrast: #ffffff;
+  --ion-color-medium-contrast-rgb: 255, 255, 255;
+  --ion-color-medium-shade: #5e6471;
+  --ion-color-medium-tint: #7a808d;
+
+  /** light **/
+  --ion-color-light: #f4f5f8;
+  --ion-color-light-rgb: 244, 245, 248;
+  --ion-color-light-contrast: #000000;
+  --ion-color-light-contrast-rgb: 0, 0, 0;
+  --ion-color-light-shade: #d7d8da;
+  --ion-color-light-tint: #f5f6f9;
+
+  /** app surfaces **/
+  --ion-background-color: #f7f8fa;
+  --ion-background-color-rgb: 247, 248, 250;
+  --ion-text-color: #1b1f27;
+  --ion-text-color-rgb: 27, 31, 39;
+  --ion-card-background: #ffffff;
+  --ion-item-background: #ffffff;
+  --ion-toolbar-background: #ffffff;
+  --ion-tab-bar-background: #ffffff;
+  --ion-border-color: #e1e4ea;
+}
+
+/*
+ * Dark palette
+ * -------------------------------------------
+ * Ionic's dark.class.css sets its own surfaces on `.ion-palette-dark.ios body`
+ * and `.ion-palette-dark.md body`, so surface overrides have to target body
+ * with the same selectors or they lose.
+ */
+.ion-palette-dark {
+  --ion-color-primary: #6f9bff;
+  --ion-color-primary-rgb: 111, 155, 255;
+  --ion-color-primary-contrast: #0b1220;
+  --ion-color-primary-contrast-rgb: 11, 18, 32;
+  --ion-color-primary-shade: #6288e0;
+  --ion-color-primary-tint: #7da5ff;
+
+  --ion-color-secondary: #4cc3d4;
+  --ion-color-secondary-rgb: 76, 195, 212;
+  --ion-color-secondary-contrast: #0b1220;
+  --ion-color-secondary-contrast-rgb: 11, 18, 32;
+  --ion-color-secondary-shade: #43acbb;
+  --ion-color-secondary-tint: #5ec9d8;
+
+  --ion-color-tertiary: #9d86ff;
+  --ion-color-tertiary-rgb: 157, 134, 255;
+  --ion-color-tertiary-contrast: #0b1220;
+  --ion-color-tertiary-contrast-rgb: 11, 18, 32;
+  --ion-color-tertiary-shade: #8a76e0;
+  --ion-color-tertiary-tint: #a792ff;
+
+  --ion-color-success: #3ecf7e;
+  --ion-color-success-rgb: 62, 207, 126;
+  --ion-color-success-contrast: #0b1220;
+  --ion-color-success-contrast-rgb: 11, 18, 32;
+  --ion-color-success-shade: #37b66f;
+  --ion-color-success-tint: #51d48b;
+
+  --ion-color-warning: #ffc53d;
+  --ion-color-warning-rgb: 255, 197, 61;
+  --ion-color-warning-contrast: #0b1220;
+  --ion-color-warning-contrast-rgb: 11, 18, 32;
+  --ion-color-warning-shade: #e0ad36;
+  --ion-color-warning-tint: #ffcb50;
+
+  --ion-color-danger: #ff6b6b;
+  --ion-color-danger-rgb: 255, 107, 107;
+  --ion-color-danger-contrast: #0b1220;
+  --ion-color-danger-contrast-rgb: 11, 18, 32;
+  --ion-color-danger-shade: #e05e5e;
+  --ion-color-danger-tint: #ff7a7a;
+
+  --ion-color-dark: #f4f5f8;
+  --ion-color-dark-rgb: 244, 245, 248;
+  --ion-color-dark-contrast: #000000;
+  --ion-color-dark-contrast-rgb: 0, 0, 0;
+  --ion-color-dark-shade: #d7d8da;
+  --ion-color-dark-tint: #f5f6f9;
+
+  --ion-color-medium: #9aa3b2;
+  --ion-color-medium-rgb: 154, 163, 178;
+  --ion-color-medium-contrast: #0b1220;
+  --ion-color-medium-contrast-rgb: 11, 18, 32;
+  --ion-color-medium-shade: #888f9d;
+  --ion-color-medium-tint: #a4acba;
+
+  --ion-color-light: #1d2129;
+  --ion-color-light-rgb: 29, 33, 41;
+  --ion-color-light-contrast: #ffffff;
+  --ion-color-light-contrast-rgb: 255, 255, 255;
+  --ion-color-light-shade: #1a1d24;
+  --ion-color-light-tint: #34373e;
+}
+
+.ion-palette-dark.ios body,
+.ion-palette-dark.md body {
+  --ion-background-color: #0e1116;
+  --ion-background-color-rgb: 14, 17, 22;
+  --ion-text-color: #e6e9ef;
+  --ion-text-color-rgb: 230, 233, 239;
+  --ion-card-background: #171b22;
+  --ion-item-background: #171b22;
+  --ion-toolbar-background: #141820;
+  --ion-tab-bar-background: #141820;
+  --ion-border-color: #262c36;
+}

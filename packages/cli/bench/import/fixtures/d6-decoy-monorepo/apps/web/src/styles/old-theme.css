@@ -1,0 +1,6 @@
+/* Pre-2025 theme, kept for reference. Not imported anywhere. */
+:root {
+  --primary: #ea580c;
+  --background: #fffaf5;
+  --radius: 2px;
+}

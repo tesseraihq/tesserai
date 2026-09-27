@@ -1,0 +1,26 @@
+{
+  "stack": "daisyUI 4 themes in a Tailwind v3 config (Vite + React)",
+  "route": "agent",
+  "hard": "each theme spreads daisyUI's built-in light/dark object and overrides a few keys, so which values are the app's and which are daisyUI's only comes from reading the JS; dark is the theme named by darkTheme; cupcake is also compiled in but only for Storybook",
+  "light": {
+    "primary": "#0f766e",
+    "primaryForeground": "#f0fdfa",
+    "background": "#fcfcf9",
+    "card": "#f3f2ec",
+    "foreground": "#1c2321",
+    "danger": "#b42318"
+  },
+  "dark": {
+    "primary": "#2dd4bf",
+    "primaryForeground": "#042f2e",
+    "background": "#101614",
+    "foreground": "#d5dedb"
+  },
+  "fonts": {
+    "sans": "Karla",
+    "heading": "Space Grotesk"
+  },
+  "radius": 6,
+  "absent": ["baseSize", "spacing", "light.border", "light.success", "light.warning", "dark.card", "dark.border", "dark.danger", "dark.success", "dark.warning"],
+  "decoys": ["oklch(49.12% 0.3096 275.75)", "oklch(65.69% 0.196 275.75)", "#1d232a", "#65c3c8", "#1f2937"]
+}

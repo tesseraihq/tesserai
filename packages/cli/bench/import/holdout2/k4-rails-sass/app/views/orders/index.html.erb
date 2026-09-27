@@ -1,0 +1,20 @@
+<% content_for :title, "Orders" %>
+
+<div class="page-head">
+  <h1>Orders</h1>
+  <%= link_to "New order", new_order_path, class: "btn btn--primary" %>
+</div>
+
+<div class="card-grid">
+  <% @orders.each do |order| %>
+    <article class="card">
+      <p class="card__meta">#<%= order.number %> · <%= time_ago_in_words(order.created_at) %> ago</p>
+      <h2 class="card__title"><%= order.customer_name %></h2>
+      <p class="card__total"><%= number_to_currency(order.total) %></p>
+      <% if order.late? %>
+        <span class="tag tag--warning">Late</span>
+      <% end %>
+      <%= link_to "Open", order, class: "btn btn--ghost" %>
+    </article>
+  <% end %>
+</div>

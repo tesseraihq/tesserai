@@ -1,0 +1,11 @@
+{
+  "base": "shadcn",
+  "files": {
+    "src/components/ui/button.tsx": "0ec5799f6b9d11ac36e732421f3829ff8bd824077ffeefbb9172ef9d5b240d46",
+    "src/components/ui/badge.tsx": "36c87d4ab7c96f3f0356f16f8523e014ad8eb3e9535a6ffdd0d061071ca6d2be",
+    "src/components/ui/card.tsx": "8c4b5c3bbec5d3f2f94ef4c10c5dd99dcbb31294bbd8cca231b7f6bc21ac5e5d",
+    "src/components/ui/input.tsx": "d8b2592cb871fec16e6b59d936a8f4a45830f376ad7ccbbe5104468109024d87",
+    "src/components/ui/tabs.tsx": "fd86e891ae16cc2fd0b925e2f30d769f7fd8207fa99b22f8605c11b2234c5f7a",
+    "src/components/ui/tooltip.tsx": "7499e807befc11c8b2e622a25aa822f307ad991cd23d96641c203a1a939e7ac1"
+  }
+}

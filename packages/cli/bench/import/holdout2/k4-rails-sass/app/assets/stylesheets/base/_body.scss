@@ -1,0 +1,44 @@
+html {
+  font-size: $font-size-root;
+}
+
+body {
+  background-color: $color-bg;
+  color: $color-text;
+  font-family: $font-body;
+  font-size: $font-size-base;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3 {
+  font-family: $font-display;
+  line-height: 1.15;
+}
+
+h1 { font-size: $font-size-h1; }
+h2 { font-size: $font-size-h2; }
+
+code,
+pre {
+  font-family: $font-mono;
+}
+
+a {
+  color: inherit;
+}
+
+.container {
+  max-width: $container-width;
+  margin: 0 auto;
+  padding: $space-4 $space-3;
+}
+
+.page-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: $space-3;
+}

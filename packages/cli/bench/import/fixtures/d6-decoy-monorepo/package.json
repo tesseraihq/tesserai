@@ -1,0 +1,8 @@
+{
+  "name": "northwind",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}

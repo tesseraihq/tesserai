@@ -1,0 +1,33 @@
+{
+  "name": "pantry-ops",
+  "version": "0.14.0",
+  "description": "Back-office for the Pantry Collective food bank network",
+  "productName": "Pantry Ops",
+  "author": "Pantry Collective <dev@pantrycollective.org>",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.vue ./",
+    "dev": "quasar dev",
+    "build": "quasar build",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.16.12",
+    "axios": "^1.7.4",
+    "pinia": "^2.2.2",
+    "quasar": "^2.16.9",
+    "vue": "^3.4.38",
+    "vue-router": "^4.4.3"
+  },
+  "devDependencies": {
+    "@quasar/app-vite": "^1.10.0",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.27.0"
+  },
+  "engines": {
+    "node": "^20 || ^18",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}

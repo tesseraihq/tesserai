@@ -1,0 +1,11 @@
+{
+  "name": "acme-dashboard",
+  "private": true,
+  "dependencies": {
+    "next": "15.4.0",
+    "react": "19.1.0",
+    "tailwindcss": "^4.1.0",
+    "tw-animate-css": "^1.3.0",
+    "@radix-ui/react-slot": "^1.2.0"
+  }
+}

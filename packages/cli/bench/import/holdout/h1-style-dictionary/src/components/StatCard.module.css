@@ -1,0 +1,30 @@
+.card {
+  background: var(--sd-color-bg-surface);
+  border: 1px solid var(--sd-color-border-default);
+  border-radius: var(--sd-size-radius-lg);
+  padding: var(--sd-size-space-4);
+}
+
+.label {
+  font-family: var(--sd-font-family-sans);
+  font-size: var(--sd-size-font-sm);
+  color: var(--sd-color-text-subtle);
+}
+
+.value {
+  font-family: var(--sd-font-family-mono);
+  font-size: var(--sd-size-font-xl);
+  margin: 0;
+}
+
+.up {
+  color: var(--sd-color-feedback-success);
+}
+
+.down {
+  color: var(--sd-color-feedback-danger);
+}
+
+.flat {
+  color: var(--sd-color-feedback-warning);
+}

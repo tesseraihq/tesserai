@@ -1,0 +1,42 @@
+{
+  "stack": "daisyUI 5 custom themes (@plugin \"daisyui/theme\") on Tailwind v4 in Vite + React",
+  "route": "direct",
+  "hard": "the page is bg-base-200 (set on <body>) while cards are base-100, and an old daisyUI v4 theme with the same name sits unused in legacy/",
+  "light": {
+    "primary": "oklch(52% 0.17 255)",
+    "primaryForeground": "oklch(98% 0.01 255)",
+    "background": "oklch(96.5% 0.008 240)",
+    "card": "oklch(99% 0.004 240)",
+    "foreground": "oklch(24% 0.03 255)",
+    "border": "oklch(91% 0.012 240)",
+    "danger": "oklch(58% 0.21 25)",
+    "success": "oklch(62% 0.15 155)",
+    "warning": "oklch(80% 0.15 80)"
+  },
+  "dark": {
+    "primary": "oklch(70% 0.14 250)",
+    "primaryForeground": "oklch(18% 0.04 255)",
+    "background": "oklch(21% 0.02 255)",
+    "card": "oklch(26% 0.02 255)",
+    "foreground": "oklch(93% 0.01 255)",
+    "border": "oklch(34% 0.025 255)",
+    "danger": "oklch(70% 0.17 25)",
+    "success": "oklch(72% 0.14 155)",
+    "warning": "oklch(84% 0.14 85)"
+  },
+  "fonts": {
+    "sans": "Figtree Variable"
+  },
+  "radius": 8,
+  "absent": [
+    "baseSize",
+    "spacing"
+  ],
+  "decoys": [
+    "#1d4ed8",
+    "#0d9488",
+    "oklch(45% 0.24 277.023)",
+    "oklch(58% 0.233 277.117)",
+    "oklch(65% 0.241 354.308)"
+  ]
+}

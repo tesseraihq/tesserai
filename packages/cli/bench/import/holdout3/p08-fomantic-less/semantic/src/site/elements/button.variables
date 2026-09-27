@@ -1,0 +1,7 @@
+/*******************************
+         Site Overrides
+*******************************/
+
+@verticalPadding   : 0.75em;
+@horizontalPadding : 1.4em;
+@fontWeight        : 600;

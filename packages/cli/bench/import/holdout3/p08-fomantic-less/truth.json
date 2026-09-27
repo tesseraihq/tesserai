@@ -1,0 +1,22 @@
+{
+  "stack": "Fomantic-UI 2.9 (Less themes, site overrides) in an Express + Pug app",
+  "route": "direct",
+  "hard": "Less variables split between the site folder (the app's look) and theme folders (default and material, both in the tree); the radius is 0.26666667rem, which only means 4px through @emSize 15px; no dark mode",
+  "light": {
+    "primary": "#0b6e4f",
+    "background": "#f7f6f2",
+    "foreground": "#22252a",
+    "mutedText": "#5f6670",
+    "border": "#dcd9d0",
+    "danger": "#c62828",
+    "success": "#2e7d32"
+  },
+  "dark": null,
+  "fonts": {
+    "sans": "Source Sans 3"
+  },
+  "baseSize": 15,
+  "radius": 4,
+  "absent": ["dark", "spacing", "light.primaryForeground", "light.card"],
+  "decoys": ["#2185D0", "#DB2828", "#21BA45", "#2196F3", "#FF4081"]
+}

@@ -1,0 +1,23 @@
+{
+  "stack": "WordPress block theme (theme.json v3, preset references)",
+  "route": "direct",
+  "hard": "every style is a preset reference (var:preset|color|x and var(--wp--preset--color--x)) that has to be resolved through settings.color.palette; the button radius goes through settings.custom; styles/*.json are optional style variations, not a dark mode",
+  "light": {
+    "primary": "#2F5D50",
+    "primaryForeground": "#FBFAF7",
+    "background": "#FBFAF7",
+    "foreground": "#1F1D1A",
+    "mutedText": "#5E594F",
+    "border": "#DAD4C8"
+  },
+  "dark": null,
+  "fonts": {
+    "sans": "Figtree",
+    "heading": "Fraunces",
+    "mono": "JetBrains Mono"
+  },
+  "baseSize": 18,
+  "radius": 6,
+  "absent": ["dark", "spacing"],
+  "decoys": ["#EDE9E0", "#8FC1AE", "#C2621D", "#FFF8EE", "#0073aa"]
+}

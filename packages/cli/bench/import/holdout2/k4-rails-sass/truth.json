@@ -1,0 +1,33 @@
+{
+  "stack": "Rails 7.1 with dartsass-rails and @import-ed Sass partials under app/assets/stylesheets",
+  "route": "direct",
+  "hard": "html is 62.5% so every rem is 10px (body 1.6rem = 16px, radius 0.6rem = 6px, spacing 0.8rem = 8px), and the brand primary is a red while danger is a different red",
+  "light": {
+    "primary": "#e5533d",
+    "primaryForeground": "#ffffff",
+    "background": "#fdfcf9",
+    "card": "#ffffff",
+    "foreground": "#1b1f3b",
+    "mutedText": "#4a4f6e",
+    "border": "#d7d9e4",
+    "danger": "#b3261e",
+    "success": "#3f8f5a",
+    "warning": "#f2a93b"
+  },
+  "dark": null,
+  "fonts": {
+    "sans": "Public Sans",
+    "heading": "Bricolage Grotesque",
+    "mono": "IBM Plex Mono"
+  },
+  "baseSize": 16,
+  "radius": 6,
+  "spacing": 8,
+  "absent": ["dark"],
+  "decoys": [
+    "#2d5bd7",
+    "#232c3b",
+    "#5e6469",
+    "#cbeefa"
+  ]
+}

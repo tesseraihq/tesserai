@@ -1,0 +1,30 @@
+{
+  "stack": "Tailwind v3 config with RGB-channel variables",
+  "route": "agent",
+  "hard": "variables are bare RGB channels (not HSL); primary is a literal in the JS config",
+  "light": {
+    "primary": "#e11d48",
+    "primaryForeground": "#ffffff",
+    "background": "rgb(255 255 255)",
+    "foreground": "rgb(17 24 39)",
+    "border": "rgb(229 231 235)",
+    "danger": "#b91c1c"
+  },
+  "dark": {
+    "primary": "#e11d48",
+    "primaryForeground": "#ffffff",
+    "background": "rgb(3 7 18)",
+    "foreground": "rgb(243 244 246)",
+    "border": "rgb(31 41 55)",
+    "danger": "#b91c1c"
+  },
+  "fonts": {
+    "sans": "DM Sans"
+  },
+  "radius": 6,
+  "absent": [
+    "baseSize",
+    "spacing"
+  ],
+  "decoys": []
+}

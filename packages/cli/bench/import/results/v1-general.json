@@ -1,0 +1,1413 @@
+{
+  "label": "v1-general",
+  "at": "2026-09-26T17:52:08.593Z",
+  "results": {
+    "direct": [
+      {
+        "fixture": "a1-antd-v5",
+        "chose": [],
+        "seconds": 0.009607708999999999,
+        "ok": false,
+        "error": "no colors, fonts, sizes, corners or spacing found",
+        "accuracy": 0,
+        "colorAccuracy": 0,
+        "valueAccuracy": 0,
+        "trust": null,
+        "decoyHits": [],
+        "usable": 0,
+        "score": 0,
+        "items": []
+      },
+      {
+        "fixture": "a2-mui-v5",
+        "chose": [],
+        "seconds": 0.0010015830000000391,
+        "ok": false,
+        "error": "no colors, fonts, sizes, corners or spacing found",
+        "accuracy": 0,
+        "colorAccuracy": 0,
+        "valueAccuracy": 0,
+        "trust": null,
+        "decoyHits": [],
+        "usable": 0,
+        "score": 0,
+        "items": []
+      },
+      {
+        "fixture": "a3-chakra-v2",
+        "chose": [],
+        "seconds": 0.0009452500000000441,
+        "ok": false,
+        "error": "no colors, fonts, sizes, corners or spacing found",
+        "accuracy": 0,
+        "colorAccuracy": 0,
+        "valueAccuracy": 0,
+        "trust": null,
+        "decoyHits": [],
+        "usable": 0,
+        "score": 0,
+        "items": []
+      },
+      {
+        "fixture": "a4-tailwind-v3-config",
+        "chose": [
+          "src/styles/tokens.css",
+          "tailwind.config.ts"
+        ],
+        "seconds": 0.006666707999999972,
+        "ok": true,
+        "accuracy": 1,
+        "colorAccuracy": 1,
+        "valueAccuracy": 1,
+        "trust": {
+          "score": 1,
+          "recall": 1,
+          "precision": 1,
+          "evidence": 1,
+          "falseClaims": [],
+          "badEvidence": []
+        },
+        "decoyHits": [],
+        "usable": 1,
+        "score": 0.9999999999999999,
+        "items": [
+          {
+            "key": "light.primary",
+            "want": "#e11d48",
+            "got": "#e11d48",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.primaryForeground",
+            "want": "#ffffff",
+            "got": "#ffffff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.background",
+            "want": "rgb(255 255 255)",
+            "got": "#ffffff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.foreground",
+            "want": "rgb(17 24 39)",
+            "got": "#111827",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.border",
+            "want": "rgb(229 231 235)",
+            "got": "#e5e7eb",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.danger",
+            "want": "#b91c1c",
+            "got": "#b91c1c",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.primary",
+            "want": "#e11d48",
+            "got": "#e11d48",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.primaryForeground",
+            "want": "#ffffff",
+            "got": "#ffffff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.background",
+            "want": "rgb(3 7 18)",
+            "got": "#030712",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.foreground",
+            "want": "rgb(243 244 246)",
+            "got": "#f3f4f6",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.border",
+            "want": "rgb(31 41 55)",
+            "got": "#1f2937",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.danger",
+            "want": "#b91c1c",
+            "got": "#b91c1c",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "font.sans",
+            "want": "DM Sans",
+            "got": "DM Sans",
+            "score": 1
+          },
+          {
+            "key": "radius",
+            "want": "6",
+            "got": "6",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "fixture": "a5-sass-bootstrap",
+        "chose": [
+          "scss/_variables.scss"
+        ],
+        "seconds": 0.0032454999999999927,
+        "ok": true,
+        "accuracy": 1,
+        "colorAccuracy": 1,
+        "valueAccuracy": 1,
+        "trust": {
+          "score": 1,
+          "recall": 1,
+          "precision": 1,
+          "evidence": 1,
+          "falseClaims": [],
+          "badEvidence": []
+        },
+        "decoyHits": [],
+        "usable": 1,
+        "score": 0.9999999999999999,
+        "items": [
+          {
+            "key": "light.primary",
+            "want": "#6f42c1",
+            "got": "#6f42c1",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.background",
+            "want": "#fdfdfd",
+            "got": "#fdfdfd",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.foreground",
+            "want": "#212529",
+            "got": "#212529",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.border",
+            "want": "#dee2e6",
+            "got": "#dee2e6",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.danger",
+            "want": "#b02a37",
+            "got": "#b02a37",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.success",
+            "want": "#198754",
+            "got": "#198754",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "font.sans",
+            "want": "Source Sans 3",
+            "got": "Source Sans 3",
+            "score": 1
+          },
+          {
+            "key": "baseSize",
+            "want": "16",
+            "got": "16",
+            "score": 1
+          },
+          {
+            "key": "radius",
+            "want": "6",
+            "got": "6",
+            "score": 1
+          },
+          {
+            "key": "spacing",
+            "want": "4",
+            "got": "4",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "fixture": "a6-styled-components",
+        "chose": [],
+        "seconds": 0.0012454999999999927,
+        "ok": false,
+        "error": "no colors, fonts, sizes, corners or spacing found",
+        "accuracy": 0,
+        "colorAccuracy": 0,
+        "valueAccuracy": 0,
+        "trust": null,
+        "decoyHits": [],
+        "usable": 0,
+        "score": 0,
+        "items": []
+      },
+      {
+        "fixture": "a7-homegrown",
+        "chose": [
+          "src/index.css"
+        ],
+        "seconds": 0.0025570000000000163,
+        "ok": true,
+        "accuracy": 0.6451986984418466,
+        "colorAccuracy": 0.6344647143294366,
+        "valueAccuracy": 0.6666666666666666,
+        "trust": {
+          "score": 0.7777777777777779,
+          "recall": 0.4444444444444444,
+          "precision": 1,
+          "evidence": 1,
+          "falseClaims": [],
+          "badEvidence": []
+        },
+        "decoyHits": [],
+        "usable": 1,
+        "score": 0.7204525523984413,
+        "items": [
+          {
+            "key": "light.primary",
+            "want": "#ff5a1f",
+            "got": "#18181b",
+            "score": 0,
+            "note": "ΔE 52.5"
+          },
+          {
+            "key": "light.primaryForeground",
+            "want": "#ffffff",
+            "got": "#ffffff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.background",
+            "want": "#fffdf7",
+            "got": "#fffdf7",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.foreground",
+            "want": "#1f2937",
+            "got": "#1f2937",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.border",
+            "want": "#ece7dc",
+            "got": "#bbbec3",
+            "score": 0,
+            "note": "ΔE 12.8"
+          },
+          {
+            "key": "light.danger",
+            "want": "#c81e1e",
+            "got": "#c9302d",
+            "score": 0.8067882859766198,
+            "note": "ΔE 2.7"
+          },
+          {
+            "key": "font.sans",
+            "want": "Rubik",
+            "got": "Rubik",
+            "score": 1
+          },
+          {
+            "key": "baseSize",
+            "want": "16",
+            "got": "16",
+            "score": 1
+          },
+          {
+            "key": "radius",
+            "want": "24",
+            "got": "5",
+            "score": 0
+          }
+        ]
+      },
+      {
+        "fixture": "a8-vanilla-css-vars",
+        "chose": [
+          "src/styles/base.css"
+        ],
+        "seconds": 0.002716291999999953,
+        "ok": true,
+        "accuracy": 1,
+        "colorAccuracy": 1,
+        "valueAccuracy": 1,
+        "trust": {
+          "score": 1,
+          "recall": 1,
+          "precision": 1,
+          "evidence": 1,
+          "falseClaims": [],
+          "badEvidence": []
+        },
+        "decoyHits": [],
+        "usable": 1,
+        "score": 0.9999999999999999,
+        "items": [
+          {
+            "key": "light.primary",
+            "want": "#2563eb",
+            "got": "#2563eb",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.primaryForeground",
+            "want": "#ffffff",
+            "got": "#ffffff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.background",
+            "want": "#fafaf9",
+            "got": "#fafaf9",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.foreground",
+            "want": "#1c1917",
+            "got": "#1c1917",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.border",
+            "want": "#e7e5e4",
+            "got": "#e7e5e4",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.danger",
+            "want": "#dc2626",
+            "got": "#dc2626",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.primary",
+            "want": "#60a5fa",
+            "got": "#60a5fa",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.primaryForeground",
+            "want": "#0c0a09",
+            "got": "#0c0a09",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.background",
+            "want": "#0c0a09",
+            "got": "#0c0a09",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.foreground",
+            "want": "#f5f5f4",
+            "got": "#f5f5f4",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.border",
+            "want": "#292524",
+            "got": "#292524",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.danger",
+            "want": "#f87171",
+            "got": "#f87171",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "font.sans",
+            "want": "Inter",
+            "got": "Inter var",
+            "score": 1
+          },
+          {
+            "key": "baseSize",
+            "want": "16",
+            "got": "16",
+            "score": 1
+          },
+          {
+            "key": "radius",
+            "want": "6",
+            "got": "6",
+            "score": 1
+          },
+          {
+            "key": "spacing",
+            "want": "4",
+            "got": "4",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "fixture": "d1-shadcn-v4",
+        "chose": [
+          "app/globals.css"
+        ],
+        "seconds": 0.0023959579999999507,
+        "ok": true,
+        "accuracy": 1,
+        "colorAccuracy": 1,
+        "valueAccuracy": 1,
+        "trust": {
+          "score": 1,
+          "recall": 1,
+          "precision": 1,
+          "evidence": 1,
+          "falseClaims": [],
+          "badEvidence": []
+        },
+        "decoyHits": [],
+        "usable": 1,
+        "score": 0.9999999999999999,
+        "items": [
+          {
+            "key": "light.primary",
+            "want": "oklch(0.541 0.281 293.009)",
+            "got": "#7f22fe",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.primaryForeground",
+            "want": "oklch(0.969 0.016 293.756)",
+            "got": "#f5f3ff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.background",
+            "want": "oklch(1 0 0)",
+            "got": "#ffffff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.card",
+            "want": "oklch(1 0 0)",
+            "got": "#ffffff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.foreground",
+            "want": "oklch(0.141 0.005 285.823)",
+            "got": "#09090b",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.mutedText",
+            "want": "oklch(0.552 0.016 285.938)",
+            "got": "#71717b",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.border",
+            "want": "oklch(0.92 0.004 286.32)",
+            "got": "#e4e4e7",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.danger",
+            "want": "oklch(0.577 0.245 27.325)",
+            "got": "#e30217",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.primary",
+            "want": "oklch(0.606 0.25 292.717)",
+            "got": "#8d56ff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.primaryForeground",
+            "want": "oklch(0.969 0.016 293.756)",
+            "got": "#f5f3ff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.background",
+            "want": "oklch(0.141 0.005 285.823)",
+            "got": "#09090b",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.card",
+            "want": "oklch(0.21 0.006 285.885)",
+            "got": "#18181b",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.foreground",
+            "want": "oklch(0.985 0 0)",
+            "got": "#fafafa",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.mutedText",
+            "want": "oklch(0.705 0.015 286.067)",
+            "got": "#9f9fa9",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.border",
+            "want": "oklch(1 0 0 / 10%)",
+            "got": "#ffffff / 0.1",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.danger",
+            "want": "oklch(0.704 0.191 22.216)",
+            "got": "#ff6568",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "font.sans",
+            "want": "Geist",
+            "got": "Geist",
+            "score": 1
+          },
+          {
+            "key": "font.mono",
+            "want": "Geist Mono",
+            "got": "Geist Mono",
+            "score": 1
+          },
+          {
+            "key": "radius",
+            "want": "12",
+            "got": "12",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "fixture": "d2-shadcn-v3-hsl",
+        "chose": [
+          "src/index.css",
+          "tailwind.config.js"
+        ],
+        "seconds": 0.001880957999999964,
+        "ok": true,
+        "accuracy": 1,
+        "colorAccuracy": 1,
+        "valueAccuracy": 1,
+        "trust": {
+          "score": 1,
+          "recall": 1,
+          "precision": 1,
+          "evidence": 1,
+          "falseClaims": [],
+          "badEvidence": []
+        },
+        "decoyHits": [],
+        "usable": 1,
+        "score": 0.9999999999999999,
+        "items": [
+          {
+            "key": "light.primary",
+            "want": "hsl(221.2 83.2% 53.3%)",
+            "got": "#2563eb",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.primaryForeground",
+            "want": "hsl(210 40% 98%)",
+            "got": "#f8fafc",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.background",
+            "want": "hsl(0 0% 100%)",
+            "got": "#ffffff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.card",
+            "want": "hsl(0 0% 100%)",
+            "got": "#ffffff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.foreground",
+            "want": "hsl(222.2 84% 4.9%)",
+            "got": "#020817",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.mutedText",
+            "want": "hsl(215.4 16.3% 46.9%)",
+            "got": "#64748b",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.border",
+            "want": "hsl(214.3 31.8% 91.4%)",
+            "got": "#e2e8f0",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.danger",
+            "want": "hsl(0 84.2% 60.2%)",
+            "got": "#ef4444",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.primary",
+            "want": "hsl(217.2 91.2% 59.8%)",
+            "got": "#3b82f6",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.primaryForeground",
+            "want": "hsl(222.2 47.4% 11.2%)",
+            "got": "#0f172a",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.background",
+            "want": "hsl(222.2 84% 4.9%)",
+            "got": "#020817",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.card",
+            "want": "hsl(222.2 84% 4.9%)",
+            "got": "#020817",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.foreground",
+            "want": "hsl(210 40% 98%)",
+            "got": "#f8fafc",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.mutedText",
+            "want": "hsl(215 20.2% 65.1%)",
+            "got": "#94a3b8",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.border",
+            "want": "hsl(217.2 32.6% 17.5%)",
+            "got": "#1e293b",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.danger",
+            "want": "hsl(0 62.8% 30.6%)",
+            "got": "#7f1d1d",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "font.sans",
+            "want": "Inter",
+            "got": "Inter",
+            "score": 1
+          },
+          {
+            "key": "radius",
+            "want": "8",
+            "got": "8",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "fixture": "d3-dtcg-figma",
+        "chose": [
+          "tokens/harbor.tokens.json"
+        ],
+        "seconds": 0.0029476660000000267,
+        "ok": true,
+        "accuracy": 1,
+        "colorAccuracy": 1,
+        "valueAccuracy": 1,
+        "trust": {
+          "score": 1,
+          "recall": 1,
+          "precision": 1,
+          "evidence": 1,
+          "falseClaims": [],
+          "badEvidence": []
+        },
+        "decoyHits": [],
+        "usable": 1,
+        "score": 0.9999999999999999,
+        "items": [
+          {
+            "key": "light.primary",
+            "want": "#0d9488",
+            "got": "#0d9488",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.primaryForeground",
+            "want": "#ffffff",
+            "got": "#ffffff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.background",
+            "want": "#f9fafb",
+            "got": "#f9fafb",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.foreground",
+            "want": "#111827",
+            "got": "#111827",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.border",
+            "want": "#e5e7eb",
+            "got": "#e5e7eb",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.danger",
+            "want": "#dc2626",
+            "got": "#dc2626",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "font.sans",
+            "want": "Manrope",
+            "got": "Manrope",
+            "score": 1
+          },
+          {
+            "key": "baseSize",
+            "want": "16",
+            "got": "16",
+            "score": 1
+          },
+          {
+            "key": "radius",
+            "want": "6",
+            "got": "6",
+            "score": 1
+          },
+          {
+            "key": "spacing",
+            "want": "4",
+            "got": "4",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "fixture": "d4-tokens-studio",
+        "chose": [
+          "tokens/core.json, tokens/dark.json, tokens/light.json"
+        ],
+        "seconds": 0.0054190409999999925,
+        "ok": true,
+        "accuracy": 1,
+        "colorAccuracy": 1,
+        "valueAccuracy": 1,
+        "trust": {
+          "score": 1,
+          "recall": 1,
+          "precision": 1,
+          "evidence": 1,
+          "falseClaims": [],
+          "badEvidence": []
+        },
+        "decoyHits": [],
+        "usable": 1,
+        "score": 0.9999999999999999,
+        "items": [
+          {
+            "key": "light.primary",
+            "want": "#ea580c",
+            "got": "#ea580c",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.primaryForeground",
+            "want": "#ffffff",
+            "got": "#ffffff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.background",
+            "want": "#fafaf9",
+            "got": "#fafaf9",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.foreground",
+            "want": "#1c1917",
+            "got": "#1c1917",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.border",
+            "want": "#e7e5e4",
+            "got": "#e7e5e4",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.danger",
+            "want": "#dc2626",
+            "got": "#dc2626",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.primary",
+            "want": "#f97316",
+            "got": "#f97316",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.primaryForeground",
+            "want": "#1c1917",
+            "got": "#1c1917",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.background",
+            "want": "#0c0a09",
+            "got": "#0c0a09",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.foreground",
+            "want": "#fafaf9",
+            "got": "#fafaf9",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.border",
+            "want": "#292524",
+            "got": "#292524",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.danger",
+            "want": "#f87171",
+            "got": "#f87171",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "font.sans",
+            "want": "Figtree",
+            "got": "Figtree",
+            "score": 1
+          },
+          {
+            "key": "baseSize",
+            "want": "15",
+            "got": "15",
+            "score": 1
+          },
+          {
+            "key": "radius",
+            "want": "8",
+            "got": "8",
+            "score": 1
+          },
+          {
+            "key": "spacing",
+            "want": "4",
+            "got": "4",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "fixture": "d5-tailwind-v4-theme",
+        "chose": [
+          "src/app.css",
+          "class names in components"
+        ],
+        "seconds": 0.0019396669999999859,
+        "ok": true,
+        "accuracy": 1,
+        "colorAccuracy": 1,
+        "valueAccuracy": 1,
+        "trust": {
+          "score": 1,
+          "recall": 1,
+          "precision": 1,
+          "evidence": 1,
+          "falseClaims": [],
+          "badEvidence": []
+        },
+        "decoyHits": [],
+        "usable": 1,
+        "score": 0.9999999999999999,
+        "items": [
+          {
+            "key": "light.primary",
+            "want": "#4f46e5",
+            "got": "#4f46e5",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.primaryForeground",
+            "want": "#ffffff",
+            "got": "#ffffff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.background",
+            "want": "#ffffff",
+            "got": "#ffffff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.foreground",
+            "want": "#0f172a",
+            "got": "#0f172a",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.border",
+            "want": "#e2e8f0",
+            "got": "#e2e8f0",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.danger",
+            "want": "oklch(0.577 0.245 27.325)",
+            "got": "#e30217",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "font.sans",
+            "want": "Plus Jakarta Sans",
+            "got": "Plus Jakarta Sans",
+            "score": 1
+          },
+          {
+            "key": "baseSize",
+            "want": "15",
+            "got": "15",
+            "score": 1
+          },
+          {
+            "key": "radius",
+            "want": "8",
+            "got": "8",
+            "score": 1
+          },
+          {
+            "key": "spacing",
+            "want": "4",
+            "got": "4",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "fixture": "d6-decoy-monorepo",
+        "chose": [
+          "apps/web/src/app/globals.css"
+        ],
+        "seconds": 0.0017499169999999821,
+        "ok": true,
+        "accuracy": 1,
+        "colorAccuracy": 1,
+        "valueAccuracy": 1,
+        "trust": {
+          "score": 1,
+          "recall": 1,
+          "precision": 1,
+          "evidence": 1,
+          "falseClaims": [],
+          "badEvidence": []
+        },
+        "decoyHits": [],
+        "usable": 1,
+        "score": 0.9999999999999999,
+        "items": [
+          {
+            "key": "light.primary",
+            "want": "oklch(0.596 0.145 163.225)",
+            "got": "#029669",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.primaryForeground",
+            "want": "oklch(0.979 0.021 166.113)",
+            "got": "#ecfdf5",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.background",
+            "want": "oklch(1 0 0)",
+            "got": "#ffffff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.foreground",
+            "want": "oklch(0.145 0 0)",
+            "got": "#0a0a0a",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.mutedText",
+            "want": "oklch(0.556 0 0)",
+            "got": "#737373",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.border",
+            "want": "oklch(0.922 0 0)",
+            "got": "#e5e5e5",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.danger",
+            "want": "oklch(0.577 0.245 27.325)",
+            "got": "#e30217",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.primary",
+            "want": "oklch(0.696 0.17 162.48)",
+            "got": "#00b981",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.primaryForeground",
+            "want": "oklch(0.262 0.051 172.552)",
+            "got": "#002c22",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.background",
+            "want": "oklch(0.145 0 0)",
+            "got": "#0a0a0a",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.foreground",
+            "want": "oklch(0.985 0 0)",
+            "got": "#fafafa",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.mutedText",
+            "want": "oklch(0.708 0 0)",
+            "got": "#a1a1a1",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.border",
+            "want": "oklch(1 0 0 / 10%)",
+            "got": "#ffffff / 0.1",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.danger",
+            "want": "oklch(0.704 0.191 22.216)",
+            "got": "#ff6568",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "font.sans",
+            "want": "Outfit",
+            "got": "Outfit",
+            "score": 1
+          },
+          {
+            "key": "radius",
+            "want": "8",
+            "got": "8",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "fixture": "m1-runtime-computed",
+        "chose": [
+          "styles.css"
+        ],
+        "seconds": 0.001022874999999999,
+        "ok": true,
+        "accuracy": 0.7026702144193091,
+        "colorAccuracy": 0.5540053216289637,
+        "valueAccuracy": 1,
+        "trust": {
+          "score": 0.7777777777777779,
+          "recall": 0.4444444444444444,
+          "precision": 1,
+          "evidence": 1,
+          "falseClaims": [],
+          "badEvidence": []
+        },
+        "decoyHits": [],
+        "usable": 1,
+        "score": 0.7549354619849188,
+        "items": [
+          {
+            "key": "light.primary",
+            "want": "hsl(200 85% 42%)",
+            "got": "#18181b",
+            "score": 0,
+            "note": "ΔE 42.6"
+          },
+          {
+            "key": "light.primaryForeground",
+            "want": "#ffffff",
+            "got": "#ffffff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.background",
+            "want": "hsl(200 20% 98%)",
+            "got": "#fdfdfd",
+            "score": 1,
+            "note": "ΔE 0.8"
+          },
+          {
+            "key": "light.foreground",
+            "want": "hsl(200 30% 12%)",
+            "got": "#262628",
+            "score": 0.3827447076394427,
+            "note": "ΔE 6.6"
+          },
+          {
+            "key": "light.border",
+            "want": "hsl(200 15% 88%)",
+            "got": "#bdbdc0",
+            "score": 0.11407667942028665,
+            "note": "ΔE 9.0"
+          },
+          {
+            "key": "light.danger",
+            "want": "hsl(0 70% 45%)",
+            "got": "#c9302d",
+            "score": 0.8272105427140529,
+            "note": "ΔE 2.6"
+          },
+          {
+            "key": "font.sans",
+            "want": "Lexend",
+            "got": "Lexend",
+            "score": 1
+          },
+          {
+            "key": "baseSize",
+            "want": "16",
+            "got": "16",
+            "score": 1
+          },
+          {
+            "key": "radius",
+            "want": "10",
+            "got": "10",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "fixture": "m2-legacy-static",
+        "chose": [
+          "css/site.css"
+        ],
+        "seconds": 0.0010330829999999195,
+        "ok": true,
+        "accuracy": 1,
+        "colorAccuracy": 1,
+        "valueAccuracy": 1,
+        "trust": {
+          "score": 1,
+          "recall": 1,
+          "precision": 1,
+          "evidence": 1,
+          "falseClaims": [],
+          "badEvidence": []
+        },
+        "decoyHits": [],
+        "usable": 1,
+        "score": 0.9999999999999999,
+        "items": [
+          {
+            "key": "light.primary",
+            "want": "#c2410c",
+            "got": "#c2410c",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.primaryForeground",
+            "want": "#ffffff",
+            "got": "#ffffff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.background",
+            "want": "#fffbeb",
+            "got": "#fffbeb",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.foreground",
+            "want": "#292524",
+            "got": "#292524",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.border",
+            "want": "#e7e5e4",
+            "got": "#e7e5e4",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.danger",
+            "want": "#b91c1c",
+            "got": "#b91c1c",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "font.sans",
+            "want": "Georgia",
+            "got": "Georgia",
+            "score": 1
+          },
+          {
+            "key": "baseSize",
+            "want": "17",
+            "got": "17",
+            "score": 1
+          },
+          {
+            "key": "radius",
+            "want": "3",
+            "got": "3",
+            "score": 1
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "stack": "Tokens Studio, split into core/light/dark sets",
+  "route": "direct",
+  "hard": "semantic names (bg, text, accent, line) aren't shadcn's; light and dark are separate files",
+  "light": {
+    "primary": "#ea580c",
+    "primaryForeground": "#ffffff",
+    "background": "#fafaf9",
+    "foreground": "#1c1917",
+    "border": "#e7e5e4",
+    "danger": "#dc2626"
+  },
+  "dark": {
+    "primary": "#f97316",
+    "primaryForeground": "#1c1917",
+    "background": "#0c0a09",
+    "foreground": "#fafaf9",
+    "border": "#292524",
+    "danger": "#f87171"
+  },
+  "fonts": {
+    "sans": "Figtree"
+  },
+  "baseSize": 15,
+  "radius": 8,
+  "spacing": 4,
+  "absent": [],
+  "decoys": []
+}

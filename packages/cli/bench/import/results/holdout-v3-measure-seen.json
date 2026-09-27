@@ -1,0 +1,1194 @@
+{
+  "label": "holdout-v3-measure-seen",
+  "at": "2026-09-26T18:13:16.558Z",
+  "results": {
+    "measure": [
+      {
+        "fixture": "h1-style-dictionary",
+        "chose": [
+          "tokens/core/color.json, tokens/core/font.json, tokens/core/size.json, tokens/semantic/dark.json, tokens/semantic/light.json",
+          "src/styles/generated/tokens.css",
+          "src/styles/generated/tokens.dark.css",
+          "the rendered page"
+        ],
+        "seconds": 1.685113208,
+        "ok": true,
+        "accuracy": 1,
+        "colorAccuracy": 1,
+        "valueAccuracy": 1,
+        "trust": {
+          "score": 0.976923076923077,
+          "recall": 1,
+          "precision": 1,
+          "evidence": 0.8846153846153846,
+          "falseClaims": [],
+          "badEvidence": [
+            "baseSize: line 6 of tokens/core/size.json doesn't have “16”",
+            "radius: line 22 of tokens/core/size.json doesn't have “8”",
+            "spacing: line 12 of tokens/core/size.json doesn't have “4”"
+          ]
+        },
+        "decoyHits": [],
+        "usable": 1,
+        "score": 0.9930769230769231,
+        "items": [
+          {
+            "key": "light.primary",
+            "want": "#1b7064",
+            "got": "#1b7064",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.primaryForeground",
+            "want": "#ffffff",
+            "got": "#ffffff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.background",
+            "want": "#f7f8f9",
+            "got": "#f7f8f9",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.card",
+            "want": "#ffffff",
+            "got": "#ffffff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.foreground",
+            "want": "#1a1e24",
+            "got": "#1a1e24",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.mutedText",
+            "want": "#525b66",
+            "got": "#525b66",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.border",
+            "want": "#dde1e5",
+            "got": "#dde1e5",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.danger",
+            "want": "#d93f3f",
+            "got": "#d93f3f",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.success",
+            "want": "#2f8a4c",
+            "got": "#2f8a4c",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.warning",
+            "want": "#d9921a",
+            "got": "#d9921a",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.primary",
+            "want": "#43a797",
+            "got": "#43a797",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.primaryForeground",
+            "want": "#072421",
+            "got": "#072421",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.background",
+            "want": "#0f1216",
+            "got": "#0f1216",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.card",
+            "want": "#1a1e24",
+            "got": "#1a1e24",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.foreground",
+            "want": "#f7f8f9",
+            "got": "#f7f8f9",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.mutedText",
+            "want": "#9aa3ad",
+            "got": "#9aa3ad",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.border",
+            "want": "#3e4550",
+            "got": "#3e4550",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.danger",
+            "want": "#ef6461",
+            "got": "#ef6461",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.success",
+            "want": "#52b56f",
+            "got": "#52b56f",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.warning",
+            "want": "#ecae45",
+            "got": "#ecae45",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "font.sans",
+            "want": "Source Sans 3",
+            "got": "Source Sans 3",
+            "score": 1
+          },
+          {
+            "key": "font.heading",
+            "want": "Fraunces",
+            "got": "Fraunces",
+            "score": 1
+          },
+          {
+            "key": "font.mono",
+            "want": "JetBrains Mono",
+            "got": "JetBrains Mono",
+            "score": 1
+          },
+          {
+            "key": "baseSize",
+            "want": "16",
+            "got": "16",
+            "score": 1
+          },
+          {
+            "key": "radius",
+            "want": "8",
+            "got": "8",
+            "score": 1
+          },
+          {
+            "key": "spacing",
+            "want": "4",
+            "got": "4",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "fixture": "h2-mantine-v7",
+        "chose": [
+          "the rendered page"
+        ],
+        "seconds": 1.5550608750000001,
+        "ok": true,
+        "accuracy": 0.26623897323671936,
+        "colorAccuracy": 0.29383854541868576,
+        "valueAccuracy": 0.2,
+        "trust": {
+          "score": 0.6941176470588235,
+          "recall": 0.23529411764705882,
+          "precision": 1,
+          "evidence": 1,
+          "falseClaims": [],
+          "badEvidence": []
+        },
+        "decoyHits": [
+          "primary is #1a1b1e"
+        ],
+        "usable": 0.75,
+        "score": 0.24297867805967865,
+        "items": [
+          {
+            "key": "light.primary",
+            "want": "#0060c3",
+            "got": "#18181b",
+            "score": 0,
+            "note": "ΔE 34.7"
+          },
+          {
+            "key": "light.background",
+            "want": "#f5f7fa",
+            "got": "#ffffff",
+            "score": 0.8558023446253098,
+            "note": "ΔE 2.3"
+          },
+          {
+            "key": "light.card",
+            "want": "#ffffff",
+            "got": "#fdfdfd",
+            "score": 1,
+            "note": "ΔE 0.5"
+          },
+          {
+            "key": "light.foreground",
+            "want": "#161b24",
+            "got": "#000000",
+            "score": 0.1855988614602706,
+            "note": "ΔE 8.3"
+          },
+          {
+            "key": "light.mutedText",
+            "want": "#525e6f",
+            "got": "#636363",
+            "score": 0.08772109639285497,
+            "note": "ΔE 9.2"
+          },
+          {
+            "key": "light.border",
+            "want": "#d3dae3",
+            "got": "#bebebe",
+            "score": 0.1919383702314913,
+            "note": "ΔE 8.3"
+          },
+          {
+            "key": "dark.primary",
+            "want": "#1f7adc",
+            "got": "#e7e7ec",
+            "score": 0,
+            "note": "ΔE 39.7"
+          },
+          {
+            "key": "dark.background",
+            "want": "#0e1117",
+            "got": "#0e0e0e",
+            "score": 0.6915789141060233,
+            "note": "ΔE 3.8"
+          },
+          {
+            "key": "dark.card",
+            "want": "#161b22",
+            "got": "#141414",
+            "score": 0.513422958208279,
+            "note": "ΔE 5.4"
+          },
+          {
+            "key": "dark.foreground",
+            "want": "#e9edf2",
+            "got": "#000000",
+            "score": 0,
+            "note": "ΔE 91.1"
+          },
+          {
+            "key": "dark.mutedText",
+            "want": "#8d9aab",
+            "got": "#b7b7b7",
+            "score": 0,
+            "note": "ΔE 12.3"
+          },
+          {
+            "key": "dark.border",
+            "want": "#262c36",
+            "got": "#515151",
+            "score": 0,
+            "note": "ΔE 13.8"
+          },
+          {
+            "key": "font.sans",
+            "want": "Inter",
+            "got": "Times",
+            "score": 0
+          },
+          {
+            "key": "font.heading",
+            "want": "Outfit",
+            "got": "Times",
+            "score": 0
+          },
+          {
+            "key": "font.mono",
+            "want": "IBM Plex Mono",
+            "got": "ui-monospace",
+            "score": 0
+          },
+          {
+            "key": "baseSize",
+            "want": "15",
+            "got": "16",
+            "score": 0.5
+          },
+          {
+            "key": "radius",
+            "want": "6",
+            "got": "5",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "fixture": "h3-vuetify-3",
+        "chose": [
+          "the rendered page"
+        ],
+        "seconds": 1.511830167,
+        "ok": true,
+        "accuracy": 0.3958062739669674,
+        "colorAccuracy": 0.4339962085170174,
+        "valueAccuracy": 0.16666666666666666,
+        "trust": {
+          "score": 0.5571428571428572,
+          "recall": 0.14285714285714285,
+          "precision": 0.75,
+          "evidence": 1,
+          "falseClaims": [
+            "baseSize: the project doesn't define it"
+          ],
+          "badEvidence": []
+        },
+        "decoyHits": [],
+        "usable": 0.75,
+        "score": 0.4796266215230376,
+        "items": [
+          {
+            "key": "light.primary",
+            "want": "#3949AB",
+            "got": "#18181b",
+            "score": 0,
+            "note": "ΔE 30.3"
+          },
+          {
+            "key": "light.background",
+            "want": "#F6F7F9",
+            "got": "#ffffff",
+            "score": 0.8959540483857451,
+            "note": "ΔE 1.9"
+          },
+          {
+            "key": "light.card",
+            "want": "#FFFFFF",
+            "got": "#fdfdfd",
+            "score": 1,
+            "note": "ΔE 0.5"
+          },
+          {
+            "key": "light.foreground",
+            "want": "#1B1F24",
+            "got": "#000000",
+            "score": 0.23476239342618033,
+            "note": "ΔE 7.9"
+          },
+          {
+            "key": "light.mutedText",
+            "want": "rgba(27, 31, 36, 0.62)",
+            "got": "#636363",
+            "score": 0.471102682732613,
+            "note": "ΔE 5.8"
+          },
+          {
+            "key": "light.border",
+            "want": "rgba(27, 31, 36, 0.12)",
+            "got": "#bebebe",
+            "score": 0.2568056415851223,
+            "note": "ΔE 7.7"
+          },
+          {
+            "key": "light.danger",
+            "want": "#C62828",
+            "got": "#c9302d",
+            "score": 0.9595307534753539,
+            "note": "ΔE 1.4"
+          },
+          {
+            "key": "light.success",
+            "want": "#2E7D32",
+            "got": "#007f38",
+            "score": 0.7599046193777982,
+            "note": "ΔE 3.2"
+          },
+          {
+            "key": "light.warning",
+            "want": "#B26A00",
+            "got": "#f2a618",
+            "score": 0,
+            "note": "ΔE 19.8"
+          },
+          {
+            "key": "dark.primary",
+            "want": "#8C9EFF",
+            "got": "#e7e7ec",
+            "score": 0,
+            "note": "ΔE 28.3"
+          },
+          {
+            "key": "dark.background",
+            "want": "#121418",
+            "got": "#0e0e0e",
+            "score": 0.7688291109728269,
+            "note": "ΔE 3.1"
+          },
+          {
+            "key": "dark.card",
+            "want": "#1C1F26",
+            "got": "#141414",
+            "score": 0.4620234109137038,
+            "note": "ΔE 5.8"
+          },
+          {
+            "key": "dark.foreground",
+            "want": "#E6E8EC",
+            "got": "#000000",
+            "score": 0,
+            "note": "ΔE 88.4"
+          },
+          {
+            "key": "dark.mutedText",
+            "want": "rgba(230, 232, 236, 0.66)",
+            "got": "#b7b7b7",
+            "score": 0.3292988295636269,
+            "note": "ΔE 7.0"
+          },
+          {
+            "key": "dark.border",
+            "want": "rgba(230, 232, 236, 0.14)",
+            "got": "#515151",
+            "score": 0,
+            "note": "ΔE 10.7"
+          },
+          {
+            "key": "dark.danger",
+            "want": "#EF5350",
+            "got": "#ff7266",
+            "score": 0.3119093151643142,
+            "note": "ΔE 7.2"
+          },
+          {
+            "key": "dark.success",
+            "want": "#66BB6A",
+            "got": "#53be70",
+            "score": 0.815119451927404,
+            "note": "ΔE 2.7"
+          },
+          {
+            "key": "dark.warning",
+            "want": "#FFB74D",
+            "got": "#f2a618",
+            "score": 0.5466914957816258,
+            "note": "ΔE 5.1"
+          },
+          {
+            "key": "font.sans",
+            "want": "Nunito Sans",
+            "got": "Times",
+            "score": 0
+          },
+          {
+            "key": "font.heading",
+            "want": "Lexend",
+            "got": "Times",
+            "score": 0
+          },
+          {
+            "key": "radius",
+            "want": "6",
+            "got": "5",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "fixture": "h4-open-props",
+        "chose": [
+          "src/styles/theme.css"
+        ],
+        "seconds": 0.0034903750000003127,
+        "ok": true,
+        "accuracy": 0.8809523809523809,
+        "colorAccuracy": 1,
+        "valueAccuracy": 0.16666666666666666,
+        "trust": {
+          "score": 0.8095238095238095,
+          "recall": 0.8571428571428571,
+          "precision": 1,
+          "evidence": 0.33333333333333337,
+          "falseClaims": [],
+          "badEvidence": [
+            "light.primary: line 13 of src/styles/theme.css has no color like hsl(258 62% 52%)",
+            "light.foreground: line 15 of src/styles/theme.css has no color like hsl(258 24% 12%)",
+            "light.mutedText: line 16 of src/styles/theme.css has no color like hsl(258 10% 38%)",
+            "light.background: line 17 of src/styles/theme.css has no color like hsl(258 20% 98%)",
+            "light.border: line 20 of src/styles/theme.css has no color like hsl(258 16% 88%)",
+            "dark.primary: line 25 of src/styles/theme.css has no color like hsl(258 31% 67.6%)",
+            "dark.primaryForeground: line 26 of src/styles/theme.css has no color like hsl(258 30% 10%)",
+            "dark.foreground: line 27 of src/styles/theme.css has no color like hsl(258 15% 88%)",
+            "dark.mutedText: line 28 of src/styles/theme.css has no color like hsl(258 8% 64%)",
+            "dark.background: line 29 of src/styles/theme.css has no color like hsl(258 14% 9%)",
+            "dark.card: line 30 of src/styles/theme.css has no color like hsl(258 12% 13%)",
+            "dark.border: line 32 of src/styles/theme.css has no color like hsl(258 10% 24%)"
+          ]
+        },
+        "decoyHits": [],
+        "usable": 1,
+        "score": 0.8714285714285714,
+        "items": [
+          {
+            "key": "light.primary",
+            "want": "hsl(258 62% 52%)",
+            "got": "#6639d0",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.primaryForeground",
+            "want": "hsl(0 0% 100%)",
+            "got": "#ffffff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.background",
+            "want": "hsl(258 20% 98%)",
+            "got": "#f9f9fb",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.card",
+            "want": "hsl(0 0% 100%)",
+            "got": "#ffffff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.foreground",
+            "want": "hsl(258 24% 12%)",
+            "got": "#1c1726",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.mutedText",
+            "want": "hsl(258 10% 38%)",
+            "got": "#5d576b",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.border",
+            "want": "hsl(258 16% 88%)",
+            "got": "#dedbe5",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.danger",
+            "want": "hsl(4 72% 48%)",
+            "got": "#d32e22",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.success",
+            "want": "hsl(145 55% 34%)",
+            "got": "#27864f",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.primary",
+            "want": "hsl(258 31% 67.6%)",
+            "got": "#a293c6",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.primaryForeground",
+            "want": "hsl(258 30% 10%)",
+            "got": "#161221",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.background",
+            "want": "hsl(258 14% 9%)",
+            "got": "#16141a",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.card",
+            "want": "hsl(258 12% 13%)",
+            "got": "#201d25",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.foreground",
+            "want": "hsl(258 15% 88%)",
+            "got": "#dfdce5",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.mutedText",
+            "want": "hsl(258 8% 64%)",
+            "got": "#a09cab",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.border",
+            "want": "hsl(258 10% 24%)",
+            "got": "#3b3743",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.danger",
+            "want": "hsl(4 80% 64%)",
+            "got": "#ed645a",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.success",
+            "want": "hsl(145 45% 58%)",
+            "got": "#64c48c",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "font.sans",
+            "want": "Figtree Variable",
+            "got": "Geist",
+            "score": 0
+          },
+          {
+            "key": "font.heading",
+            "want": "Young Serif",
+            "got": "Geist",
+            "score": 0
+          },
+          {
+            "key": "radius",
+            "want": "6",
+            "got": "5",
+            "score": 0.5
+          }
+        ]
+      },
+      {
+        "fixture": "h5-tailwind-v4-semantic",
+        "chose": [
+          "src/index.css",
+          "the rendered page"
+        ],
+        "seconds": 1.5746438749999998,
+        "ok": true,
+        "accuracy": 0.8756441701830109,
+        "colorAccuracy": 0.8569907957104625,
+        "valueAccuracy": 1,
+        "trust": {
+          "score": 0.9104347826086956,
+          "recall": 0.8260869565217391,
+          "precision": 0.95,
+          "evidence": 1,
+          "falseClaims": [
+            "baseSize: the project doesn't define it"
+          ],
+          "badEvidence": []
+        },
+        "decoyHits": [],
+        "usable": 1,
+        "score": 0.8985169368924152,
+        "items": [
+          {
+            "key": "light.primary",
+            "want": "#e0531f",
+            "got": "#e0531f",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.primaryForeground",
+            "want": "#ffffff",
+            "got": "#3d1c11",
+            "score": 0,
+            "note": "ΔE 79.8"
+          },
+          {
+            "key": "light.background",
+            "want": "#fbfaf8",
+            "got": "#fbfaf8",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.card",
+            "want": "#ffffff",
+            "got": "#ffffff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.foreground",
+            "want": "#1c1917",
+            "got": "#1c1917",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.mutedText",
+            "want": "#6b6560",
+            "got": "#65635f",
+            "score": 0.8776273487014203,
+            "note": "ΔE 2.1"
+          },
+          {
+            "key": "light.border",
+            "want": "#e7e3de",
+            "got": "#e7e3de",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.danger",
+            "want": "#c0262d",
+            "got": "#c0262d",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.success",
+            "want": "#1f7a4d",
+            "got": "#1f7a4d",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.warning",
+            "want": "#b7791f",
+            "got": "#b7791f",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.primary",
+            "want": "#ff7a45",
+            "got": "#ff7a45",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.primaryForeground",
+            "want": "#1c0d05",
+            "got": "#3d1c11",
+            "score": 0,
+            "note": "ΔE 11.1"
+          },
+          {
+            "key": "dark.background",
+            "want": "#141210",
+            "got": "#141210",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.card",
+            "want": "#1d1a17",
+            "got": "#1d1a17",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.foreground",
+            "want": "#f2efeb",
+            "got": "#f2efeb",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.mutedText",
+            "want": "#a39d96",
+            "got": "#b9b7b3",
+            "score": 0.2621885655078312,
+            "note": "ΔE 7.6"
+          },
+          {
+            "key": "dark.border",
+            "want": "#34302b",
+            "got": "#34302b",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.danger",
+            "want": "#f0646a",
+            "got": "#f0646a",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.success",
+            "want": "#4cc38a",
+            "got": "#4cc38a",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.warning",
+            "want": "#e8b04b",
+            "got": "#e8b04b",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "font.sans",
+            "want": "Geist",
+            "got": "Geist",
+            "score": 1
+          },
+          {
+            "key": "font.mono",
+            "want": "Geist Mono",
+            "got": "Geist Mono",
+            "score": 1
+          },
+          {
+            "key": "radius",
+            "want": "8",
+            "got": "8",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "fixture": "h6-theme-ui-gatsby",
+        "chose": [],
+        "seconds": 0.002462416999999732,
+        "ok": false,
+        "error": "no colors, fonts, sizes, corners or spacing found",
+        "accuracy": 0,
+        "colorAccuracy": 0,
+        "valueAccuracy": 0,
+        "trust": null,
+        "decoyHits": [],
+        "usable": 0,
+        "score": 0,
+        "items": []
+      },
+      {
+        "fixture": "h7-bulma-sass",
+        "chose": [
+          "src/styles/_settings.scss",
+          "the rendered page"
+        ],
+        "seconds": 1.5878402500000002,
+        "ok": true,
+        "accuracy": 0.7944191263379778,
+        "colorAccuracy": 0.665931080299214,
+        "valueAccuracy": 1,
+        "trust": {
+          "score": 0.9051282051282052,
+          "recall": 0.8461538461538461,
+          "precision": 0.9166666666666666,
+          "evidence": 1,
+          "falseClaims": [
+            "light.card: the project doesn't define it"
+          ],
+          "badEvidence": []
+        },
+        "decoyHits": [],
+        "usable": 1,
+        "score": 0.8481899373412481,
+        "items": [
+          {
+            "key": "light.primary",
+            "want": "#1f7a55",
+            "got": "#1f7a55",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.background",
+            "want": "#f7f6f2",
+            "got": "#f7f6f2",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.foreground",
+            "want": "#2b2f36",
+            "got": "#000000",
+            "score": 0,
+            "note": "ΔE 12.9"
+          },
+          {
+            "key": "light.mutedText",
+            "want": "#6b7280",
+            "got": "#636363",
+            "score": 0.095817709806025,
+            "note": "ΔE 9.1"
+          },
+          {
+            "key": "light.border",
+            "want": "#dcd8cf",
+            "got": "#bebebe",
+            "score": 0.23163093258768674,
+            "note": "ΔE 7.9"
+          },
+          {
+            "key": "light.danger",
+            "want": "#c2352b",
+            "got": "#c2352b",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.success",
+            "want": "#2e8540",
+            "got": "#2e8540",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.warning",
+            "want": "#e0a526",
+            "got": "#e0a526",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "font.sans",
+            "want": "Manrope",
+            "got": "Manrope",
+            "score": 1
+          },
+          {
+            "key": "font.heading",
+            "want": "DM Serif Display",
+            "got": "DM Serif Display",
+            "score": 1
+          },
+          {
+            "key": "font.mono",
+            "want": "Space Mono",
+            "got": "Space Mono",
+            "score": 1
+          },
+          {
+            "key": "baseSize",
+            "want": "15",
+            "got": "15",
+            "score": 1
+          },
+          {
+            "key": "radius",
+            "want": "6",
+            "got": "6",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "fixture": "h8-static-marketing",
+        "chose": [
+          "css/styles.css",
+          "the rendered page"
+        ],
+        "seconds": 1.6148105409999989,
+        "ok": true,
+        "accuracy": 0.9576819080732356,
+        "colorAccuracy": 0.9482778876450657,
+        "valueAccuracy": 1,
+        "trust": {
+          "score": 0.9636363636363636,
+          "recall": 0.9090909090909091,
+          "precision": 1,
+          "evidence": 1,
+          "falseClaims": [],
+          "badEvidence": []
+        },
+        "decoyHits": [],
+        "usable": 1,
+        "score": 0.9637000539348504,
+        "items": [
+          {
+            "key": "light.primary",
+            "want": "#2f5d50",
+            "got": "#2f5d50",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.primaryForeground",
+            "want": "#f4efe6",
+            "got": "#f4efe6",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.background",
+            "want": "#faf7f2",
+            "got": "#faf7f2",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.card",
+            "want": "#ffffff",
+            "got": "#ffffff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.foreground",
+            "want": "#2d2a26",
+            "got": "#2d2a26",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.mutedText",
+            "want": "#6e675d",
+            "got": "#67635a",
+            "score": 0.8691906068814945,
+            "note": "ΔE 2.2"
+          },
+          {
+            "key": "light.border",
+            "want": "#e6dfd3",
+            "got": "#e6dfd3",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.danger",
+            "want": "#b3261e",
+            "got": "#b3261e",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.success",
+            "want": "#2c6e49",
+            "got": "#2c6e49",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.primary",
+            "want": "#7fbfa9",
+            "got": "#7fbfa9",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.primaryForeground",
+            "want": "#10231d",
+            "got": "#10231d",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.background",
+            "want": "#161513",
+            "got": "#161513",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.card",
+            "want": "#1f1d1a",
+            "got": "#1f1d1a",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.foreground",
+            "want": "#e8e2d8",
+            "got": "#e8e2d8",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.mutedText",
+            "want": "#a39b8f",
+            "got": "#bbb7af",
+            "score": 0.1998113707296889,
+            "note": "ΔE 8.2"
+          },
+          {
+            "key": "dark.border",
+            "want": "#2e2b27",
+            "got": "#2e2b27",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.danger",
+            "want": "#f2857b",
+            "got": "#f2857b",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.success",
+            "want": "#7ccf9c",
+            "got": "#7ccf9c",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "font.sans",
+            "want": "Instrument Sans",
+            "got": "Instrument Sans",
+            "score": 1
+          },
+          {
+            "key": "font.heading",
+            "want": "Instrument Serif",
+            "got": "Instrument Serif",
+            "score": 1
+          },
+          {
+            "key": "baseSize",
+            "want": "17",
+            "got": "17",
+            "score": 1
+          },
+          {
+            "key": "radius",
+            "want": "10",
+            "got": "10",
+            "score": 1
+          }
+        ]
+      }
+    ]
+  }
+}

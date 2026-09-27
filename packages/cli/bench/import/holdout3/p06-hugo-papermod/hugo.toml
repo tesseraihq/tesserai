@@ -1,0 +1,29 @@
+baseURL = "https://notes.marisol.dev/"
+languageCode = "en-us"
+title = "Field Notes"
+theme = "PaperMod"
+enableRobotsTXT = true
+pagination.pagerSize = 8
+
+[params]
+  env = "production"
+  description = "Notes on maps, data and slow software."
+  author = "Marisol Vega"
+  defaultTheme = "auto"
+  disableThemeToggle = false
+  ShowReadingTime = true
+  ShowCodeCopyButtons = true
+  ShowPostNavLinks = true
+  showtoc = false
+
+  [params.homeInfoParams]
+    Title = "Field Notes"
+    Content = "Writing about cartography, GIS and the tools I build for them."
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/marisolvega"
+
+[markup.highlight]
+  noClasses = false
+  style = "monokai"

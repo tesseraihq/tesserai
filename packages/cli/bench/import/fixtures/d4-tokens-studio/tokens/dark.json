@@ -1,0 +1,28 @@
+{
+  "semantic": {
+    "bg": {
+      "value": "{core.stone.950}",
+      "type": "color"
+    },
+    "text": {
+      "value": "{core.stone.50}",
+      "type": "color"
+    },
+    "accent": {
+      "value": "{core.orange.500}",
+      "type": "color"
+    },
+    "on-accent": {
+      "value": "{core.stone.900}",
+      "type": "color"
+    },
+    "line": {
+      "value": "{core.stone.800}",
+      "type": "color"
+    },
+    "danger": {
+      "value": "{core.red.400}",
+      "type": "color"
+    }
+  }
+}

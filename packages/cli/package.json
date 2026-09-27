@@ -1,0 +1,63 @@
+{
+  "name": "@tesserai/cli",
+  "version": "0.2.1",
+  "mcpName": "design.tesserai/tesserai",
+  "description": "Install a tesserai design system into your project as components you own, keep it in sync, and give your coding agent an MCP server that reads it.",
+  "license": "MIT",
+  "homepage": "https://tesserai.design/docs",
+  "keywords": [
+    "design-system",
+    "design-tokens",
+    "shadcn",
+    "tailwind",
+    "mcp",
+    "react",
+    "vue",
+    "svelte",
+    "cli"
+  ],
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "bin": {
+    "tesserai": "./bin/tesserai.js"
+  },
+  "files": [
+    "bin/*.js",
+    "dist/*.js"
+  ],
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "publishConfig": {
+    "access": "public",
+    "exports": {
+      "./package.json": "./package.json"
+    }
+  },
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json",
+    "build": "node scripts/build.mjs",
+    "bench": "TESSERAI_OFFLINE=1 tsx scripts/bench.mts",
+    "prepack": "node scripts/build.mjs"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "@tailwindcss/node": "4.3.3",
+    "@tesserai/core": "workspace:*",
+    "@tesserai/templates": "workspace:*",
+    "@types/node": "^24.0.0",
+    "@types/semver": "^7.8.0",
+    "esbuild": "0.28.2",
+    "semver": "^7.8.5",
+    "tailwindcss": "4.3.3",
+    "tsx": "^4.23.15",
+    "zod": "^4.6.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tesseraihq/tesserai.git",
+    "directory": "packages/cli"
+  }
+}

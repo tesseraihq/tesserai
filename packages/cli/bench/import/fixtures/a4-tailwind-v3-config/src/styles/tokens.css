@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-background: 255 255 255;
+  --color-foreground: 17 24 39;
+  --color-border: 229 231 235;
+}
+
+.dark {
+  --color-background: 3 7 18;
+  --color-foreground: 243 244 246;
+  --color-border: 31 41 55;
+}

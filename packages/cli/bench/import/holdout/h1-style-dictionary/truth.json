@@ -1,0 +1,39 @@
+{
+  "stack": "Style Dictionary v3 (old {value} format, css/variables with prefix sd) in a Vite React app",
+  "route": "direct",
+  "hard": "names are prefixed --sd-color-* in two generated files (dark only under [data-theme=\"dark\"]), sizes are rem, the JSON sources use {…value} references, and an archived brand file sits in tokens/ outside the build sources",
+  "light": {
+    "primary": "#1b7064",
+    "primaryForeground": "#ffffff",
+    "background": "#f7f8f9",
+    "card": "#ffffff",
+    "foreground": "#1a1e24",
+    "mutedText": "#525b66",
+    "border": "#dde1e5",
+    "danger": "#d93f3f",
+    "success": "#2f8a4c",
+    "warning": "#d9921a"
+  },
+  "dark": {
+    "primary": "#43a797",
+    "primaryForeground": "#072421",
+    "background": "#0f1216",
+    "card": "#1a1e24",
+    "foreground": "#f7f8f9",
+    "mutedText": "#9aa3ad",
+    "border": "#3e4550",
+    "danger": "#ef6461",
+    "success": "#52b56f",
+    "warning": "#ecae45"
+  },
+  "fonts": {
+    "sans": "Source Sans 3",
+    "heading": "Fraunces",
+    "mono": "JetBrains Mono"
+  },
+  "baseSize": 16,
+  "radius": 8,
+  "spacing": 4,
+  "absent": [],
+  "decoys": ["#6d28d9", "#faf5ff", "#e9d5ff", "#1e1b4b"]
+}

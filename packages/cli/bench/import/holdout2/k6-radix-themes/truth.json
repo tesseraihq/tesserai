@@ -1,0 +1,36 @@
+{
+  "stack": "Radix Themes 3 in Next.js 15 with a generated custom palette (radix-ui.com/colors/custom) and next-themes",
+  "route": "agent",
+  "hard": "roles only exist through Radix's scale conventions (accentColor=\"teal\" -> --teal-9 solid with --teal-contrast, gray-12 body text, Text color=\"gray\" -> translucent --gray-a11), and the app's teal/gray must beat Radix's own teal and gray in node_modules",
+  "light": {
+    "primary": "#0d7d74",
+    "primaryForeground": "#fff",
+    "background": "#fdfdfc",
+    "foreground": "#1f1e1b",
+    "mutedText": "#0a0900a8"
+  },
+  "dark": {
+    "primary": "#1f9d90",
+    "primaryForeground": "#fff",
+    "background": "#111110",
+    "foreground": "#eeeeec",
+    "mutedText": "#fffdf5b0"
+  },
+  "fonts": {
+    "sans": "Geist",
+    "mono": "Geist Mono"
+  },
+  "absent": [
+    "light.card",
+    "dark.card",
+    "baseSize",
+    "radius",
+    "spacing"
+  ],
+  "decoys": [
+    "#12a594",
+    "#3e63dd",
+    "#8d8d8d",
+    "#0bd8b6"
+  ]
+}

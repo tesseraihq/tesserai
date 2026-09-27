@@ -1,0 +1,32 @@
+// Palette. Theme UI keys: `muted` is a background tint (code blocks, table stripes),
+// `gray` is the secondary text color.
+export const colors = {
+  text: "#221e1a",
+  background: "#fffdf8",
+  surface: "#ffffff",
+  primary: "#b3402a",
+  secondary: "#2a6b73",
+  accent: "#d9a441",
+  highlight: "#fbecc6",
+  muted: "#f3eee6",
+  gray: "#6f675e",
+  border: "#e5ddd1",
+  error: "#b42318",
+  success: "#2f7d4a",
+  modes: {
+    dark: {
+      text: "#ede6dc",
+      background: "#171412",
+      surface: "#1f1b18",
+      primary: "#f08a6c",
+      secondary: "#7fbcc4",
+      accent: "#e8c071",
+      highlight: "#3d2f14",
+      muted: "#26211d",
+      gray: "#a2988c",
+      border: "#3a332c",
+      error: "#f4776b",
+      success: "#6cc58f",
+    },
+  },
+}

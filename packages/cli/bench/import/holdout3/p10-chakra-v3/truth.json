@@ -1,0 +1,30 @@
+{
+  "stack": "Chakra UI v3 (createSystem + defineConfig) in Next.js 15",
+  "route": "agent",
+  "hard": "primary comes from Chakra v3's rules: html sets colorPalette plum, and the default solid Button reads colorPalette.solid, a semantic token with _light/_dark conditions pointing at a ramp in another file; the card is bg.panel; fonts are next/font variables",
+  "light": {
+    "primary": "#7f3f8f",
+    "primaryForeground": "white",
+    "background": "#fbfaf8",
+    "card": "white",
+    "foreground": "#26221d",
+    "mutedText": "#6a6252",
+    "border": "#e7e3da"
+  },
+  "dark": {
+    "primary": "#d2abdc",
+    "primaryForeground": "#2d1133",
+    "background": "#171410",
+    "card": "#26221d",
+    "foreground": "#fbfaf8",
+    "mutedText": "#aaa290",
+    "border": "#3a352d"
+  },
+  "fonts": {
+    "sans": "Inter",
+    "heading": "Bricolage Grotesque"
+  },
+  "radius": 6,
+  "absent": ["baseSize", "spacing", "light.danger", "dark.danger", "light.success", "dark.success", "light.warning", "dark.warning"],
+  "decoys": ["#3182ce", "#2b6cb0", "#09090B", "#1a202c"]
+}

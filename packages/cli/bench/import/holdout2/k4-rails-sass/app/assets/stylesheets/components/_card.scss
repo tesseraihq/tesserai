@@ -1,0 +1,26 @@
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(26rem, 1fr));
+  gap: $space-2;
+}
+
+.card {
+  background: $color-surface;
+  border: 1px solid $color-border;
+  border-radius: $radius-lg;
+  padding: $space-3;
+
+  &__meta {
+    color: $color-text-muted;
+    font-size: $font-size-small;
+  }
+
+  &__title {
+    margin: $space-1 0;
+  }
+
+  &__total {
+    font-family: $font-mono;
+    font-size: 2rem;
+  }
+}

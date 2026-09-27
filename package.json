@@ -1,0 +1,29 @@
+{
+  "name": "tesserai-open",
+  "private": true,
+  "type": "module",
+  "version": "0.0.0",
+  "packageManager": "pnpm@10.25.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "pnpm --filter @tesserai/cli build",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "pnpm -r typecheck",
+    "format": "prettier --write .",
+    "verify": "vitest run && pnpm -r typecheck",
+    "cli:check": "node scripts/check-cli-package.mjs"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.8",
+    "typescript": "^5.9.0",
+    "vitest": "^5.0.1"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  }
+}

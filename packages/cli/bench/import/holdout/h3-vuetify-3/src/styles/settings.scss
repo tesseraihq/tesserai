@@ -1,0 +1,12 @@
+/**
+ * src/styles/settings.scss
+ *
+ * Configures SASS variables and Vuetify overwrites
+ */
+
+// https://vuetifyjs.com/features/sass-variables/
+@use 'vuetify/settings' with (
+  $body-font-family: ('Nunito Sans', sans-serif),
+  $heading-font-family: ('Lexend', sans-serif),
+  $border-radius-root: 6px,
+);

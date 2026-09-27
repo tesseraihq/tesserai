@@ -1,0 +1,115 @@
+/* Generated with https://www.radix-ui.com/colors/custom
+   accent #0d7d74 / gray #8a8984 / background #fdfdfc (light)
+   accent #1f9d90 / gray #6f6f6a / background #111110 (dark) */
+
+:root, .light, .light-theme {
+  --teal-1: #fafefd;
+  --teal-2: #f2fbf8;
+  --teal-3: #dcf5ee;
+  --teal-4: #c7eee4;
+  --teal-5: #b0e4d8;
+  --teal-6: #96d6c8;
+  --teal-7: #73c3b3;
+  --teal-8: #36a997;
+  --teal-9: #0d7d74;
+  --teal-10: #006f66;
+  --teal-11: #00796f;
+  --teal-12: #0f3c37;
+}
+
+.dark, .dark-theme {
+  --teal-1: #0b1413;
+  --teal-2: #111c1a;
+  --teal-3: #0c2e29;
+  --teal-4: #033c35;
+  --teal-5: #0d4a42;
+  --teal-6: #1a5950;
+  --teal-7: #236b61;
+  --teal-8: #2a8175;
+  --teal-9: #1f9d90;
+  --teal-10: #2eab9e;
+  --teal-11: #5ed3c2;
+  --teal-12: #b7f0e5;
+}
+
+:root, .light, .light-theme {
+  --gray-1: #fcfcfb;
+  --gray-2: #f8f8f6;
+  --gray-3: #eeeeeb;
+  --gray-4: #e5e5e1;
+  --gray-5: #dddcd8;
+  --gray-6: #d3d2cd;
+  --gray-7: #c4c3be;
+  --gray-8: #adaca5;
+  --gray-9: #817f78;
+  --gray-10: #76756e;
+  --gray-11: #5d5c56;
+  --gray-12: #1f1e1b;
+}
+
+.dark, .dark-theme {
+  --gray-1: #111110;
+  --gray-2: #191918;
+  --gray-3: #222221;
+  --gray-4: #2a2a28;
+  --gray-5: #31312f;
+  --gray-6: #3b3b38;
+  --gray-7: #494946;
+  --gray-8: #62625e;
+  --gray-9: #6f6f6a;
+  --gray-10: #7c7c77;
+  --gray-11: #b5b4ae;
+  --gray-12: #eeeeec;
+}
+
+:root, .light, .light-theme {
+  --gray-a1: #7d7d7c02;
+  --gray-a2: #47472107;
+  --gray-a3: #28280b12;
+  --gray-a4: #2222061c;
+  --gray-a5: #201a0425;
+  --gray-a6: #1e190230;
+  --gray-a7: #1612013f;
+  --gray-a8: #15120058;
+  --gray-a9: #110d0186;
+  --gray-a10: #0e0c0190;
+  --gray-a11: #0a0900a8;
+  --gray-a12: #050400e4;
+}
+
+.dark, .dark-theme {
+  --gray-a1: #00000000;
+  --gray-a2: #f4f4f309;
+  --gray-a3: #f5f5f413;
+  --gray-a4: #fdfdf31b;
+  --gray-a5: #fafaf223;
+  --gray-a6: #fffff32d;
+  --gray-a7: #fffff63c;
+  --gray-a8: #fefef557;
+  --gray-a9: #fefef365;
+  --gray-a10: #fefef473;
+  --gray-a11: #fffdf5b0;
+  --gray-a12: #fffffded;
+}
+
+:root, .light, .light-theme {
+  --teal-contrast: #fff;
+  --teal-surface: #f0faf7cc;
+  --teal-indicator: var(--teal-9);
+  --teal-track: var(--teal-9);
+}
+
+.dark, .dark-theme {
+  --teal-contrast: #fff;
+  --teal-surface: #122724cc;
+  --teal-indicator: var(--teal-9);
+  --teal-track: var(--teal-9);
+}
+
+:root, .light, .light-theme, .radix-themes {
+  --color-background: #fdfdfc;
+}
+
+.dark, .dark-theme {
+  --color-background: #111110;
+}

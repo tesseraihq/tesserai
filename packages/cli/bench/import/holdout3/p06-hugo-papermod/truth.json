@@ -1,0 +1,31 @@
+{
+  "stack": "Hugo site on the PaperMod theme (git submodule), overridden via assets/css/extended",
+  "route": "direct",
+  "hard": "the site's own CSS in assets/css/extended/ overrides the theme's vars, so themes/PaperMod values are defaults, not the look; PaperMod's --primary is the text color and the brand color is the site's --accent; dark is the .dark class; a Jekyll-era stylesheet sits unlinked in static/",
+  "light": {
+    "primary": "#b4532a",
+    "primaryForeground": "#fffaf2",
+    "background": "#fbf8f3",
+    "card": "#ffffff",
+    "foreground": "#22201c",
+    "mutedText": "#6f675c",
+    "border": "#ebe4d8"
+  },
+  "dark": {
+    "primary": "#e08a5f",
+    "primaryForeground": "#1a1816",
+    "background": "#1a1816",
+    "card": "#24211e",
+    "foreground": "#eee8de",
+    "mutedText": "#a39a8c",
+    "border": "#36312c"
+  },
+  "fonts": {
+    "sans": "Inter",
+    "heading": "Source Serif 4",
+    "mono": "JetBrains Mono"
+  },
+  "radius": 4,
+  "absent": ["baseSize", "spacing"],
+  "decoys": ["rgb(29, 30, 32)", "rgb(46, 46, 51)", "rgb(218, 218, 219)", "#2a7ae2", "#111111"]
+}

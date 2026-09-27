@@ -1,0 +1,189 @@
+{
+  "framework": "react",
+  "usage": {
+    "button": {
+      "uses": 10,
+      "files": 3
+    },
+    "badge": {
+      "uses": 3,
+      "files": 2
+    },
+    "card": {
+      "uses": 1,
+      "files": 1
+    },
+    "input": {
+      "uses": 2,
+      "files": 1
+    },
+    "alert": {
+      "uses": 1,
+      "files": 1
+    }
+  },
+  "options": {
+    "button": {
+      "variant": {
+        "outline": 1,
+        "ghost": 1,
+        "link": 1,
+        "solid": 7
+      },
+      "intent": {
+        "danger": 2,
+        "primary": 7,
+        "~dynamic": 1
+      },
+      "size": {
+        "sm": 1,
+        "lg": 1,
+        "md": 8
+      }
+    },
+    "badge": {
+      "variant": {
+        "solid": 1,
+        "soft": 2
+      },
+      "intent": {
+        "success": 1,
+        "warning": 1,
+        "neutral": 1
+      },
+      "size": {
+        "md": 3
+      }
+    },
+    "card": {
+      "size": {
+        "md": 1
+      }
+    },
+    "input": {
+      "size": {
+        "sm": 1,
+        "md": 1
+      }
+    },
+    "alert": {
+      "variant": {
+        "outline": 1
+      },
+      "intent": {
+        "danger": 1
+      }
+    }
+  },
+  "overrides": [
+    {
+      "file": "src/App.tsx",
+      "line": 27,
+      "component": "button",
+      "kinds": [
+        "radius"
+      ]
+    },
+    {
+      "file": "src/App.tsx",
+      "line": 28,
+      "component": "button",
+      "kinds": [
+        "effects"
+      ]
+    },
+    {
+      "file": "src/App.tsx",
+      "line": 30,
+      "component": "badge",
+      "kinds": [
+        "radius",
+        "typography"
+      ]
+    },
+    {
+      "file": "src/pages/Settings.tsx",
+      "line": 12,
+      "component": "input",
+      "kinds": [
+        "size",
+        "spacing"
+      ]
+    },
+    {
+      "file": "src/pages/Settings.tsx",
+      "line": 14,
+      "component": "button",
+      "kinds": [
+        "color",
+        "radius"
+      ]
+    },
+    {
+      "file": "src/pages/Settings.tsx",
+      "line": 17,
+      "component": "button",
+      "kinds": [
+        "radius"
+      ]
+    },
+    {
+      "file": "src/pages/Settings.tsx",
+      "line": 18,
+      "component": "button",
+      "kinds": [
+        "radius"
+      ]
+    },
+    {
+      "file": "src/pages/Settings.tsx",
+      "line": 19,
+      "component": "button",
+      "kinds": [
+        "radius"
+      ]
+    },
+    {
+      "file": "src/pages/Settings.tsx",
+      "line": 21,
+      "component": "button",
+      "kinds": [
+        "unknown"
+      ]
+    },
+    {
+      "file": "src/pages/Billing.tsx",
+      "line": 8,
+      "component": "alert",
+      "kinds": [
+        "radius",
+        "spacing"
+      ]
+    },
+    {
+      "file": "src/pages/Billing.tsx",
+      "line": 9,
+      "component": "alert",
+      "kinds": [
+        "typography"
+      ]
+    }
+  ],
+  "placementOnly": [
+    {
+      "file": "src/App.tsx",
+      "line": 10,
+      "component": "card"
+    }
+  ],
+  "suggestions": [
+    {
+      "component": "button",
+      "class": "rounded-none",
+      "count": 4
+    }
+  ],
+  "edited": [
+    "src/components/ui/button.tsx"
+  ]
+}

@@ -1,0 +1,26 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Today's jobs</ion-title>
+    <ion-buttons slot="end">
+      <ion-button routerLink="/settings"><ion-icon slot="icon-only" name="settings-outline"></ion-icon></ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding">
+  <ion-card *ngFor="let job of jobs">
+    <ion-card-header>
+      <ion-card-subtitle>
+        <ion-text color="medium">{{ job.address }}</ion-text>
+      </ion-card-subtitle>
+      <ion-card-title>{{ job.title }}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-badge [color]="job.status === 'late' ? 'danger' : job.status === 'at-risk' ? 'warning' : 'success'">
+        {{ job.status }}
+      </ion-badge>
+      <ion-text color="medium"><p>{{ job.window }}</p></ion-text>
+    </ion-card-content>
+    <ion-button fill="solid" color="primary" expand="block" (click)="start(job)">Start job</ion-button>
+  </ion-card>
+</ion-content>

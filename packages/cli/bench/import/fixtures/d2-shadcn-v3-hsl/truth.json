@@ -1,0 +1,34 @@
+{
+  "stack": "shadcn (Tailwind v3, bare HSL channels) in Vite",
+  "route": "direct",
+  "hard": "colors are bare HSL channels; the font lives in tailwind.config.js",
+  "light": {
+    "primary": "hsl(221.2 83.2% 53.3%)",
+    "primaryForeground": "hsl(210 40% 98%)",
+    "background": "hsl(0 0% 100%)",
+    "card": "hsl(0 0% 100%)",
+    "foreground": "hsl(222.2 84% 4.9%)",
+    "mutedText": "hsl(215.4 16.3% 46.9%)",
+    "border": "hsl(214.3 31.8% 91.4%)",
+    "danger": "hsl(0 84.2% 60.2%)"
+  },
+  "dark": {
+    "primary": "hsl(217.2 91.2% 59.8%)",
+    "primaryForeground": "hsl(222.2 47.4% 11.2%)",
+    "background": "hsl(222.2 84% 4.9%)",
+    "card": "hsl(222.2 84% 4.9%)",
+    "foreground": "hsl(210 40% 98%)",
+    "mutedText": "hsl(215 20.2% 65.1%)",
+    "border": "hsl(217.2 32.6% 17.5%)",
+    "danger": "hsl(0 62.8% 30.6%)"
+  },
+  "fonts": {
+    "sans": "Inter"
+  },
+  "radius": 8,
+  "absent": [
+    "baseSize",
+    "spacing"
+  ],
+  "decoys": []
+}

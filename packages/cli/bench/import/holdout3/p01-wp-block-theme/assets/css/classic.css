@@ -1,0 +1,17 @@
+/* Tidewater classic theme (2019). Archived microsite pages only; not enqueued by the block theme. */
+body {
+	background: #ffffff;
+	color: #23282d;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-size: 15px;
+}
+a { color: #0073aa; }
+a:hover { color: #00a0d2; }
+.button, input[type="submit"] {
+	background: #0073aa;
+	border: 1px solid #006799;
+	border-radius: 3px;
+	color: #fff;
+}
+.site-header { background: #23282d; }
+.widget-area { border-left: 1px solid #ddd; }

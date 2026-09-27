@@ -1,0 +1,100 @@
+{
+  "label": "agent-smoke",
+  "at": "2026-09-26T19:11:09.912Z",
+  "results": {
+    "agent": [
+      {
+        "fixture": "a1-antd-v5",
+        "chose": [
+          "your coding agent's reading of the code"
+        ],
+        "seconds": 199.01297345800003,
+        "costUsd": 0.3911529,
+        "ok": true,
+        "accuracy": 1,
+        "colorAccuracy": 1,
+        "valueAccuracy": 1,
+        "trust": {
+          "score": 1,
+          "recall": 1,
+          "precision": 1,
+          "evidence": 1,
+          "falseClaims": [],
+          "badEvidence": []
+        },
+        "decoyHits": [],
+        "usable": 1,
+        "score": 0.9999999999999999,
+        "items": [
+          {
+            "key": "light.primary",
+            "want": "#0f766e",
+            "got": "#0f766e",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.background",
+            "want": "#ffffff",
+            "got": "#ffffff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.foreground",
+            "want": "#111827",
+            "got": "#111827",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.border",
+            "want": "#d1d5db",
+            "got": "#d1d5db",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.danger",
+            "want": "#be123c",
+            "got": "#be123c",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.success",
+            "want": "#15803d",
+            "got": "#15803d",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.warning",
+            "want": "#b45309",
+            "got": "#b45309",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "font.sans",
+            "want": "IBM Plex Sans",
+            "got": "IBM Plex Sans",
+            "score": 1
+          },
+          {
+            "key": "baseSize",
+            "want": "14",
+            "got": "14",
+            "score": 1
+          },
+          {
+            "key": "radius",
+            "want": "4",
+            "got": "4",
+            "score": 1
+          }
+        ]
+      }
+    ]
+  }
+}

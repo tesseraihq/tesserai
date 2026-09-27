@@ -1,0 +1,18 @@
+@import "~@wordpress/base-styles/colors";
+
+.wp-block-fieldnote-menu-card {
+	display: flex;
+	justify-content: space-between;
+	gap: var(--wp--preset--spacing--30);
+	padding: var(--wp--preset--spacing--30) 0;
+	border-bottom: 1px solid var(--wp--preset--color--contrast-3);
+
+	&__price {
+		font-family: var(--wp--preset--font-family--mono);
+		color: var(--wp--preset--color--contrast-2);
+	}
+
+	.block-editor-block-list__layout &.is-selected {
+		outline: 1px dashed $gray-600;
+	}
+}

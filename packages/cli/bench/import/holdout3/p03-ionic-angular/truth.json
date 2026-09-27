@@ -1,0 +1,34 @@
+{
+  "stack": "Ionic 8 + Angular 18 (--ion-* variables, class-based dark palette)",
+  "route": "direct",
+  "hard": "dark is Ionic's .ion-palette-dark class palette: brand colors on .ion-palette-dark, surfaces on `.ion-palette-dark.ios body, .ion-palette-dark.md body` to beat the imported dark.class.css; mutedText is --ion-color-medium; -rgb/-shade/-tint/-contrast noise everywhere; Ionic's own dark palette and defaults sit in node_modules",
+  "light": {
+    "primary": "#2459d6",
+    "primaryForeground": "#ffffff",
+    "background": "#f7f8fa",
+    "card": "#ffffff",
+    "foreground": "#1b1f27",
+    "mutedText": "#6b7280",
+    "border": "#e1e4ea",
+    "danger": "#d93a3a",
+    "success": "#1f9d55",
+    "warning": "#f2a900"
+  },
+  "dark": {
+    "primary": "#6f9bff",
+    "primaryForeground": "#0b1220",
+    "background": "#0e1116",
+    "card": "#171b22",
+    "foreground": "#e6e9ef",
+    "mutedText": "#9aa3b2",
+    "border": "#262c36",
+    "danger": "#ff6b6b",
+    "success": "#3ecf7e",
+    "warning": "#ffc53d"
+  },
+  "fonts": {
+    "sans": "Nunito Sans"
+  },
+  "absent": ["baseSize", "radius", "spacing"],
+  "decoys": ["#0054e9", "#4d8dff", "#000000", "#121212", "#1c1c1d", "#1e1e1e", "#c5000f"]
+}

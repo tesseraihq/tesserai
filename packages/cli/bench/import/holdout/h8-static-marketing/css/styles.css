@@ -1,0 +1,250 @@
+/* ==========================================================================
+   Loamwork — site styles
+   ========================================================================== */
+
+body {
+  font-family: "Instrument Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
+  color: #2d2a26;
+  background: #faf7f2;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Instrument Serif", Georgia, "Times New Roman", serif;
+  font-weight: 400;
+  line-height: 1.15;
+}
+
+h1 { font-size: 56px; letter-spacing: -0.01em; }
+h2 { font-size: 36px; margin-bottom: 24px; }
+h3 { font-size: 24px; margin-bottom: 8px; }
+
+a { color: inherit; }
+
+.wrap {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Header ------------------------------------------------------------------ */
+
+.site-header {
+  background: #faf7f2;
+  border-bottom: 1px solid #e6dfd3;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 72px;
+}
+
+.logo {
+  font-family: "Instrument Serif", Georgia, serif;
+  font-size: 26px;
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.nav a:not(.btn) {
+  color: #6e675d;
+  text-decoration: none;
+}
+
+.nav a:not(.btn):hover {
+  color: #2d2a26;
+}
+
+/* Buttons ----------------------------------------------------------------- */
+
+.btn {
+  display: inline-block;
+  padding: 12px 22px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn-sm {
+  padding: 8px 14px;
+  font-size: 15px;
+}
+
+.btn-primary {
+  background: #2f5d50;
+  color: #f4efe6;
+}
+
+.btn-primary:hover {
+  background: #264c41;
+}
+
+.btn-ghost {
+  background: transparent;
+  border-color: #d8cfc0;
+  color: #2d2a26;
+}
+
+/* Hero -------------------------------------------------------------------- */
+
+.hero {
+  padding-top: 96px;
+  padding-bottom: 72px;
+}
+
+.lede {
+  max-width: 620px;
+  margin: 20px 0 32px;
+  font-size: 20px;
+  color: #6e675d;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 12px;
+}
+
+/* Cards ------------------------------------------------------------------- */
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  padding-bottom: 96px;
+}
+
+.card {
+  background: #ffffff;
+  border: 1px solid #e6dfd3;
+  border-radius: 16px;
+  padding: 28px;
+}
+
+.card p {
+  color: #6e675d;
+}
+
+/* Contact ----------------------------------------------------------------- */
+
+.contact {
+  padding-bottom: 120px;
+}
+
+.contact-form {
+  display: grid;
+  gap: 16px;
+  max-width: 480px;
+}
+
+.contact-form label {
+  display: grid;
+  gap: 6px;
+  font-weight: 600;
+}
+
+.contact-form input {
+  padding: 10px 12px;
+  background: #ffffff;
+  border: 1px solid #d8cfc0;
+  border-radius: 10px;
+  color: #2d2a26;
+}
+
+.contact-form input:focus {
+  outline: 2px solid #2f5d50;
+  outline-offset: 1px;
+}
+
+.form-error {
+  color: #b3261e;
+}
+
+.form-success {
+  color: #2c6e49;
+}
+
+/* Footer ------------------------------------------------------------------ */
+
+.site-footer {
+  padding: 40px 0;
+  background: #1f1d1a;
+  color: #bdb5a8;
+  font-size: 14px;
+}
+
+/* Dark -------------------------------------------------------------------- */
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #e8e2d8;
+    background: #161513;
+  }
+
+  .site-header {
+    background: #161513;
+    border-bottom-color: #2e2b27;
+  }
+
+  .nav a:not(.btn),
+  .lede,
+  .card p {
+    color: #a39b8f;
+  }
+
+  .nav a:not(.btn):hover {
+    color: #e8e2d8;
+  }
+
+  .btn-primary {
+    background: #7fbfa9;
+    color: #10231d;
+  }
+
+  .btn-primary:hover {
+    background: #95ccb9;
+  }
+
+  .btn-ghost {
+    border-color: #3a3631;
+    color: #e8e2d8;
+  }
+
+  .card {
+    background: #1f1d1a;
+    border-color: #2e2b27;
+  }
+
+  .contact-form input {
+    background: #1f1d1a;
+    border-color: #3a3631;
+    color: #e8e2d8;
+  }
+
+  .contact-form input:focus {
+    outline-color: #7fbfa9;
+  }
+
+  .form-error {
+    color: #f2857b;
+  }
+
+  .form-success {
+    color: #7ccf9c;
+  }
+
+  .site-footer {
+    background: #0e0d0c;
+  }
+}

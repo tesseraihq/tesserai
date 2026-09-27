@@ -1,0 +1,34 @@
+{
+  "stack": "daisyUI 5 on Tailwind v4 (@plugin \"daisyui/theme\" blocks) in Vite + React",
+  "route": "direct",
+  "hard": "the themes are daisyUI 5 @plugin blocks: light is the one with default: true, dark the one with prefersdark: true; a third, unimported promo theme sits beside them; built-in themes live in node_modules",
+  "light": {
+    "primary": "oklch(52% 0.16 255)",
+    "primaryForeground": "oklch(98% 0.01 255)",
+    "background": "oklch(99% 0.004 240)",
+    "card": "oklch(96.5% 0.008 240)",
+    "foreground": "oklch(24% 0.03 250)",
+    "border": "oklch(91% 0.012 240)",
+    "danger": "oklch(60% 0.2 25)",
+    "success": "oklch(64% 0.15 150)",
+    "warning": "oklch(80% 0.15 85)"
+  },
+  "dark": {
+    "primary": "oklch(70% 0.14 255)",
+    "primaryForeground": "oklch(18% 0.04 255)",
+    "background": "oklch(21% 0.02 255)",
+    "card": "oklch(25% 0.022 255)",
+    "foreground": "oklch(92% 0.012 250)",
+    "border": "oklch(31% 0.024 255)",
+    "danger": "oklch(68% 0.18 25)",
+    "success": "oklch(72% 0.15 150)",
+    "warning": "oklch(82% 0.14 85)"
+  },
+  "fonts": {
+    "sans": "Manrope",
+    "mono": "Fira Code"
+  },
+  "radius": 8,
+  "absent": ["baseSize", "spacing", "light.mutedText", "dark.mutedText"],
+  "decoys": ["oklch(66% 0.2 35)", "oklch(98% 0.02 70)", "oklch(45% 0.24 277.023)", "oklch(58% 0.233 277.117)", "oklch(85% 0.138 181.071)"]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "clinic-portal",
+  "private": true,
+  "dependencies": {
+    "@mui/material": "^5.16.0",
+    "@emotion/react": "^11.13.0",
+    "react": "18.3.1"
+  }
+}

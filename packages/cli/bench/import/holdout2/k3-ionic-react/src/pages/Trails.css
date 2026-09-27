@@ -1,0 +1,9 @@
+.trail-meta {
+  color: var(--ion-color-medium);
+  font-size: 14px;
+}
+
+.trail-card {
+  border: 1px solid var(--ion-border-color);
+  box-shadow: none;
+}

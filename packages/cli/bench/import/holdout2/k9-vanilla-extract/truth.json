@@ -1,0 +1,43 @@
+{
+  "stack": "vanilla-extract (createGlobalThemeContract + createGlobalTheme) in React + Vite",
+  "route": "agent",
+  "hard": "two hops (theme.css.ts -> palette.ts) with the app's own role names (canvas, raised, ink, inkSubtle, hairline, accent, onAccent, critical), dark is a vars.color-only theme on :root[data-theme=\"dark\"], and Storybook's manager theme is not the app",
+  "light": {
+    "primary": "#51306a",
+    "primaryForeground": "#ffffff",
+    "background": "#fbf9f6",
+    "card": "#ffffff",
+    "foreground": "#27231d",
+    "mutedText": "#6f6557",
+    "border": "#e4ddd1",
+    "danger": "#c2352b",
+    "success": "#2f7d4f",
+    "warning": "#b7790b"
+  },
+  "dark": {
+    "primary": "#c3a6de",
+    "primaryForeground": "#2a1633",
+    "background": "#141218",
+    "card": "#1d1a22",
+    "foreground": "#ece9f1",
+    "mutedText": "#a7a1b2",
+    "border": "#2d2934",
+    "danger": "#f08a80",
+    "success": "#7fcf9c",
+    "warning": "#f2c265"
+  },
+  "fonts": {
+    "sans": "Work Sans Variable",
+    "heading": "Young Serif",
+    "mono": "Martian Mono"
+  },
+  "baseSize": 15,
+  "radius": 8,
+  "spacing": 4,
+  "absent": [],
+  "decoys": [
+    "#ff4785",
+    "#1ea7fd",
+    "#7a4fa0"
+  ]
+}

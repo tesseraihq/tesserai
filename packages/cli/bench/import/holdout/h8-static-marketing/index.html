@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Loamwork — Landscape design for small gardens</title>
+  <meta name="description" content="Loamwork designs and builds low-water gardens for small city lots.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;600&family=Instrument+Serif&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="logo" href="/">Loamwork</a>
+      <nav class="nav">
+        <a href="#work">Work</a>
+        <a href="#process">Process</a>
+        <a href="#pricing">Pricing</a>
+        <a class="btn btn-primary btn-sm" href="#contact">Book a visit</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero wrap">
+      <h1>Small gardens that don't need a hose.</h1>
+      <p class="lede">We design and build low-water planting for city lots under 2,000 sq ft — from first sketch to the last bag of mulch.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#contact">Book a site visit</a>
+        <a class="btn btn-ghost" href="#work">See recent gardens</a>
+      </div>
+    </section>
+
+    <section id="process" class="wrap grid-3">
+      <article class="card">
+        <h3>1. Walk the site</h3>
+        <p>An hour on your lot with a soil probe and a sun map.</p>
+      </article>
+      <article class="card">
+        <h3>2. Plant plan</h3>
+        <p>A scaled drawing and a plant list you can keep, even if you build it yourself.</p>
+      </article>
+      <article class="card">
+        <h3>3. Build</h3>
+        <p>Our crew installs in two to five days. We come back at six weeks.</p>
+      </article>
+    </section>
+
+    <section id="contact" class="wrap contact">
+      <h2>Book a site visit</h2>
+      <form class="contact-form" action="https://formspree.io/f/mnqekzpl" method="POST">
+        <label>Name <input type="text" name="name" required></label>
+        <label>Email <input type="email" name="email" required></label>
+        <label>Postcode <input type="text" name="postcode"></label>
+        <p class="form-error" hidden>Please add an email so we can reply.</p>
+        <p class="form-success" hidden>Thanks — we'll be in touch within two days.</p>
+        <button class="btn btn-primary" type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>© 2024 Loamwork Studio · Portland, OR</p>
+    </div>
+  </footer>
+
+  <script src="js/form.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+  <script>
+  window.cookieconsent.initialise({
+    "palette": {
+      "popup": {
+        "background": "#252e39"
+      },
+      "button": {
+        "background": "#14a7d0"
+      }
+    },
+    "theme": "classic",
+    "content": {
+      "href": "/privacy"
+    }
+  });
+  </script>
+</body>
+</html>

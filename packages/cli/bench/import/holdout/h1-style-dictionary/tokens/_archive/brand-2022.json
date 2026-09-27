@@ -1,0 +1,20 @@
+{
+  "color": {
+    "brand": {
+      "primary": { "value": "#6d28d9" },
+      "primary-hover": { "value": "#5b21b6" },
+      "on-primary": { "value": "#ffffff" }
+    },
+    "bg": {
+      "canvas": { "value": "#faf5ff" },
+      "surface": { "value": "#ffffff" }
+    },
+    "text": {
+      "default": { "value": "#1e1b4b" },
+      "subtle": { "value": "#6b7280" }
+    },
+    "border": {
+      "default": { "value": "#e9d5ff" }
+    }
+  }
+}

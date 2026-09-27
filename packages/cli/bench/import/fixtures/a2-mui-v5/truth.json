@@ -1,0 +1,31 @@
+{
+  "stack": "MUI v5 createTheme with a light/dark function",
+  "route": "agent",
+  "hard": "values chosen by a ternary per mode; alpha() for the dark divider; MUI spacing 8",
+  "light": {
+    "primary": "#5b21b6",
+    "primaryForeground": "#ffffff",
+    "background": "#f8fafc",
+    "card": "#ffffff",
+    "foreground": "#0f172a",
+    "border": "#e2e8f0",
+    "danger": "#b91c1c"
+  },
+  "dark": {
+    "primary": "#c4b5fd",
+    "primaryForeground": "#1e1b4b",
+    "background": "#0b1120",
+    "card": "#111827",
+    "foreground": "#e2e8f0",
+    "border": "rgb(226 232 240 / 0.12)",
+    "danger": "#f87171"
+  },
+  "fonts": {
+    "sans": "Nunito Sans"
+  },
+  "baseSize": 15,
+  "radius": 12,
+  "spacing": 8,
+  "absent": [],
+  "decoys": []
+}

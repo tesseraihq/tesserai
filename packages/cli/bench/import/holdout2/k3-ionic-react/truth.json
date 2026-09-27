@@ -1,0 +1,44 @@
+{
+  "stack": "Ionic 8 React (Capacitor) with the Ionic CSS variables theme and dark.class.css palette",
+  "route": "direct",
+  "hard": "dark mode is Ionic's own dark palette with only brand and surfaces overridden (on `.ion-palette-dark.md body`), so dark danger/success/warning/muted are Ionic's; -shade/-tint and -rgb duplicates are not roles",
+  "light": {
+    "primary": "#0b6e4f",
+    "primaryForeground": "#ffffff",
+    "background": "#f4f6f5",
+    "card": "#ffffff",
+    "foreground": "#14201b",
+    "mutedText": "#5f6e68",
+    "border": "#dde3e0",
+    "danger": "#c8372d",
+    "success": "#2e9e5b",
+    "warning": "#e8a317"
+  },
+  "dark": {
+    "primary": "#5ed1a4",
+    "primaryForeground": "#062418",
+    "background": "#0f1714",
+    "card": "#17221e",
+    "foreground": "#e3ebe7",
+    "border": "#2a3833"
+  },
+  "fonts": {
+    "sans": "Nunito Sans"
+  },
+  "absent": [
+    "dark.danger",
+    "dark.success",
+    "dark.warning",
+    "dark.mutedText",
+    "baseSize",
+    "radius",
+    "spacing"
+  ],
+  "decoys": [
+    "#0054e9",
+    "#4d8dff",
+    "#121212",
+    "#1e1e1e",
+    "#6030ff"
+  ]
+}

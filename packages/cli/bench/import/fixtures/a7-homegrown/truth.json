@@ -1,0 +1,24 @@
+{
+  "stack": "homegrown constants and inline styles (Create React App)",
+  "route": "agent",
+  "hard": "no theme at all: meanings come from names and usage; buttons are pills (999)",
+  "light": {
+    "primary": "#ff5a1f",
+    "primaryForeground": "#ffffff",
+    "background": "#fffdf7",
+    "foreground": "#1f2937",
+    "border": "#ece7dc",
+    "danger": "#c81e1e"
+  },
+  "dark": null,
+  "fonts": {
+    "sans": "Rubik"
+  },
+  "baseSize": 16,
+  "radius": 24,
+  "absent": [
+    "dark",
+    "spacing"
+  ],
+  "decoys": []
+}

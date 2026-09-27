@@ -1,0 +1,24 @@
+<section class="page">
+  <header class="page__head">
+    <h1>Shipments</h1>
+    <button mat-flat-button>
+      <mat-icon>add</mat-icon>
+      New shipment
+    </button>
+  </header>
+
+  <mat-card appearance="outlined">
+    @for (s of shipments(); track s.id) {
+      <div class="row">
+        <div>
+          <div class="row__title">{{ s.destination }}</div>
+          <div class="hint">{{ s.id }} · ETA {{ s.eta }}</div>
+        </div>
+        @if (s.delayed) {
+          <span class="delayed">Delayed</span>
+        }
+      </div>
+      <mat-divider />
+    }
+  </mat-card>
+</section>

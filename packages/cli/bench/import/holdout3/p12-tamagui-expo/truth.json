@@ -1,0 +1,38 @@
+{
+  "stack": "Tamagui (createTamagui, createTokens, createFont) in an Expo Router app",
+  "route": "agent",
+  "hard": "themes are TS objects built from a palette object in another file, with Tamagui's own key names (accentBackground/accentColor, backgroundStrong, colorMuted); what's primary and what's a card only shows in the styled() kit; sizes are unitless tokens (space step 4, radius true 8, body size true 15)",
+  "light": {
+    "primary": "#e4572e",
+    "primaryForeground": "#fff6f2",
+    "background": "#f8f9fa",
+    "card": "#ffffff",
+    "foreground": "#15181c",
+    "mutedText": "#5b626c",
+    "border": "#e3e6ea",
+    "danger": "#c2362b",
+    "success": "#2f9e6a",
+    "warning": "#e9a23b"
+  },
+  "dark": {
+    "primary": "#f08a6a",
+    "primaryForeground": "#0e1013",
+    "background": "#0e1013",
+    "card": "#16191e",
+    "foreground": "#eef0f2",
+    "mutedText": "#8b929c",
+    "border": "#2c3139",
+    "danger": "#ef6f64",
+    "success": "#5cc795",
+    "warning": "#f2bf6d"
+  },
+  "fonts": {
+    "sans": "Inter",
+    "heading": "Fraunces"
+  },
+  "baseSize": 15,
+  "radius": 8,
+  "spacing": 4,
+  "absent": [],
+  "decoys": ["#6c5ce7", "#a29bfe", "#2d3436", "hsl(206, 100%, 50%)", "#050505"]
+}

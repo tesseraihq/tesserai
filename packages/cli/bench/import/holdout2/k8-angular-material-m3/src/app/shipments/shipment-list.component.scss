@@ -1,0 +1,33 @@
+.page {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.page__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  border-bottom: 1px solid var(--mat-sys-outline-variant);
+}
+
+.row__title {
+  font: var(--mat-sys-title-medium);
+}
+
+.hint {
+  color: var(--mat-sys-on-surface-variant);
+  font: var(--mat-sys-body-medium);
+}
+
+.delayed {
+  color: var(--mat-sys-error);
+  font: var(--mat-sys-label-large);
+}

@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Geist", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-canvas: #fbfaf8;
+  --color-surface: #ffffff;
+  --color-ink: #1c1917;
+  --color-ink-muted: #6b6560;
+  --color-line: #e7e3de;
+  --color-accent: #e0531f;
+  --color-accent-hover: #c8461a;
+  --color-accent-ink: #ffffff;
+  --color-danger: #c0262d;
+  --color-success: #1f7a4d;
+  --color-warning: #b7791f;
+
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.875rem;
+}
+
+@layer base {
+  .dark {
+    --color-canvas: #141210;
+    --color-surface: #1d1a17;
+    --color-ink: #f2efeb;
+    --color-ink-muted: #a39d96;
+    --color-line: #34302b;
+    --color-accent: #ff7a45;
+    --color-accent-hover: #ff9466;
+    --color-accent-ink: #1c0d05;
+    --color-danger: #f0646a;
+    --color-success: #4cc38a;
+    --color-warning: #e8b04b;
+  }
+
+  body {
+    @apply bg-canvas text-ink font-sans antialiased;
+  }
+}

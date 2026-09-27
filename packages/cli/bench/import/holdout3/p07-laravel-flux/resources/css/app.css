@@ -1,0 +1,77 @@
+@import 'tailwindcss';
+@import '../../vendor/livewire/flux/dist/flux.css';
+
+@source '../views';
+@source '../../vendor/livewire/flux-pro/stubs/**/*.blade.php';
+@source '../../vendor/livewire/flux/stubs/**/*.blade.php';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+    --font-sans: 'Figtree', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+
+    --radius-lg: 0.625rem;
+
+    /* Flux draws every neutral from zinc, so "zinc" here is our warm grey. */
+    --color-zinc-50: #fafaf9;
+    --color-zinc-100: #f4f3f1;
+    --color-zinc-200: #e6e4e0;
+    --color-zinc-300: #d4d1cb;
+    --color-zinc-400: #a8a39b;
+    --color-zinc-500: #78736b;
+    --color-zinc-600: #5c5750;
+    --color-zinc-700: #45413b;
+    --color-zinc-800: #2b2825;
+    --color-zinc-900: #1c1a18;
+    --color-zinc-950: #0f0e0d;
+
+    /* Greenline green */
+    --color-brand-50: #effcf6;
+    --color-brand-100: #d8f6e8;
+    --color-brand-200: #b3ebd4;
+    --color-brand-300: #7fdab8;
+    --color-brand-400: #48c096;
+    --color-brand-500: #22a57b;
+    --color-brand-600: #148563;
+    --color-brand-700: #116a51;
+    --color-brand-800: #115442;
+    --color-brand-900: #0f4537;
+    --color-brand-950: #062720;
+
+    --color-accent: var(--color-brand-600);
+    --color-accent-content: var(--color-brand-700);
+    --color-accent-foreground: var(--color-white);
+}
+
+@layer theme {
+    .dark {
+        --color-accent: var(--color-brand-400);
+        --color-accent-content: var(--color-brand-300);
+        --color-accent-foreground: var(--color-brand-950);
+    }
+}
+
+@layer base {
+
+    *,
+    ::after,
+    ::before,
+    ::backdrop,
+    ::file-selector-button {
+        border-color: var(--color-zinc-200, currentColor);
+    }
+}
+
+[data-flux-field]:not(ui-radio, ui-checkbox) {
+    @apply grid gap-2;
+}
+
+[data-flux-label] {
+    @apply  !mb-0 !leading-tight;
+}
+
+input:focus[data-flux-control],
+textarea:focus[data-flux-control],
+select:focus[data-flux-control] {
+    @apply outline-hidden ring-2 ring-accent ring-offset-2 ring-offset-accent-foreground;
+}

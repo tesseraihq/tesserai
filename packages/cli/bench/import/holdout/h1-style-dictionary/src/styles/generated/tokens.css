@@ -1,0 +1,72 @@
+/**
+ * Do not edit directly
+ * Generated on Thu, 12 Sep 2024 09:41:27 GMT
+ */
+
+:root {
+  --sd-color-base-white: #ffffff;
+  --sd-color-base-pine-50: #eef8f6;
+  --sd-color-base-pine-100: #d5eee9;
+  --sd-color-base-pine-200: #a9ddd3;
+  --sd-color-base-pine-300: #74c5b7;
+  --sd-color-base-pine-400: #43a797;
+  --sd-color-base-pine-500: #278b7c;
+  --sd-color-base-pine-600: #1b7064;
+  --sd-color-base-pine-700: #185a52;
+  --sd-color-base-pine-800: #174943;
+  --sd-color-base-pine-900: #153d39;
+  --sd-color-base-pine-950: #072421;
+  --sd-color-base-slate-50: #f7f8f9;
+  --sd-color-base-slate-100: #eef0f2;
+  --sd-color-base-slate-200: #dde1e5;
+  --sd-color-base-slate-300: #c3c9d0;
+  --sd-color-base-slate-400: #9aa3ad;
+  --sd-color-base-slate-500: #6c7682;
+  --sd-color-base-slate-600: #525b66;
+  --sd-color-base-slate-700: #3e4550;
+  --sd-color-base-slate-800: #2a3038;
+  --sd-color-base-slate-900: #1a1e24;
+  --sd-color-base-slate-950: #0f1216;
+  --sd-color-base-red-400: #ef6461;
+  --sd-color-base-red-500: #d93f3f;
+  --sd-color-base-red-600: #b92f31;
+  --sd-color-base-green-400: #52b56f;
+  --sd-color-base-green-600: #2f8a4c;
+  --sd-color-base-amber-400: #ecae45;
+  --sd-color-base-amber-500: #d9921a;
+  --sd-color-brand-primary: #1b7064; /* Buttons, links, focus rings */
+  --sd-color-brand-primary-hover: #185a52;
+  --sd-color-brand-on-primary: #ffffff;
+  --sd-color-bg-canvas: #f7f8f9;
+  --sd-color-bg-surface: #ffffff;
+  --sd-color-text-default: #1a1e24;
+  --sd-color-text-subtle: #525b66;
+  --sd-color-border-default: #dde1e5;
+  --sd-color-feedback-danger: #d93f3f;
+  --sd-color-feedback-success: #2f8a4c;
+  --sd-color-feedback-warning: #d9921a;
+  --sd-font-family-sans: 'Source Sans 3', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --sd-font-family-heading: 'Fraunces', Georgia, 'Times New Roman', serif;
+  --sd-font-family-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+  --sd-font-weight-regular: 400;
+  --sd-font-weight-medium: 500;
+  --sd-font-weight-semibold: 600;
+  --sd-font-line-height-tight: 1.2;
+  --sd-font-line-height-body: 1.5;
+  --sd-size-font-xs: 0.75rem;
+  --sd-size-font-sm: 0.875rem;
+  --sd-size-font-md: 1rem;
+  --sd-size-font-lg: 1.125rem;
+  --sd-size-font-xl: 1.5rem;
+  --sd-size-font-xxl: 2rem;
+  --sd-size-space-1: 0.25rem;
+  --sd-size-space-2: 0.5rem;
+  --sd-size-space-3: 0.75rem;
+  --sd-size-space-4: 1rem;
+  --sd-size-space-6: 1.5rem;
+  --sd-size-space-8: 2rem;
+  --sd-size-space-12: 3rem;
+  --sd-size-radius-sm: 0.25rem;
+  --sd-size-radius-md: 0.5rem;
+  --sd-size-radius-lg: 0.75rem;
+}

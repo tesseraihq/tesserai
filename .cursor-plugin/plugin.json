@@ -1,0 +1,21 @@
+{
+  "name": "tesserai",
+  "displayName": "tesserai",
+  "version": "0.2.1",
+  "description": "Your project's design system for coding agents: tokens, components, contrast checks and guidelines, read and changed over MCP.",
+  "author": {
+    "name": "tesserai"
+  },
+  "homepage": "https://tesserai.design",
+  "repository": "https://github.com/tesseraihq/tesserai",
+  "license": "MIT",
+  "keywords": [
+    "design-system",
+    "design-tokens",
+    "shadcn",
+    "tailwind",
+    "accessibility",
+    "mcp"
+  ],
+  "logo": "assets/logo.svg"
+}

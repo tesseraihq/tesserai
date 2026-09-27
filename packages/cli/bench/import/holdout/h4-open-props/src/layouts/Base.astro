@@ -1,0 +1,35 @@
+---
+import "@fontsource-variable/figtree";
+import "@fontsource/young-serif";
+import "../styles/global.css";
+import ThemeToggle from "../components/ThemeToggle.astro";
+
+interface Props {
+  title: string;
+}
+const { title } = Astro.props;
+---
+
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title} · Fieldnotes</title>
+    <script is:inline>
+      try {
+        const saved = localStorage.getItem("theme");
+        const theme = saved ?? (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+        document.documentElement.dataset.theme = theme;
+      } catch {}
+    </script>
+  </head>
+  <body>
+    <header class="wrap">
+      <a href="/">Fieldnotes</a>
+      <ThemeToggle />
+    </header>
+    <main class="wrap stack">
+      <slot />
+    </main>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+body { margin: 0; background: var(--bg); color: var(--text); font-family: "Lexend", system-ui, sans-serif; font-size: 16px; }
+.nav { display: flex; gap: 24px; padding: 16px 32px; border-bottom: 1px solid var(--line); }
+main { padding: 32px; max-width: 720px; }
+.btn { font: inherit; padding: 10px 18px; border-radius: 10px; border: 1px solid var(--line); background: white; color: var(--text); }
+.btn-primary { background: var(--primary); border-color: var(--primary); color: #ffffff; }
+.btn-danger { background: var(--danger); border-color: var(--danger); color: #ffffff; }
+.card { border: 1px solid var(--line); border-radius: 10px; padding: 24px; background: white; }
+.error { color: var(--danger); }
+input { font: inherit; padding: 8px 12px; border: 1px solid var(--line); border-radius: 10px; }

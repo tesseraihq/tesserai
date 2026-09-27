@@ -1,0 +1,24 @@
+{
+  "stack": "Tailwind v4 @theme with custom scales (no semantic names)",
+  "route": "direct",
+  "hard": "no primary/background names: which step is primary comes from how components use the scale; danger is Tailwind's built-in red-600",
+  "light": {
+    "primary": "#4f46e5",
+    "primaryForeground": "#ffffff",
+    "background": "#ffffff",
+    "foreground": "#0f172a",
+    "border": "#e2e8f0",
+    "danger": "oklch(0.577 0.245 27.325)"
+  },
+  "dark": null,
+  "fonts": {
+    "sans": "Plus Jakarta Sans"
+  },
+  "baseSize": 15,
+  "radius": 8,
+  "spacing": 4,
+  "absent": [
+    "dark"
+  ],
+  "decoys": []
+}

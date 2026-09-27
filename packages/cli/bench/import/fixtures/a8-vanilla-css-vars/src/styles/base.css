@@ -1,0 +1,26 @@
+:root {
+  --clr-accent: #2563eb;
+  --clr-on-accent: #ffffff;
+  --clr-bg: #fafaf9;
+  --clr-ink: #1c1917;
+  --clr-line: #e7e5e4;
+  --clr-alert: #dc2626;
+  --r-base: 6px;
+  --ff-body: "Inter var", system-ui, sans-serif;
+  --step-0: 1rem;
+  --space-unit: 4px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --clr-accent: #60a5fa;
+    --clr-on-accent: #0c0a09;
+    --clr-bg: #0c0a09;
+    --clr-ink: #f5f5f4;
+    --clr-line: #292524;
+    --clr-alert: #f87171;
+  }
+}
+
+body { background: var(--clr-bg); color: var(--clr-ink); font: var(--step-0) / 1.6 var(--ff-body); }
+.button { background: var(--clr-accent); color: var(--clr-on-accent); border-radius: var(--r-base); }

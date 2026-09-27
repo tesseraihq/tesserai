@@ -1,0 +1,27 @@
+{
+  // The app's own code, and (through the harness's tsconfig, which extends this) the generated
+  // components: as strict as a create-vite project, plus unchecked index access. Not
+  // exactOptionalPropertyTypes: an optional prop is `undefined` on a Vue component's props, and
+  // Vue's and Reka's prop types don't accept undefined under it, so passing props through (as
+  // shadcn-vue and Reka's own components do) can't compile with it; no Vue starter turns it on.
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "jsx": "preserve",
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "erasableSyntaxOnly": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "types": ["vite/client"],
+    "paths": { "@/*": ["./src/*"] }
+  },
+  "include": ["src/**/*.ts", "src/**/*.vue"]
+}

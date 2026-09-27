@@ -1,0 +1,22 @@
+<button class="theme-toggle" type="button" aria-label="Toggle theme">◐</button>
+
+<script>
+  const button = document.querySelector<HTMLButtonElement>(".theme-toggle");
+  button?.addEventListener("click", () => {
+    const next = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
+    document.documentElement.dataset.theme = next;
+    try {
+      localStorage.setItem("theme", next);
+    } catch {}
+  });
+</script>
+
+<style>
+  .theme-toggle {
+    background: var(--surface-3);
+    color: var(--text-1);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-round);
+    padding: var(--size-1) var(--size-2);
+  }
+</style>

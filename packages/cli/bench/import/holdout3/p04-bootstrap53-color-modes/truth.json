@@ -1,0 +1,37 @@
+{
+  "stack": "Bootstrap 5.3 compiled CSS + color modes ([data-bs-theme] variable overrides) in Vite",
+  "route": "direct",
+  "hard": "per-mode --bs-* overrides under :root,[data-bs-theme=light] and [data-bs-theme=dark]; buttons and cards read their own --bs-btn-*/--bs-card-* variables, so the dark button text (#16141c) only exists in [data-bs-theme=dark] .btn-primary; muted text is a translucent rgba; stock Bootstrap, a dead v4 Sass theme and an email template are in the tree",
+  "light": {
+    "primary": "#5b3cc4",
+    "primaryForeground": "#fff",
+    "background": "#fbfafc",
+    "card": "#ffffff",
+    "foreground": "#1d1b26",
+    "mutedText": "rgba(29, 27, 38, 0.64)",
+    "border": "#e4e1eb",
+    "danger": "#c9362b",
+    "success": "#1e8a5a",
+    "warning": "#e0a100"
+  },
+  "dark": {
+    "primary": "#a18cff",
+    "primaryForeground": "#16141c",
+    "background": "#16141c",
+    "card": "#1d1a25",
+    "foreground": "#e7e4ee",
+    "mutedText": "rgba(231, 228, 238, 0.66)",
+    "border": "#34303f",
+    "danger": "#f0706a",
+    "success": "#4cc38a",
+    "warning": "#f5c451"
+  },
+  "fonts": {
+    "sans": "Public Sans",
+    "mono": "IBM Plex Mono"
+  },
+  "baseSize": 15,
+  "radius": 8,
+  "absent": ["spacing"],
+  "decoys": ["#0d6efd", "#212529", "#6ea8fe", "#e8590c", "#0a7cff"]
+}

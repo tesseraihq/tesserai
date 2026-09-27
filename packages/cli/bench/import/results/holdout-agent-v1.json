@@ -1,0 +1,503 @@
+{
+  "label": "holdout-agent-v1",
+  "at": "2026-09-26T19:19:22.151Z",
+  "results": {
+    "agent": [
+      {
+        "fixture": "h2-mantine-v7",
+        "chose": [
+          "your coding agent's reading of the code"
+        ],
+        "seconds": 156.78893945800002,
+        "costUsd": 0.4643355,
+        "ok": true,
+        "accuracy": 1,
+        "colorAccuracy": 1,
+        "valueAccuracy": 1,
+        "trust": {
+          "score": 1,
+          "recall": 1,
+          "precision": 1,
+          "evidence": 1,
+          "falseClaims": [],
+          "badEvidence": []
+        },
+        "decoyHits": [],
+        "usable": 0.75,
+        "score": 0.9749999999999999,
+        "items": [
+          {
+            "key": "light.primary",
+            "want": "#0060c3",
+            "got": "#0160c3",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.background",
+            "want": "#f5f7fa",
+            "got": "#f5f7fa",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.card",
+            "want": "#ffffff",
+            "got": "#ffffff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.foreground",
+            "want": "#161b24",
+            "got": "#161b24",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.mutedText",
+            "want": "#525e6f",
+            "got": "#525e6f",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.border",
+            "want": "#d3dae3",
+            "got": "#d3dae3",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.primary",
+            "want": "#1f7adc",
+            "got": "#1f7adc",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.background",
+            "want": "#0e1117",
+            "got": "#0e1117",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.card",
+            "want": "#161b22",
+            "got": "#161b22",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.foreground",
+            "want": "#e9edf2",
+            "got": "#e9edf2",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.mutedText",
+            "want": "#8d9aab",
+            "got": "#8d9aab",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.border",
+            "want": "#262c36",
+            "got": "#262c36",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "font.sans",
+            "want": "Inter",
+            "got": "Inter",
+            "score": 1
+          },
+          {
+            "key": "font.heading",
+            "want": "Outfit",
+            "got": "Outfit",
+            "score": 1
+          },
+          {
+            "key": "font.mono",
+            "want": "IBM Plex Mono",
+            "got": "IBM Plex Mono",
+            "score": 1
+          },
+          {
+            "key": "baseSize",
+            "want": "15",
+            "got": "15",
+            "score": 1
+          },
+          {
+            "key": "radius",
+            "want": "6",
+            "got": "6",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "fixture": "h3-vuetify-3",
+        "chose": [
+          "your coding agent's reading of the code"
+        ],
+        "seconds": 76.360515541,
+        "costUsd": 0.32628779999999996,
+        "ok": true,
+        "accuracy": 0.8484580155178116,
+        "colorAccuracy": 0.8232010181041135,
+        "valueAccuracy": 1,
+        "trust": {
+          "score": 0.8857142857142857,
+          "recall": 0.7142857142857143,
+          "precision": 1,
+          "evidence": 1,
+          "falseClaims": [],
+          "badEvidence": []
+        },
+        "decoyHits": [],
+        "usable": 1,
+        "score": 0.8747890950249726,
+        "items": [
+          {
+            "key": "light.primary",
+            "want": "#3949AB",
+            "got": "#3949ab",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.background",
+            "want": "#F6F7F9",
+            "got": "#f6f7f9",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.card",
+            "want": "#FFFFFF",
+            "got": "#ffffff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.foreground",
+            "want": "#1B1F24",
+            "got": "#262628",
+            "score": 0.7209700184241457,
+            "note": "ΔE 3.5"
+          },
+          {
+            "key": "light.mutedText",
+            "want": "rgba(27, 31, 36, 0.62)",
+            "got": "#616369",
+            "score": 0.5096612994747811,
+            "note": "ΔE 5.4"
+          },
+          {
+            "key": "light.border",
+            "want": "rgba(27, 31, 36, 0.12)",
+            "got": "#bdbdc0",
+            "score": 0.264177821755198,
+            "note": "ΔE 7.6"
+          },
+          {
+            "key": "light.danger",
+            "want": "#C62828",
+            "got": "#c62828",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.success",
+            "want": "#2E7D32",
+            "got": "#2e7d32",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.warning",
+            "want": "#B26A00",
+            "got": "#b26a00",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.primary",
+            "want": "#8C9EFF",
+            "got": "#8c9eff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.background",
+            "want": "#121418",
+            "got": "#121418",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.card",
+            "want": "#1C1F26",
+            "got": "#1c1f26",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.foreground",
+            "want": "#E6E8EC",
+            "got": "#eaebed",
+            "score": 0.9597598813041996,
+            "note": "ΔE 1.4"
+          },
+          {
+            "key": "dark.mutedText",
+            "want": "rgba(230, 232, 236, 0.66)",
+            "got": "#b5b7bd",
+            "score": 0.36304930491571974,
+            "note": "ΔE 6.7"
+          },
+          {
+            "key": "dark.border",
+            "want": "rgba(230, 232, 236, 0.14)",
+            "got": "#505153",
+            "score": 0,
+            "note": "ΔE 10.4"
+          },
+          {
+            "key": "dark.danger",
+            "want": "#EF5350",
+            "got": "#ef5350",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.success",
+            "want": "#66BB6A",
+            "got": "#66bb6a",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.warning",
+            "want": "#FFB74D",
+            "got": "#ffb74d",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "font.sans",
+            "want": "Nunito Sans",
+            "got": "Nunito Sans",
+            "score": 1
+          },
+          {
+            "key": "font.heading",
+            "want": "Lexend",
+            "got": "Lexend",
+            "score": 1
+          },
+          {
+            "key": "radius",
+            "want": "6",
+            "got": "6",
+            "score": 1
+          }
+        ]
+      },
+      {
+        "fixture": "h6-theme-ui-gatsby",
+        "chose": [
+          "your coding agent's reading of the code"
+        ],
+        "seconds": 70.354681375,
+        "costUsd": 0.28229339999999997,
+        "ok": true,
+        "accuracy": 0.9513427074406415,
+        "colorAccuracy": 0.9351236099208554,
+        "valueAccuracy": 1,
+        "trust": {
+          "score": 0.9666666666666668,
+          "recall": 0.9166666666666666,
+          "precision": 1,
+          "evidence": 1,
+          "falseClaims": [],
+          "badEvidence": []
+        },
+        "decoyHits": [],
+        "usable": 1,
+        "score": 0.9608056244643849,
+        "items": [
+          {
+            "key": "light.primary",
+            "want": "#b3402a",
+            "got": "#b3402a",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.primaryForeground",
+            "want": "#fffdf8",
+            "got": "#ffffff",
+            "score": 0.832224978575399,
+            "note": "ΔE 2.5"
+          },
+          {
+            "key": "light.background",
+            "want": "#fffdf8",
+            "got": "#fffdf8",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.card",
+            "want": "#ffffff",
+            "got": "#ffffff",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.foreground",
+            "want": "#221e1a",
+            "got": "#221e1a",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.mutedText",
+            "want": "#6f675e",
+            "got": "#6f675e",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.border",
+            "want": "#e5ddd1",
+            "got": "#e5ddd1",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.danger",
+            "want": "#b42318",
+            "got": "#b42318",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "light.success",
+            "want": "#2f7d4a",
+            "got": "#2f7d4a",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.primary",
+            "want": "#f08a6c",
+            "got": "#f08a6c",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.primaryForeground",
+            "want": "#171412",
+            "got": "#3a1d17",
+            "score": 0,
+            "note": "ΔE 14.0"
+          },
+          {
+            "key": "dark.background",
+            "want": "#171412",
+            "got": "#171412",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.card",
+            "want": "#1f1b18",
+            "got": "#1f1b18",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.foreground",
+            "want": "#ede6dc",
+            "got": "#ede6dc",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.mutedText",
+            "want": "#a2988c",
+            "got": "#a2988c",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.border",
+            "want": "#3a332c",
+            "got": "#3a332c",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.danger",
+            "want": "#f4776b",
+            "got": "#f4776b",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "dark.success",
+            "want": "#6cc58f",
+            "got": "#6cc58f",
+            "score": 1,
+            "note": "ΔE 0.0"
+          },
+          {
+            "key": "font.sans",
+            "want": "Work Sans",
+            "got": "Work Sans",
+            "score": 1
+          },
+          {
+            "key": "font.heading",
+            "want": "Playfair Display",
+            "got": "Playfair Display",
+            "score": 1
+          },
+          {
+            "key": "font.mono",
+            "want": "Fira Code",
+            "got": "Fira Code",
+            "score": 1
+          },
+          {
+            "key": "baseSize",
+            "want": "17",
+            "got": "17",
+            "score": 1
+          },
+          {
+            "key": "radius",
+            "want": "6",
+            "got": "6",
+            "score": 1
+          },
+          {
+            "key": "spacing",
+            "want": "4",
+            "got": "4",
+            "score": 1
+          }
+        ]
+      }
+    ]
+  }
+}

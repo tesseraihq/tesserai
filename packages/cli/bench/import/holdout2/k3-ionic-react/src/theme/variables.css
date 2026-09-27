@@ -1,0 +1,79 @@
+/* For information on how to create your own theme, please see:
+http://ionicframework.com/docs/theming/ */
+
+:root {
+  --ion-font-family: "Nunito Sans", -apple-system, "Helvetica Neue", Roboto, sans-serif;
+
+  --ion-background-color: #f4f6f5;
+  --ion-background-color-rgb: 244, 246, 245;
+  --ion-text-color: #14201b;
+  --ion-text-color-rgb: 20, 32, 27;
+  --ion-card-background: #ffffff;
+  --ion-item-background: #ffffff;
+  --ion-toolbar-background: #f4f6f5;
+  --ion-border-color: #dde3e0;
+
+  --ion-color-primary: #0b6e4f;
+  --ion-color-primary-rgb: 11, 110, 79;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-shade: #0a6146;
+  --ion-color-primary-tint: #237d61;
+
+  --ion-color-secondary: #d98f2b;
+  --ion-color-secondary-rgb: 217, 143, 43;
+  --ion-color-secondary-contrast: #000000;
+  --ion-color-secondary-contrast-rgb: 0, 0, 0;
+  --ion-color-secondary-shade: #bf7e26;
+  --ion-color-secondary-tint: #dd9a40;
+
+  --ion-color-success: #2e9e5b;
+  --ion-color-success-rgb: 46, 158, 91;
+  --ion-color-success-contrast: #ffffff;
+  --ion-color-success-contrast-rgb: 255, 255, 255;
+  --ion-color-success-shade: #288b50;
+  --ion-color-success-tint: #43a86b;
+
+  --ion-color-warning: #e8a317;
+  --ion-color-warning-rgb: 232, 163, 23;
+  --ion-color-warning-contrast: #000000;
+  --ion-color-warning-contrast-rgb: 0, 0, 0;
+  --ion-color-warning-shade: #cc8f14;
+  --ion-color-warning-tint: #eaac2e;
+
+  --ion-color-danger: #c8372d;
+  --ion-color-danger-rgb: 200, 55, 45;
+  --ion-color-danger-contrast: #ffffff;
+  --ion-color-danger-contrast-rgb: 255, 255, 255;
+  --ion-color-danger-shade: #b03028;
+  --ion-color-danger-tint: #ce4b42;
+
+  --ion-color-medium: #5f6e68;
+  --ion-color-medium-rgb: 95, 110, 104;
+  --ion-color-medium-contrast: #ffffff;
+  --ion-color-medium-contrast-rgb: 255, 255, 255;
+  --ion-color-medium-shade: #54615c;
+  --ion-color-medium-tint: #6f7d77;
+}
+
+/* Dark palette: only brand + surfaces are ours, the rest comes from Ionic's dark.class.css */
+.ion-palette-dark {
+  --ion-color-primary: #5ed1a4;
+  --ion-color-primary-rgb: 94, 209, 164;
+  --ion-color-primary-contrast: #062418;
+  --ion-color-primary-contrast-rgb: 6, 36, 24;
+  --ion-color-primary-shade: #53b890;
+  --ion-color-primary-tint: #6ed6ad;
+}
+
+.ion-palette-dark.md body,
+.ion-palette-dark.ios body {
+  --ion-background-color: #0f1714;
+  --ion-background-color-rgb: 15, 23, 20;
+  --ion-text-color: #e3ebe7;
+  --ion-text-color-rgb: 227, 235, 231;
+  --ion-card-background: #17221e;
+  --ion-item-background: #17221e;
+  --ion-toolbar-background: #0f1714;
+  --ion-border-color: #2a3833;
+}

@@ -1,0 +1,82 @@
+{
+  "core": {
+    "orange": {
+      "100": {
+        "value": "#ffedd5",
+        "type": "color"
+      },
+      "500": {
+        "value": "#f97316",
+        "type": "color"
+      },
+      "600": {
+        "value": "#ea580c",
+        "type": "color"
+      },
+      "700": {
+        "value": "#c2410c",
+        "type": "color"
+      }
+    },
+    "stone": {
+      "50": {
+        "value": "#fafaf9",
+        "type": "color"
+      },
+      "100": {
+        "value": "#f5f5f4",
+        "type": "color"
+      },
+      "200": {
+        "value": "#e7e5e4",
+        "type": "color"
+      },
+      "800": {
+        "value": "#292524",
+        "type": "color"
+      },
+      "900": {
+        "value": "#1c1917",
+        "type": "color"
+      },
+      "950": {
+        "value": "#0c0a09",
+        "type": "color"
+      }
+    },
+    "red": {
+      "400": {
+        "value": "#f87171",
+        "type": "color"
+      },
+      "600": {
+        "value": "#dc2626",
+        "type": "color"
+      }
+    },
+    "radius": {
+      "base": {
+        "value": "8",
+        "type": "borderRadius"
+      }
+    },
+    "font": {
+      "body": {
+        "value": "Figtree",
+        "type": "fontFamilies"
+      }
+    },
+    "size": {
+      "body": {
+        "value": "15",
+        "type": "fontSizes"
+      }
+    },
+    "space": {
+      "base": {
+        "value": "4",
+        "type": "spacing"
+      }
+    }
+  }
+}

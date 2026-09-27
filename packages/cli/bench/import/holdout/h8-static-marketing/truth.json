@@ -1,0 +1,38 @@
+{
+  "stack": "Static marketing site: index.html + hand-written CSS, no variables, dark via prefers-color-scheme",
+  "route": "direct",
+  "hard": "no tokens at all: each role is a literal in a class rule (.btn-primary, .card, .lede) and the dark values are overrides scattered through one @media block; the dark footer and the cookie-consent palette in an inline script are not the page's surfaces",
+  "light": {
+    "primary": "#2f5d50",
+    "primaryForeground": "#f4efe6",
+    "background": "#faf7f2",
+    "card": "#ffffff",
+    "foreground": "#2d2a26",
+    "mutedText": "#6e675d",
+    "border": "#e6dfd3",
+    "danger": "#b3261e",
+    "success": "#2c6e49"
+  },
+  "dark": {
+    "primary": "#7fbfa9",
+    "primaryForeground": "#10231d",
+    "background": "#161513",
+    "card": "#1f1d1a",
+    "foreground": "#e8e2d8",
+    "mutedText": "#a39b8f",
+    "border": "#2e2b27",
+    "danger": "#f2857b",
+    "success": "#7ccf9c"
+  },
+  "fonts": {
+    "sans": "Instrument Sans",
+    "heading": "Instrument Serif"
+  },
+  "baseSize": 17,
+  "radius": 10,
+  "absent": [
+    "spacing",
+    "font.mono"
+  ],
+  "decoys": ["#252e39", "#14a7d0"]
+}

@@ -1,0 +1,28 @@
+{
+  "stack": "Sass variables over Bootstrap 5",
+  "route": "agent",
+  "hard": "$primary is an alias of $purple; Bootstrap's own defaults sit in node_modules",
+  "light": {
+    "primary": "#6f42c1",
+    "background": "#fdfdfd",
+    "foreground": "#212529",
+    "border": "#dee2e6",
+    "danger": "#b02a37",
+    "success": "#198754"
+  },
+  "dark": null,
+  "fonts": {
+    "sans": "Source Sans 3"
+  },
+  "baseSize": 16,
+  "radius": 6,
+  "spacing": 4,
+  "absent": [
+    "dark",
+    "light.primaryForeground"
+  ],
+  "decoys": [
+    "#0d6efd",
+    "#dc3545"
+  ]
+}

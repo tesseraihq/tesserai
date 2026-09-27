@@ -1,0 +1,31 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sd-size-space-2);
+  padding: var(--sd-size-space-2) var(--sd-size-space-4);
+  border-radius: var(--sd-size-radius-md);
+  border: 1px solid transparent;
+  font: inherit;
+  font-weight: var(--sd-font-weight-medium);
+  cursor: pointer;
+}
+
+.primary {
+  background: var(--sd-color-brand-primary);
+  color: var(--sd-color-brand-on-primary);
+}
+
+.primary:hover {
+  background: var(--sd-color-brand-primary-hover);
+}
+
+.secondary {
+  background: var(--sd-color-bg-surface);
+  color: var(--sd-color-text-default);
+  border-color: var(--sd-color-border-default);
+}
+
+.button:focus-visible {
+  outline: 2px solid var(--sd-color-brand-primary);
+  outline-offset: 2px;
+}

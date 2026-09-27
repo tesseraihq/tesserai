@@ -1,0 +1,10 @@
+// Ledgerline v1 theme (Bootstrap 4, compiled with Sass). Superseded by
+// theme.css in the 5.3 migration; nothing imports this file.
+$primary: #e8590c;
+$secondary: #495057;
+$body-bg: #f8f9fa;
+$body-color: #343a40;
+$border-radius: 0.2rem;
+$font-family-sans-serif: "Source Sans Pro", -apple-system, BlinkMacSystemFont, sans-serif;
+
+@import "~bootstrap/scss/bootstrap";

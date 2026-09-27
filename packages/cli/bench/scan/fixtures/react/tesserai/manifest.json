@@ -1,0 +1,10 @@
+{
+  "base": "radix",
+  "files": {
+    "src/components/ui/button.tsx": "e8d3e7a03fa7448fa6ea6d81a83441388bad8c5d9c732d316b639030bb13874d",
+    "src/components/ui/badge.tsx": "4a39c3347242200e612bb1253b73d035b0f99d018ba62f9050cbfbe5376b0724",
+    "src/components/ui/card.tsx": "291515e4cb0dc83bc09fed1968eed2aa875383a1d9da2acbba164dc3fc36aaf0",
+    "src/components/ui/input.tsx": "53a7723043c411711db4d7e86af084c620c96189e67cbaa487c6a238843ca289",
+    "src/components/ui/alert.tsx": "ad38ef66050ca02225bcb7b32dcd92d86f86235abf06b6a58756be5d783f0c6f"
+  }
+}

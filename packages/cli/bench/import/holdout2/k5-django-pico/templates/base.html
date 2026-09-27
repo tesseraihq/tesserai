@@ -1,0 +1,28 @@
+{% load static %}<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <title>{% block title %}Greenbox CSA{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'vendor/pico/pico.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/site.css' %}">
+  </head>
+  <body>
+    <header class="container">
+      <nav>
+        <ul><li><a href="{% url 'orders:list' %}" class="brand"><strong>Greenbox</strong></a></li></ul>
+        <ul>
+          <li><a href="{% url 'orders:list' %}">Boxes</a></li>
+          <li><a href="{% url 'logout' %}" class="secondary">Log out</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+      {% for message in messages %}
+        <p class="flash flash--{{ message.tags }}">{{ message }}</p>
+      {% endfor %}
+      {% block content %}{% endblock %}
+    </main>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+---
+import Base from "../layouts/Base.astro";
+import NoteCard from "../components/NoteCard.astro";
+---
+
+<Base title="Notes">
+  <h1>Fieldnotes</h1>
+  <p class="lede">Short writing on tools, gardens and the occasional recipe.</p>
+  <NoteCard title="Sharpening a hori hori" date="Sep 14, 2024" href="/notes/hori-hori">
+    <p>Ten minutes with a diamond file beats a new tool.</p>
+  </NoteCard>
+  <NoteCard title="Fermented chili, round three" date="Sep 2, 2024" href="/notes/chili-3" draft>
+    <p>Less salt, more patience. <span class="saved">Saved</span></p>
+  </NoteCard>
+</Base>
+
+<style>
+  .saved {
+    color: var(--success);
+  }
+</style>

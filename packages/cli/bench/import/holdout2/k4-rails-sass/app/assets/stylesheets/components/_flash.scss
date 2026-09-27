@@ -1,0 +1,9 @@
+.flash {
+  padding: $space-2;
+  margin-bottom: $space-2;
+  border-radius: $radius;
+  color: $white;
+
+  &--success { background: $color-success; }
+  &--danger { background: $color-danger; }
+}

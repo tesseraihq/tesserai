@@ -1,0 +1,9 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.pill {
+  border-radius: 4px;
+  letter-spacing: 0.02em;
+}
